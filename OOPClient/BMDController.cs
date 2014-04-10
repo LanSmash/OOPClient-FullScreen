@@ -23,16 +23,21 @@ namespace OOPClient
 
         private List<InputMonitor> m_inputMonitors;
 
+        public delegate void SwitcherEventHandler(int id);
+
+        public event SwitcherEventHandler SwitcherDisconnected2;
+        public event SwitcherEventHandler UpdateProgramButtonSelection2;
+        public event SwitcherEventHandler UpdatePreviewButtonSelection2;
+
         public BMDController()
         {
             m_inputMonitors = new List<InputMonitor>();
             m_switcherMonitor = new SwitcherMonitor();
-            m_switcherMonitor.SwitcherDisconnected += new SwitcherEventHandler((s, a) => this.Invoke((Action)(() => SwitcherDisconnected())));
+            m_switcherMonitor.SwitcherDisconnected += SwitcherDisconnected;
 
             m_mixEffectBlockMonitor = new MixEffectBlockMonitor();
-            m_mixEffectBlockMonitor.ProgramInputChanged += new SwitcherEventHandler((s, a) => this.Invoke((Action)(() => UpdateProgramButtonSelection())));
-            m_mixEffectBlockMonitor.PreviewInputChanged += new SwitcherEventHandler((s, a) => this.Invoke((Action)(() => UpdatePreviewButtonSelection())));
-            m_mixEffectBlockMonitor.InTransitionChanged += new SwitcherEventHandler((s, a) => this.Invoke((Action)(() => OnInTransitionChanged())));
+            m_mixEffectBlockMonitor.ProgramInputChanged += UpdateProgramButtonSelection;
+            m_mixEffectBlockMonitor.PreviewInputChanged += UpdatePreviewButtonSelection;
 
             m_switcherDiscovery = new CBMDSwitcherDiscovery();
             if (m_switcherDiscovery == null)
@@ -41,7 +46,7 @@ namespace OOPClient
                 Environment.Exit(1);
             }
 
-            SwitcherDisconnected();
+            SwitcherDisconnected(null, null);
         }
 
         //When switcher is connected
@@ -99,7 +104,7 @@ namespace OOPClient
         }
 
         //When switcher is disconnected
-        private void SwitcherDisconnected()
+        private void SwitcherDisconnected(object sender, object args)
         {
             // Remove all input monitors, remove callbacks
             foreach (InputMonitor inputMon in m_inputMonitors)
@@ -158,42 +163,28 @@ namespace OOPClient
                 inputIterator.Next(out input);
             }
 
-            UpdateProgramButtonSelection();
-            UpdatePreviewButtonSelection();
+            UpdateProgramButtonSelection(null,null);
+            UpdatePreviewButtonSelection(null,null);
         }
 
         //Update program buttons
-        private int UpdateProgramButtonSelection()
+        private void UpdateProgramButtonSelection(object sender, object args)
         {
             long programId;
 
             m_mixEffectBlock1.GetInt(_BMDSwitcherMixEffectBlockPropertyId.bmdSwitcherMixEffectBlockPropertyIdProgramInput, out programId);
 
-            if (programId >= 0 && programId < 9)
-            {
-                return (int) programId;
-            }
-            else
-            {
-                return 9999;
-            }
+            UpdateProgramButtonSelection2((int)programId);
         }
 
         //Update preview buttons
-        private int UpdatePreviewButtonSelection()
+        private void UpdatePreviewButtonSelection(object sender, object args)
         {
             long previewId;
 
             m_mixEffectBlock1.GetInt(_BMDSwitcherMixEffectBlockPropertyId.bmdSwitcherMixEffectBlockPropertyIdPreviewInput, out previewId);
 
-            if (previewId >= 0 && previewId < 9)
-            {
-                return (int)previewId;
-            }
-            else
-            {
-                return 9999;
-            }
+            UpdatePreviewButtonSelection2((int)previewId);
         }
 
         private void changePrev(long inputId)
