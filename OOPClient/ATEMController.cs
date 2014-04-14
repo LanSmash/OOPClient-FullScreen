@@ -1,22 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
-using BMDSwitcherAPI;
 using System.Runtime.InteropServices;
+using BMDSwitcherAPI;
+using System.Windows.Forms;
 
 namespace OOPClient
 {
-    class BMDController
+    public class ATEMController
     {
         private IBMDSwitcherDiscovery m_switcherDiscovery;
         private IBMDSwitcher m_switcher;
-        private IBMDSwitcherMixEffectBlock m_mixEffectBlock1;
+        public IBMDSwitcherMixEffectBlock m_mixEffectBlock1;
         private IBMDSwitcherTransitionParameters m_transition;
 
         private IBMDSwitcherKey me1_key1, me1_key2;
-
-        private int onAir_1, onAir_2;
 
         private SwitcherMonitor m_switcherMonitor;
         private MixEffectBlockMonitor m_mixEffectBlockMonitor;
@@ -26,27 +28,28 @@ namespace OOPClient
         public delegate void SwitcherEventHandler(int id);
 
         public event SwitcherEventHandler SwitcherDisconnected2;
+        public event SwitcherEventHandler SwitcherConnected2;
         public event SwitcherEventHandler UpdateProgramButtonSelection2;
         public event SwitcherEventHandler UpdatePreviewButtonSelection2;
 
-        public BMDController()
+        public ATEMController()
         {
             m_inputMonitors = new List<InputMonitor>();
             m_switcherMonitor = new SwitcherMonitor();
-            m_switcherMonitor.SwitcherDisconnected += SwitcherDisconnected;
+            m_switcherMonitor.SwitcherDisconnected += SwitcherDisconnectedFix;
 
             m_mixEffectBlockMonitor = new MixEffectBlockMonitor();
-            m_mixEffectBlockMonitor.ProgramInputChanged += UpdateProgramButtonSelection;
-            m_mixEffectBlockMonitor.PreviewInputChanged += UpdatePreviewButtonSelection;
+            m_mixEffectBlockMonitor.ProgramInputChanged += UpdateProgramFix;
+            m_mixEffectBlockMonitor.PreviewInputChanged += UpdatePreviewFix;
 
             m_switcherDiscovery = new CBMDSwitcherDiscovery();
+
             if (m_switcherDiscovery == null)
             {
-                //Could not create Switcher Discovery Instance.\nATEM Switcher Software may not be installed. - Exception
-                Environment.Exit(1);
+                throw new System.SystemException("Could not create Switcher Discovery Instance.\nATEM Switcher Software may not be installed.");
             }
 
-            SwitcherDisconnected(null, null);
+            SwitcherDisconnectedFix(null, null);
         }
 
         //When switcher is connected
@@ -86,8 +89,7 @@ namespace OOPClient
 
             if (m_mixEffectBlock1 == null)
             {
-                //Unexpected: Could not get first mix effect block - Exception
-                return;
+                throw new System.SystemException("Unexpected: Could not get first mix effect block.");
             }
 
             // Install MixEffectBlockMonitor callbacks:
@@ -101,10 +103,29 @@ namespace OOPClient
                 keyIterator.Next(out me1_key1);
                 keyIterator.Next(out me1_key2);
             }
+
+            SwitcherConnected2(1);
+        }
+
+        /*
+         * I'm having an issue with some COM/threading thing, so if I don't apply these fixes so that the UpdateProgram/PreviewButtonSelection aren't called from
+         * main GUI thread (in GUI.cs) then I get an error. If you want to try and help me, please post on git!
+         */
+        private void SwitcherDisconnectedFix(object sender, object args)
+        {
+            //Hack! Avoiding NullReferenceException - haven't looked into it yet. If you have a fix, please post on git!
+            try
+            {
+                SwitcherDisconnected2(999);
+            }
+            catch (Exception)
+            {
+
+            }
         }
 
         //When switcher is disconnected
-        private void SwitcherDisconnected(object sender, object args)
+        public void SwitcherDisconnected(object sender, object args)
         {
             // Remove all input monitors, remove callbacks
             foreach (InputMonitor inputMon in m_inputMonitors)
@@ -130,17 +151,19 @@ namespace OOPClient
                 // release reference:
                 m_switcher = null;
             }
+
+            SwitcherDisconnected2(1);
         }
 
         //Update the buttons with the text
-        private void GetSources()
+        public Dictionary<int,string> GetSources()
         {
             Dictionary<int,string> sources = new Dictionary<int,string>();
 
             // Get an input iterator. We use the SwitcherAPIHelper to create the iterator for us:
             IBMDSwitcherInputIterator inputIterator;
             if (!SwitcherAPIHelper.CreateIterator(m_switcher, out inputIterator))
-                return;
+                return sources;
 
             string[] ignore = { "Color Bars", "Color 1", "Color 2", "Media Player 1", "Media Player 1 Key", "Media Player 2", "Media Player 2 Key", "Program", "Preview", "Clean Feed 1", "Clean Feed 2" };
 
@@ -165,48 +188,70 @@ namespace OOPClient
 
             UpdateProgramButtonSelection(null,null);
             UpdatePreviewButtonSelection(null,null);
+
+            return sources;
+        }
+
+        /*
+         * I'm having an issue with some COM/threading thing, so if I don't apply these fixes so that the UpdateProgram/PreviewButtonSelection aren't called from
+         * main GUI thread (in GUI.cs) then I get a cast error. If you want to try and help me, please post on git!
+         */
+        private void UpdateProgramFix(object sender, object args)
+        {
+            UpdateProgramButtonSelection2(999);
+        }
+
+        private void UpdatePreviewFix(object sender, object args)
+        {
+            UpdatePreviewButtonSelection2(999);
         }
 
         //Update program buttons
-        private void UpdateProgramButtonSelection(object sender, object args)
+        public void UpdateProgramButtonSelection(object sender, object args)
         {
             long programId;
 
-            m_mixEffectBlock1.GetInt(_BMDSwitcherMixEffectBlockPropertyId.bmdSwitcherMixEffectBlockPropertyIdProgramInput, out programId);
-
-            UpdateProgramButtonSelection2((int)programId);
-        }
-
-        //Update preview buttons
-        private void UpdatePreviewButtonSelection(object sender, object args)
-        {
-            long previewId;
-
-            m_mixEffectBlock1.GetInt(_BMDSwitcherMixEffectBlockPropertyId.bmdSwitcherMixEffectBlockPropertyIdPreviewInput, out previewId);
-
-            UpdatePreviewButtonSelection2((int)previewId);
-        }
-
-        private void changePrev(long inputId)
-        {
             if (m_mixEffectBlock1 != null)
             {
-                m_mixEffectBlock1.SetInt(_BMDSwitcherMixEffectBlockPropertyId.bmdSwitcherMixEffectBlockPropertyIdPreviewInput,
-                    inputId);
+                m_mixEffectBlock1.GetInt(_BMDSwitcherMixEffectBlockPropertyId.bmdSwitcherMixEffectBlockPropertyIdProgramInput, out programId);
+
+                UpdateProgramButtonSelection2((int)programId);
             }
         }
 
-        private void changeProg(long inputId)
+        //Update preview buttons
+        public void UpdatePreviewButtonSelection(object sender, object args)
+        {
+            long previewId;
+
+            if (m_mixEffectBlock1 != null)
+            {
+                m_mixEffectBlock1.GetInt(_BMDSwitcherMixEffectBlockPropertyId.bmdSwitcherMixEffectBlockPropertyIdPreviewInput, out previewId);
+                
+                UpdatePreviewButtonSelection2((int)previewId);
+            }
+        }
+
+        //Change program
+        public void changeProg(long inputId)
         {
             if (m_mixEffectBlock1 != null)
             {
-                m_mixEffectBlock1.SetInt(_BMDSwitcherMixEffectBlockPropertyId.bmdSwitcherMixEffectBlockPropertyIdProgramInput,
-                    inputId);
+                m_mixEffectBlock1.SetInt(_BMDSwitcherMixEffectBlockPropertyId.bmdSwitcherMixEffectBlockPropertyIdProgramInput, inputId);
+            }
+        }
+
+        //Change preview
+        public void changePrev(long inputId)
+        {
+            if (m_mixEffectBlock1 != null)
+            {
+                m_mixEffectBlock1.SetInt(_BMDSwitcherMixEffectBlockPropertyId.bmdSwitcherMixEffectBlockPropertyIdPreviewInput, inputId);
             }
         }
 
         //When connect is pressed on the ATEM connect
-        private void Connect(String address)
+        public void Connect(String address)
         {
             _BMDSwitcherConnectToFailure failReason = 0;
 
@@ -220,26 +265,25 @@ namespace OOPClient
             catch (COMException)
             {
                 // An exception will be thrown if ConnectTo fails. For more information, see failReason.
-                /*switch (failReason)
+                if (failReason == _BMDSwitcherConnectToFailure.bmdSwitcherConnectToFailureNoResponse)
                 {
-                    case _BMDSwitcherConnectToFailure.bmdSwitcherConnectToFailureNoResponse:
-                        MessageBox.Show("No response from Switcher", "Error");
-                        break;
-                    case _BMDSwitcherConnectToFailure.bmdSwitcherConnectToFailureIncompatibleFirmware:
-                        MessageBox.Show("Switcher has incompatible firmware", "Error");
-                        break;
-                    default:
-                        MessageBox.Show("Connection failed for unknown reason", "Error");
-                        break;
+                    throw new SystemException("No response from Switcher");
                 }
-                return;*/
+                else if (failReason == _BMDSwitcherConnectToFailure.bmdSwitcherConnectToFailureIncompatibleFirmware)
+                {
+                    throw new SystemException("Switcher has incompatible firmware");
+                }
+                else
+                {
+                    throw new SystemException("Connection failed for unknown reason");
+                }
             }
-
+            
             SwitcherConnected();
         }
 
         //Perform auto
-        private void performAuto()
+        public void performAuto()
         {
             try
             {
@@ -250,12 +294,12 @@ namespace OOPClient
             }
             catch (Exception e)
             {
-                //Warning: Exception - " + e.Message - Exception
+                throw new System.SystemException("Warning: Exception - " + e.Message);
             }
         }
 
         //Perform cut
-        private void performCut()
+        public void performCut()
         {
             if (m_mixEffectBlock1 != null)
             {

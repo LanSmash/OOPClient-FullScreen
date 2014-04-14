@@ -5,9 +5,9 @@ using System.Text;
 
 namespace OOPClient
 {
-    class XKeys
+    class ControlSurface
     {
-        public XKeys()
+        public ControlSurface()
         {
 
         }
