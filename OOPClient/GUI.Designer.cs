@@ -503,7 +503,7 @@
             this.Controls.Add(this.panelATEM);
             this.Controls.Add(this.groupBox1);
             this.Name = "GUI";
-            this.Text = "Form1";
+            this.Text = "Phoinx Video Production Control Panel (PVPCP)";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.panelATEM.ResumeLayout(false);
