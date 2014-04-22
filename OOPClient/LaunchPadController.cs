@@ -47,13 +47,12 @@ namespace OOPClient
                     builder.Data2 = 12;
                     builder.Build();
                     outDevice.Send(builder.Result);
-                    Console.WriteLine(channel);
                     keyColor[channel] = 0;
                 }
             }
-            Console.WriteLine(input + " - " + output);
+
             inDevice = new InputDevice(input);
-            inDevice.SysExBufferSize = 128;
+            inDevice.SysExBufferSize = 16;
             inDevice.ChannelMessageReceived += inDevice_ButtonPressed;
             inDevice.StartRecording();
         }
@@ -154,6 +153,7 @@ namespace OOPClient
         public void Close()
         {
             inDevice.StopRecording();
+            outDevice.Close();
         }
     }
 }

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Threading;
 using BMDSwitcherAPI;
 using Midi;
+using System.Text.RegularExpressions;
 
 namespace OOPClient
 {
@@ -17,7 +18,10 @@ namespace OOPClient
     {
         private ATEMController atem;
         private Color c_green, c_red, c_white, c_grey;
+        
         private LaunchPadController launchpad;
+        private AudioController audioMixer;
+
         private int audioIn, audioOut, controlIn, controlOut;
 
         public GUI()
@@ -44,13 +48,82 @@ namespace OOPClient
 
             launchpad = new LaunchPadController();
             launchpad.ButtonPressed += launchpad_ButtonPressed;
+
+            audioMixer = new AudioController();
+            audioMixer.TrackBarChange += audioMixer_TrackBarChange;
+            audioMixer.CheckBoxChange += audioMixer_CheckBoxChange;
         }
 
-        void launchpad_ButtonPressed(int row, int col)
+        #region audioMixer
+        private void audioMixer_CheckBoxChange(int channel, int val)
         {
-            Console.WriteLine(row + " - " + col);
+            bool isOn = (val == 127) ? true : false;
+            ((CheckBox)this.boxAudioControl.Controls["checkBox" + channel]).Checked = isOn;
+
+            if (isOn)
+            {
+                ((CheckBox)this.boxAudioControl.Controls["checkBox" + channel]).BackColor = c_green;
+            }
+            else
+            {
+                ((CheckBox)this.boxAudioControl.Controls["checkBox" + channel]).BackColor = c_red;
+            }
         }
 
+        private void audioMixer_TrackBarChange(int channel, int val)
+        {
+            ((TrackBar)this.boxAudioControl.Controls["trackBar" + channel]).Value = val;
+        }
+
+        private void trackBar_Scroll(object sender, EventArgs e)
+        {
+            int channel = Convert.ToInt32(Regex.Replace(((TrackBar)sender).Name, "[^0-9.]", "")); // Remove letters, and converts to int.
+            audioMixer.programChangeSlider(channel, ((TrackBar)sender).Value, false);
+        }
+
+        private void checkBox_CheckedChanged(object sender, EventArgs e)
+        {
+            int channel = Convert.ToInt32(Regex.Replace(((CheckBox)sender).Name, "[^0-9.]", "")); // Remove letters, and converts to int.
+            audioMixer.programChangeOnOff(channel, ((CheckBox)sender).Checked, false);
+
+            if (((CheckBox)sender).Checked)
+            {
+                ((CheckBox)this.boxAudioControl.Controls["checkBox" + channel]).BackColor = c_green;
+            }
+            else
+            {
+                ((CheckBox)this.boxAudioControl.Controls["checkBox" + channel]).BackColor = c_red;
+            }
+        }
+
+        private void btnAudioConnect_Click(object sender, EventArgs e)
+        {
+            audioMixer.Open(audioIn, audioOut);
+        }
+
+        private void chkAudioDebug_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkAudioDebug.Checked)
+            {
+                audioMixer.debugMode = true;
+            }
+            else
+            {
+                audioMixer.debugMode = false;
+            }
+        }
+
+        private void btnAudioTest_Click(object sender, EventArgs e)
+        {
+            for (int i = 1; i < 16; i++)
+            {
+                audioMixer.programChangeSlider(i, 127);
+                audioMixer.programChangeOnOff(i, true);
+            }
+        }
+        #endregion
+
+        #region ATEM
         //When atem connects - update the buttons
         private void ATEMConnected(int id)
         {
@@ -205,28 +278,48 @@ namespace OOPClient
                 MessageBox.Show("Exception: " + ex.Message, "Exception Error");
             }
         }
+        #endregion
+
+        #region launchpad
+        void launchpad_ButtonPressed(int row, int col)
+        {
+            //Console.WriteLine(row + " - " + col);
+            launchpad.SetColor(row, col, 2);
+        }
 
         private void btnGetMidi_Click(object sender, EventArgs e)
         {
             for(int i = 0; i < OutputDevice.InstalledDevices.Count; i++)
             {
                 OutputDevice output = OutputDevice.InstalledDevices[i];
-                if (output.Name == "Launchpad S")
+                if (output.Name.Contains("Launchpad S"))
                 {
                     controlOut = i;
                     slcControlOut.Items[0] = output.Name;
                 }
+                else if (output.Name.Contains("USB2.0-MIDI") && !output.Name.Contains("MIDIOUT"))
+                {
+                    audioOut = i;
+                    slcAudioOut.Items[0] = output.Name;
+                }
+
                 Console.WriteLine("OUT: " + i + " - " + output.Name);
             }
 
             for (int i = 0; i < InputDevice.InstalledDevices.Count; i++)
             {
                 InputDevice input = InputDevice.InstalledDevices[i];
-                if (input.Name == "Launchpad S")
+                if (input.Name.Contains("Launchpad S"))
                 {
                     controlIn = i;
                     slcControlIn.Items[0] = input.Name;
                 }
+                else if (input.Name.Contains("USB2.0-MIDI") && !input.Name.Contains("MIDIOUT"))
+                {
+                    audioIn = i;
+                    slcAudioIn.Items[0] = input.Name;
+                }
+
                 Console.WriteLine("IN: " + i + " - " + input.Name);
             }
         }
@@ -234,12 +327,23 @@ namespace OOPClient
         private void btnControlConnect_Click(object sender, EventArgs e)
         {
             launchpad.Open(controlIn, controlOut);
-            launchpad.SetColor(1, 2, 3);
         }
+        #endregion
 
-        private void GUI_FormClosed(object sender, System.ComponentModel.CancelEventArgs e)
+        private void GUI_FormClosing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            MessageBox.Show("ASDASDASD");
+
+            // Display a MsgBox asking the user to save changes or abort. 
+            if (MessageBox.Show("Do you want to close the application", "DON'T LEAVE ME!!!!", MessageBoxButtons.YesNo) == DialogResult.No)
+            {
+                e.Cancel = true;
+                MessageBox.Show("ok");
+            }
+            else
+            {
+                launchpad.Close();
+                audioMixer.Close();
+            }
         }
     }
 }
