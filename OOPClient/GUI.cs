@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Management;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -8,6 +9,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Threading;
 using BMDSwitcherAPI;
+using Midi;
 
 namespace OOPClient
 {
@@ -15,6 +17,8 @@ namespace OOPClient
     {
         private ATEMController atem;
         private Color c_green, c_red, c_white, c_grey;
+        private LaunchPadController launchpad;
+        private int audioIn, audioOut, controlIn, controlOut;
 
         public GUI()
         {
@@ -32,6 +36,19 @@ namespace OOPClient
             c_grey = Color.FromArgb(224, 224, 224);
 
             txtAtemAddress.Text = "192.168.0.156";
+
+            slcAudioIn.SelectedIndex = 0;
+            slcAudioOut.SelectedIndex = 0;
+            slcControlIn.SelectedIndex = 0;
+            slcControlOut.SelectedIndex = 0;
+
+            launchpad = new LaunchPadController();
+            launchpad.ButtonPressed += launchpad_ButtonPressed;
+        }
+
+        void launchpad_ButtonPressed(int row, int col)
+        {
+            Console.WriteLine(row + " - " + col);
         }
 
         //When atem connects - update the buttons
@@ -187,6 +204,42 @@ namespace OOPClient
             {
                 MessageBox.Show("Exception: " + ex.Message, "Exception Error");
             }
+        }
+
+        private void btnGetMidi_Click(object sender, EventArgs e)
+        {
+            for(int i = 0; i < OutputDevice.InstalledDevices.Count; i++)
+            {
+                OutputDevice output = OutputDevice.InstalledDevices[i];
+                if (output.Name == "Launchpad S")
+                {
+                    controlOut = i;
+                    slcControlOut.Items[0] = output.Name;
+                }
+                Console.WriteLine("OUT: " + i + " - " + output.Name);
+            }
+
+            for (int i = 0; i < InputDevice.InstalledDevices.Count; i++)
+            {
+                InputDevice input = InputDevice.InstalledDevices[i];
+                if (input.Name == "Launchpad S")
+                {
+                    controlIn = i;
+                    slcControlIn.Items[0] = input.Name;
+                }
+                Console.WriteLine("IN: " + i + " - " + input.Name);
+            }
+        }
+
+        private void btnControlConnect_Click(object sender, EventArgs e)
+        {
+            launchpad.Open(controlIn, controlOut);
+            launchpad.SetColor(1, 2, 3);
+        }
+
+        private void GUI_FormClosed(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            MessageBox.Show("ASDASDASD");
         }
     }
 }
