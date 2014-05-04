@@ -24,9 +24,13 @@ namespace OOPClient
 
         private int audioIn, audioOut, controlIn, controlOut;
 
+        private bool lpIsOpen, audioIsOpen;
+
         public GUI()
         {
             InitializeComponent();
+
+            lpIsOpen = audioIsOpen = false;
 
             atem = new ATEMController();
             atem.SwitcherConnected2 += ATEMConnected;
@@ -198,6 +202,11 @@ namespace OOPClient
                 if (programId >= 0 && programId < 9)
                 {
                     panelProg.Controls["progBtn" + programId].BackColor = c_red;
+
+                    if(lpIsOpen) {
+                        int set = (programId == 0) ? 8 : programId + 1;
+                        launchpad.SetColor(0, set, 2);
+                    }
                 }
             }
             
@@ -218,6 +227,12 @@ namespace OOPClient
                 if (previewId >= 0 && previewId < 9)
                 {
                     panelPrev.Controls["prevBtn" + previewId].BackColor = c_green;
+
+                    if (lpIsOpen)
+                    {
+                        int set = (previewId == 0) ? 8 : previewId + 1;
+                        launchpad.SetColor(1, set, 6);
+                    }
                 }
             }
             
@@ -284,7 +299,7 @@ namespace OOPClient
         void launchpad_ButtonPressed(int row, int col)
         {
             //Console.WriteLine(row + " - " + col);
-            launchpad.SetColor(row, col, 2);
+            launchpad.SetColor(row, col, 6);
         }
 
         private void btnGetMidi_Click(object sender, EventArgs e)
@@ -326,14 +341,50 @@ namespace OOPClient
 
         private void btnControlConnect_Click(object sender, EventArgs e)
         {
-            launchpad.Open(controlIn, controlOut);
+            if (lpIsOpen)
+            {
+                launchpad.Close();
+                btnControlConnect.BackColor = c_green;
+                btnControlConnect.Text = "Connect";
+                lpIsOpen = false;
+            }
+            else
+            {
+                launchpad.Open(controlIn, controlOut);
+                btnControlConnect.BackColor = c_red;
+                btnControlConnect.Text = "Disconnect";
+
+                //ATEM Program Layout
+                launchpad.SetColor(0, 0, 1);
+                launchpad.SetColor(0, 1, 1);
+                launchpad.SetColor(0, 2, 1);
+                launchpad.SetColor(0, 3, 1);
+                launchpad.SetColor(0, 4, 1);
+                launchpad.SetColor(0, 5, 1);
+                launchpad.SetColor(0, 6, 1);
+                launchpad.SetColor(0, 7, 1);
+                launchpad.SetColor(0, 8, 1);
+
+                //ATEM Preview Layout
+                launchpad.SetColor(1, 0, 5);
+                launchpad.SetColor(1, 1, 5);
+                launchpad.SetColor(1, 2, 5);
+                launchpad.SetColor(1, 3, 5);
+                launchpad.SetColor(1, 4, 5);
+                launchpad.SetColor(1, 5, 5);
+                launchpad.SetColor(1, 6, 5);
+                launchpad.SetColor(1, 7, 5);
+                launchpad.SetColor(1, 8, 5);
+
+                lpIsOpen = true;
+            }
         }
         #endregion
 
         private void GUI_FormClosing(object sender, System.ComponentModel.CancelEventArgs e)
         {
 
-            // Display a MsgBox asking the user to save changes or abort. 
+            // Display a MsgBox asking if you want to close application
             if (MessageBox.Show("Do you want to close the application", "DON'T LEAVE ME!!!!", MessageBoxButtons.YesNo) == DialogResult.No)
             {
                 e.Cancel = true;

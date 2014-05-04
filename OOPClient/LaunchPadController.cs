@@ -33,9 +33,18 @@ namespace OOPClient
 
         //Open input and output midi device
         public void Open(int input, int output) {
-            ChannelMessageBuilder builder = new ChannelMessageBuilder();
             outDevice = new OutputDevice(output);
 
+            inDevice = new InputDevice(input);
+            inDevice.SysExBufferSize = 16;
+            inDevice.ChannelMessageReceived += inDevice_ButtonPressed;
+            inDevice.StartRecording();
+
+            Clear();
+        }
+
+        public void Clear() {
+            ChannelMessageBuilder builder = new ChannelMessageBuilder();
             for (int i = 0; i < 8; i++)
             {
                 for (int p = 0; p < 9; p++)
@@ -50,11 +59,6 @@ namespace OOPClient
                     keyColor[channel] = 0;
                 }
             }
-
-            inDevice = new InputDevice(input);
-            inDevice.SysExBufferSize = 16;
-            inDevice.ChannelMessageReceived += inDevice_ButtonPressed;
-            inDevice.StartRecording();
         }
 
         //Handle button presses
