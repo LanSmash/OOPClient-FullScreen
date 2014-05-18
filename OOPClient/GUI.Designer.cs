@@ -69,6 +69,44 @@
             this.btnGetMidi = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabGeneral = new System.Windows.Forms.TabPage();
+            this.tabOverlays = new System.Windows.Forms.TabPage();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.btnIngameSwap = new System.Windows.Forms.Button();
+            this.btnIngameMapHide = new System.Windows.Forms.Button();
+            this.btnIngameMapShow = new System.Windows.Forms.Button();
+            this.chkIngameMap4 = new System.Windows.Forms.CheckBox();
+            this.txtIngameMap4Score2 = new System.Windows.Forms.TextBox();
+            this.txtIngameMap4Score1 = new System.Windows.Forms.TextBox();
+            this.txtIngameMap4 = new System.Windows.Forms.TextBox();
+            this.chkIngameMap3 = new System.Windows.Forms.CheckBox();
+            this.txtIngameMap3Score2 = new System.Windows.Forms.TextBox();
+            this.txtIngameMap3Score1 = new System.Windows.Forms.TextBox();
+            this.txtIngameMap3 = new System.Windows.Forms.TextBox();
+            this.chkIngameMap2 = new System.Windows.Forms.CheckBox();
+            this.txtIngameMap2Score2 = new System.Windows.Forms.TextBox();
+            this.txtIngameMap2Score1 = new System.Windows.Forms.TextBox();
+            this.txtIngameMap2 = new System.Windows.Forms.TextBox();
+            this.chkIngameMap1 = new System.Windows.Forms.CheckBox();
+            this.txtIngameMap1Score2 = new System.Windows.Forms.TextBox();
+            this.txtIngameMap1Score1 = new System.Windows.Forms.TextBox();
+            this.txtIngameMap1 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.btnIngameHide = new System.Windows.Forms.Button();
+            this.btnIngameShow = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtIngameRound = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtIngameType = new System.Windows.Forms.TextBox();
+            this.txtIngameScore2 = new System.Windows.Forms.TextBox();
+            this.txtIngameScore1 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtIngameTeam2 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtIngameTeam1 = new System.Windows.Forms.TextBox();
             this.tabAudioM = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btnAudioTest = new System.Windows.Forms.Button();
@@ -121,6 +159,20 @@
             this.checkBox36 = new System.Windows.Forms.CheckBox();
             this.checkBox38 = new System.Windows.Forms.CheckBox();
             this.checkBox37 = new System.Windows.Forms.CheckBox();
+            this.tabPresets = new System.Windows.Forms.TabPage();
+            this.tabPresetNew = new System.Windows.Forms.TabPage();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.textBox21 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.panelATEM.SuspendLayout();
             this.panelPrev.SuspendLayout();
@@ -128,6 +180,8 @@
             this.groupBox2.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabGeneral.SuspendLayout();
+            this.tabOverlays.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.tabAudioM.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.boxAudioControl.SuspendLayout();
@@ -146,6 +200,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar27)).BeginInit();
+            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtAtemAddress
@@ -468,7 +523,10 @@
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabGeneral);
+            this.tabControl1.Controls.Add(this.tabOverlays);
             this.tabControl1.Controls.Add(this.tabAudioM);
+            this.tabControl1.Controls.Add(this.tabPresets);
+            this.tabControl1.Controls.Add(this.tabPresetNew);
             resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -481,6 +539,269 @@
             resources.ApplyResources(this.tabGeneral, "tabGeneral");
             this.tabGeneral.Name = "tabGeneral";
             this.tabGeneral.UseVisualStyleBackColor = true;
+            // 
+            // tabOverlays
+            // 
+            this.tabOverlays.Controls.Add(this.groupBox5);
+            this.tabOverlays.Controls.Add(this.groupBox3);
+            resources.ApplyResources(this.tabOverlays, "tabOverlays");
+            this.tabOverlays.Name = "tabOverlays";
+            this.tabOverlays.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.Color.LemonChiffon;
+            this.groupBox3.Controls.Add(this.label16);
+            this.groupBox3.Controls.Add(this.label15);
+            this.groupBox3.Controls.Add(this.label14);
+            this.groupBox3.Controls.Add(this.label13);
+            this.groupBox3.Controls.Add(this.btnIngameSwap);
+            this.groupBox3.Controls.Add(this.btnIngameMapHide);
+            this.groupBox3.Controls.Add(this.btnIngameMapShow);
+            this.groupBox3.Controls.Add(this.chkIngameMap4);
+            this.groupBox3.Controls.Add(this.txtIngameMap4Score2);
+            this.groupBox3.Controls.Add(this.txtIngameMap4Score1);
+            this.groupBox3.Controls.Add(this.txtIngameMap4);
+            this.groupBox3.Controls.Add(this.chkIngameMap3);
+            this.groupBox3.Controls.Add(this.txtIngameMap3Score2);
+            this.groupBox3.Controls.Add(this.txtIngameMap3Score1);
+            this.groupBox3.Controls.Add(this.txtIngameMap3);
+            this.groupBox3.Controls.Add(this.chkIngameMap2);
+            this.groupBox3.Controls.Add(this.txtIngameMap2Score2);
+            this.groupBox3.Controls.Add(this.txtIngameMap2Score1);
+            this.groupBox3.Controls.Add(this.txtIngameMap2);
+            this.groupBox3.Controls.Add(this.chkIngameMap1);
+            this.groupBox3.Controls.Add(this.txtIngameMap1Score2);
+            this.groupBox3.Controls.Add(this.txtIngameMap1Score1);
+            this.groupBox3.Controls.Add(this.txtIngameMap1);
+            this.groupBox3.Controls.Add(this.label12);
+            this.groupBox3.Controls.Add(this.btnIngameHide);
+            this.groupBox3.Controls.Add(this.btnIngameShow);
+            this.groupBox3.Controls.Add(this.label11);
+            this.groupBox3.Controls.Add(this.txtIngameRound);
+            this.groupBox3.Controls.Add(this.label10);
+            this.groupBox3.Controls.Add(this.txtIngameType);
+            this.groupBox3.Controls.Add(this.txtIngameScore2);
+            this.groupBox3.Controls.Add(this.txtIngameScore1);
+            this.groupBox3.Controls.Add(this.label9);
+            this.groupBox3.Controls.Add(this.txtIngameTeam2);
+            this.groupBox3.Controls.Add(this.label8);
+            this.groupBox3.Controls.Add(this.txtIngameTeam1);
+            resources.ApplyResources(this.groupBox3, "groupBox3");
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.TabStop = false;
+            // 
+            // label16
+            // 
+            resources.ApplyResources(this.label16, "label16");
+            this.label16.Name = "label16";
+            // 
+            // label15
+            // 
+            resources.ApplyResources(this.label15, "label15");
+            this.label15.Name = "label15";
+            // 
+            // label14
+            // 
+            resources.ApplyResources(this.label14, "label14");
+            this.label14.Name = "label14";
+            // 
+            // label13
+            // 
+            resources.ApplyResources(this.label13, "label13");
+            this.label13.Name = "label13";
+            // 
+            // btnIngameSwap
+            // 
+            this.btnIngameSwap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            resources.ApplyResources(this.btnIngameSwap, "btnIngameSwap");
+            this.btnIngameSwap.Name = "btnIngameSwap";
+            this.btnIngameSwap.UseVisualStyleBackColor = false;
+            // 
+            // btnIngameMapHide
+            // 
+            this.btnIngameMapHide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.btnIngameMapHide, "btnIngameMapHide");
+            this.btnIngameMapHide.Name = "btnIngameMapHide";
+            this.btnIngameMapHide.UseVisualStyleBackColor = false;
+            // 
+            // btnIngameMapShow
+            // 
+            this.btnIngameMapShow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.btnIngameMapShow, "btnIngameMapShow");
+            this.btnIngameMapShow.Name = "btnIngameMapShow";
+            this.btnIngameMapShow.UseVisualStyleBackColor = false;
+            // 
+            // chkIngameMap4
+            // 
+            resources.ApplyResources(this.chkIngameMap4, "chkIngameMap4");
+            this.chkIngameMap4.Name = "chkIngameMap4";
+            this.chkIngameMap4.UseVisualStyleBackColor = true;
+            // 
+            // txtIngameMap4Score2
+            // 
+            this.txtIngameMap4Score2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameMap4Score2, "txtIngameMap4Score2");
+            this.txtIngameMap4Score2.Name = "txtIngameMap4Score2";
+            // 
+            // txtIngameMap4Score1
+            // 
+            this.txtIngameMap4Score1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameMap4Score1, "txtIngameMap4Score1");
+            this.txtIngameMap4Score1.Name = "txtIngameMap4Score1";
+            // 
+            // txtIngameMap4
+            // 
+            this.txtIngameMap4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameMap4, "txtIngameMap4");
+            this.txtIngameMap4.Name = "txtIngameMap4";
+            // 
+            // chkIngameMap3
+            // 
+            resources.ApplyResources(this.chkIngameMap3, "chkIngameMap3");
+            this.chkIngameMap3.Name = "chkIngameMap3";
+            this.chkIngameMap3.UseVisualStyleBackColor = true;
+            // 
+            // txtIngameMap3Score2
+            // 
+            this.txtIngameMap3Score2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameMap3Score2, "txtIngameMap3Score2");
+            this.txtIngameMap3Score2.Name = "txtIngameMap3Score2";
+            // 
+            // txtIngameMap3Score1
+            // 
+            this.txtIngameMap3Score1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameMap3Score1, "txtIngameMap3Score1");
+            this.txtIngameMap3Score1.Name = "txtIngameMap3Score1";
+            // 
+            // txtIngameMap3
+            // 
+            this.txtIngameMap3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameMap3, "txtIngameMap3");
+            this.txtIngameMap3.Name = "txtIngameMap3";
+            // 
+            // chkIngameMap2
+            // 
+            resources.ApplyResources(this.chkIngameMap2, "chkIngameMap2");
+            this.chkIngameMap2.Name = "chkIngameMap2";
+            this.chkIngameMap2.UseVisualStyleBackColor = true;
+            // 
+            // txtIngameMap2Score2
+            // 
+            this.txtIngameMap2Score2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameMap2Score2, "txtIngameMap2Score2");
+            this.txtIngameMap2Score2.Name = "txtIngameMap2Score2";
+            // 
+            // txtIngameMap2Score1
+            // 
+            this.txtIngameMap2Score1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameMap2Score1, "txtIngameMap2Score1");
+            this.txtIngameMap2Score1.Name = "txtIngameMap2Score1";
+            // 
+            // txtIngameMap2
+            // 
+            this.txtIngameMap2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameMap2, "txtIngameMap2");
+            this.txtIngameMap2.Name = "txtIngameMap2";
+            // 
+            // chkIngameMap1
+            // 
+            resources.ApplyResources(this.chkIngameMap1, "chkIngameMap1");
+            this.chkIngameMap1.Name = "chkIngameMap1";
+            this.chkIngameMap1.UseVisualStyleBackColor = true;
+            // 
+            // txtIngameMap1Score2
+            // 
+            this.txtIngameMap1Score2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameMap1Score2, "txtIngameMap1Score2");
+            this.txtIngameMap1Score2.Name = "txtIngameMap1Score2";
+            // 
+            // txtIngameMap1Score1
+            // 
+            this.txtIngameMap1Score1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameMap1Score1, "txtIngameMap1Score1");
+            this.txtIngameMap1Score1.Name = "txtIngameMap1Score1";
+            // 
+            // txtIngameMap1
+            // 
+            this.txtIngameMap1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameMap1, "txtIngameMap1");
+            this.txtIngameMap1.Name = "txtIngameMap1";
+            // 
+            // label12
+            // 
+            resources.ApplyResources(this.label12, "label12");
+            this.label12.Name = "label12";
+            // 
+            // btnIngameHide
+            // 
+            this.btnIngameHide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.btnIngameHide, "btnIngameHide");
+            this.btnIngameHide.Name = "btnIngameHide";
+            this.btnIngameHide.UseVisualStyleBackColor = false;
+            // 
+            // btnIngameShow
+            // 
+            this.btnIngameShow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.btnIngameShow, "btnIngameShow");
+            this.btnIngameShow.Name = "btnIngameShow";
+            this.btnIngameShow.UseVisualStyleBackColor = false;
+            // 
+            // label11
+            // 
+            resources.ApplyResources(this.label11, "label11");
+            this.label11.Name = "label11";
+            // 
+            // txtIngameRound
+            // 
+            this.txtIngameRound.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameRound, "txtIngameRound");
+            this.txtIngameRound.Name = "txtIngameRound";
+            // 
+            // label10
+            // 
+            resources.ApplyResources(this.label10, "label10");
+            this.label10.Name = "label10";
+            // 
+            // txtIngameType
+            // 
+            this.txtIngameType.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameType, "txtIngameType");
+            this.txtIngameType.Name = "txtIngameType";
+            // 
+            // txtIngameScore2
+            // 
+            this.txtIngameScore2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameScore2, "txtIngameScore2");
+            this.txtIngameScore2.Name = "txtIngameScore2";
+            // 
+            // txtIngameScore1
+            // 
+            this.txtIngameScore1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameScore1, "txtIngameScore1");
+            this.txtIngameScore1.Name = "txtIngameScore1";
+            // 
+            // label9
+            // 
+            resources.ApplyResources(this.label9, "label9");
+            this.label9.Name = "label9";
+            // 
+            // txtIngameTeam2
+            // 
+            this.txtIngameTeam2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameTeam2, "txtIngameTeam2");
+            this.txtIngameTeam2.Name = "txtIngameTeam2";
+            // 
+            // label8
+            // 
+            resources.ApplyResources(this.label8, "label8");
+            this.label8.Name = "label8";
+            // 
+            // txtIngameTeam1
+            // 
+            this.txtIngameTeam1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtIngameTeam1, "txtIngameTeam1");
+            this.txtIngameTeam1.Name = "txtIngameTeam1";
             // 
             // tabAudioM
             // 
@@ -968,6 +1289,101 @@
             this.checkBox37.UseVisualStyleBackColor = false;
             this.checkBox37.CheckedChanged += new System.EventHandler(this.checkBox_CheckedChanged);
             // 
+            // tabPresets
+            // 
+            resources.ApplyResources(this.tabPresets, "tabPresets");
+            this.tabPresets.Name = "tabPresets";
+            this.tabPresets.UseVisualStyleBackColor = true;
+            // 
+            // tabPresetNew
+            // 
+            resources.ApplyResources(this.tabPresetNew, "tabPresetNew");
+            this.tabPresetNew.Name = "tabPresetNew";
+            this.tabPresetNew.UseVisualStyleBackColor = true;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.groupBox5.Controls.Add(this.textBox19);
+            this.groupBox5.Controls.Add(this.textBox20);
+            this.groupBox5.Controls.Add(this.textBox21);
+            this.groupBox5.Controls.Add(this.textBox18);
+            this.groupBox5.Controls.Add(this.label19);
+            this.groupBox5.Controls.Add(this.button2);
+            this.groupBox5.Controls.Add(this.textBox16);
+            this.groupBox5.Controls.Add(this.button3);
+            this.groupBox5.Controls.Add(this.textBox17);
+            this.groupBox5.Controls.Add(this.label17);
+            this.groupBox5.Controls.Add(this.label18);
+            resources.ApplyResources(this.groupBox5, "groupBox5");
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.TabStop = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.Name = "button3";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // label17
+            // 
+            resources.ApplyResources(this.label17, "label17");
+            this.label17.Name = "label17";
+            // 
+            // textBox16
+            // 
+            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.textBox16, "textBox16");
+            this.textBox16.Name = "textBox16";
+            // 
+            // label18
+            // 
+            resources.ApplyResources(this.label18, "label18");
+            this.label18.Name = "label18";
+            // 
+            // textBox17
+            // 
+            this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.textBox17, "textBox17");
+            this.textBox17.Name = "textBox17";
+            // 
+            // textBox18
+            // 
+            this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.textBox18, "textBox18");
+            this.textBox18.Name = "textBox18";
+            // 
+            // label19
+            // 
+            resources.ApplyResources(this.label19, "label19");
+            this.label19.Name = "label19";
+            // 
+            // textBox19
+            // 
+            this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.textBox19, "textBox19");
+            this.textBox19.Name = "textBox19";
+            // 
+            // textBox20
+            // 
+            this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.textBox20, "textBox20");
+            this.textBox20.Name = "textBox20";
+            // 
+            // textBox21
+            // 
+            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.textBox21, "textBox21");
+            this.textBox21.Name = "textBox21";
+            // 
             // GUI
             // 
             resources.ApplyResources(this, "$this");
@@ -987,6 +1403,9 @@
             this.groupBox2.PerformLayout();
             this.tabControl1.ResumeLayout(false);
             this.tabGeneral.ResumeLayout(false);
+            this.tabOverlays.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.tabAudioM.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
@@ -1007,6 +1426,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar27)).EndInit();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1105,6 +1526,58 @@
         private System.Windows.Forms.CheckBox checkBox36;
         private System.Windows.Forms.CheckBox checkBox38;
         private System.Windows.Forms.CheckBox checkBox37;
+        private System.Windows.Forms.TabPage tabPresets;
+        private System.Windows.Forms.TabPage tabPresetNew;
+        private System.Windows.Forms.TabPage tabOverlays;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button btnIngameSwap;
+        private System.Windows.Forms.Button btnIngameMapHide;
+        private System.Windows.Forms.Button btnIngameMapShow;
+        private System.Windows.Forms.CheckBox chkIngameMap4;
+        private System.Windows.Forms.TextBox txtIngameMap4Score2;
+        private System.Windows.Forms.TextBox txtIngameMap4Score1;
+        private System.Windows.Forms.TextBox txtIngameMap4;
+        private System.Windows.Forms.CheckBox chkIngameMap3;
+        private System.Windows.Forms.TextBox txtIngameMap3Score2;
+        private System.Windows.Forms.TextBox txtIngameMap3Score1;
+        private System.Windows.Forms.TextBox txtIngameMap3;
+        private System.Windows.Forms.CheckBox chkIngameMap2;
+        private System.Windows.Forms.TextBox txtIngameMap2Score2;
+        private System.Windows.Forms.TextBox txtIngameMap2Score1;
+        private System.Windows.Forms.TextBox txtIngameMap2;
+        private System.Windows.Forms.CheckBox chkIngameMap1;
+        private System.Windows.Forms.TextBox txtIngameMap1Score2;
+        private System.Windows.Forms.TextBox txtIngameMap1Score1;
+        private System.Windows.Forms.TextBox txtIngameMap1;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button btnIngameHide;
+        private System.Windows.Forms.Button btnIngameShow;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtIngameRound;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtIngameType;
+        private System.Windows.Forms.TextBox txtIngameScore2;
+        private System.Windows.Forms.TextBox txtIngameScore1;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtIngameTeam2;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtIngameTeam1;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox textBox21;
     }
 }
 
