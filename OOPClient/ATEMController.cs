@@ -18,15 +18,18 @@ namespace OOPClient
         public IBMDSwitcherMixEffectBlock m_mixEffectBlock1;
         private IBMDSwitcherTransitionParameters m_transition;
 
+        //Switcher keys (usk)
         private IBMDSwitcherKey me1_key1, me1_key2;
 
+        //Monitors
         private SwitcherMonitor m_switcherMonitor;
         private MixEffectBlockMonitor m_mixEffectBlockMonitor;
-
         private List<InputMonitor> m_inputMonitors;
 
+        //Delegate for events
         public delegate void SwitcherEventHandler(int id);
 
+        //Events
         public event SwitcherEventHandler SwitcherDisconnected2;
         public event SwitcherEventHandler SwitcherConnected2;
         public event SwitcherEventHandler UpdateProgramButtonSelection2;
@@ -39,6 +42,12 @@ namespace OOPClient
             m_switcherMonitor.SwitcherDisconnected += SwitcherDisconnectedFix;
 
             m_mixEffectBlockMonitor = new MixEffectBlockMonitor();
+
+            /* Old events
+            m_mixEffectBlockMonitor.ProgramInputChanged += UpdateProgramButtonSelection;
+            m_mixEffectBlockMonitor.PreviewInputChanged += UpdatePreviewButtonSelection; */
+
+            //Fix
             m_mixEffectBlockMonitor.ProgramInputChanged += UpdateProgramFix;
             m_mixEffectBlockMonitor.PreviewInputChanged += UpdatePreviewFix;
 
@@ -58,8 +67,7 @@ namespace OOPClient
             // Install SwitcherMonitor callbacks:
             m_switcher.AddCallback(m_switcherMonitor);
 
-            // We create input monitors for each input. To do this we iterator over all inputs:
-            // This will allow us to update the combo boxes when input names change:
+            // Input monitors for all inputs
             IBMDSwitcherInputIterator inputIterator;
             if (SwitcherAPIHelper.CreateIterator(m_switcher, out inputIterator))
             {
@@ -107,10 +115,7 @@ namespace OOPClient
             SwitcherConnected2(1);
         }
 
-        /*
-         * I'm having an issue with some COM/threading thing, so if I don't apply these fixes so that the UpdateProgram/PreviewButtonSelection aren't called from
-         * main GUI thread (in GUI.cs) then I get an error. If you want to try and help me, please post on git!
-         */
+        //When switcher disconnected
         private void SwitcherDisconnectedFix(object sender, object args)
         {
             //Hack! Avoiding NullReferenceException - haven't looked into it yet. If you have a fix, please post on git!
