@@ -88,7 +88,15 @@ namespace OOPClient
             // and then get the first one:
             m_mixEffectBlock1 = null;
             IBMDSwitcherMixEffectBlockIterator meIterator;
-            SwitcherAPIHelper.CreateIterator(m_switcher, out meIterator);
+            if (SwitcherAPIHelper.CreateIterator(m_switcher, out meIterator))
+            {
+                Console.WriteLine("YES");
+            }
+            else
+            {
+                Console.WriteLine("NO!");
+
+            }
 
             if (meIterator != null)
             {

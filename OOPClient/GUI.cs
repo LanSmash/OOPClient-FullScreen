@@ -43,7 +43,7 @@ namespace OOPClient
             c_white = Color.FromArgb(255, 255, 255);
             c_grey = Color.FromArgb(224, 224, 224);
 
-            txtAtemAddress.Text = "192.168.0.156";
+            txtAtemAddress.Text = "192.168.0.201";
 
             slcAudioIn.SelectedIndex = 0;
             slcAudioOut.SelectedIndex = 0;
@@ -388,7 +388,6 @@ namespace OOPClient
             if (MessageBox.Show("Do you want to close the application", "DON'T LEAVE ME!!!!", MessageBoxButtons.YesNo) == DialogResult.No)
             {
                 e.Cancel = true;
-                MessageBox.Show("ok");
             }
             else
             {
