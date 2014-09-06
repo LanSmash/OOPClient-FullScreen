@@ -306,6 +306,468 @@
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="prevBtn6000.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="prevBtn6000.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="prevBtn6000.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="prevBtn6000.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="prevBtn6000.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1226, 19</value>
+  </data>
+  <data name="prevBtn6000.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="prevBtn6000.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;prevBtn6000.Name" xml:space="preserve">
+    <value>prevBtn6000</value>
+  </data>
+  <data name="&gt;&gt;prevBtn6000.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prevBtn6000.Parent" xml:space="preserve">
+    <value>panelPrev</value>
+  </data>
+  <data name="&gt;&gt;prevBtn6000.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="prevBtn20.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="prevBtn20.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="prevBtn20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="prevBtn20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="prevBtn20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1165, 19</value>
+  </data>
+  <data name="prevBtn20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="prevBtn20.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;prevBtn20.Name" xml:space="preserve">
+    <value>prevBtn20</value>
+  </data>
+  <data name="&gt;&gt;prevBtn20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prevBtn20.Parent" xml:space="preserve">
+    <value>panelPrev</value>
+  </data>
+  <data name="&gt;&gt;prevBtn20.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="prevBtn19.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="prevBtn19.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="prevBtn19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="prevBtn19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="prevBtn19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1104, 19</value>
+  </data>
+  <data name="prevBtn19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="prevBtn19.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;prevBtn19.Name" xml:space="preserve">
+    <value>prevBtn19</value>
+  </data>
+  <data name="&gt;&gt;prevBtn19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prevBtn19.Parent" xml:space="preserve">
+    <value>panelPrev</value>
+  </data>
+  <data name="&gt;&gt;prevBtn19.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="prevBtn18.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="prevBtn18.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="prevBtn18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="prevBtn18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="prevBtn18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1043, 19</value>
+  </data>
+  <data name="prevBtn18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="prevBtn18.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;prevBtn18.Name" xml:space="preserve">
+    <value>prevBtn18</value>
+  </data>
+  <data name="&gt;&gt;prevBtn18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prevBtn18.Parent" xml:space="preserve">
+    <value>panelPrev</value>
+  </data>
+  <data name="&gt;&gt;prevBtn18.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="prevBtn17.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="prevBtn17.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="prevBtn17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="prevBtn17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="prevBtn17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>982, 19</value>
+  </data>
+  <data name="prevBtn17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="prevBtn17.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;prevBtn17.Name" xml:space="preserve">
+    <value>prevBtn17</value>
+  </data>
+  <data name="&gt;&gt;prevBtn17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prevBtn17.Parent" xml:space="preserve">
+    <value>panelPrev</value>
+  </data>
+  <data name="&gt;&gt;prevBtn17.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="prevBtn16.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="prevBtn16.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="prevBtn16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="prevBtn16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="prevBtn16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>921, 19</value>
+  </data>
+  <data name="prevBtn16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="prevBtn16.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;prevBtn16.Name" xml:space="preserve">
+    <value>prevBtn16</value>
+  </data>
+  <data name="&gt;&gt;prevBtn16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prevBtn16.Parent" xml:space="preserve">
+    <value>panelPrev</value>
+  </data>
+  <data name="&gt;&gt;prevBtn16.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="prevBtn15.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="prevBtn15.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="prevBtn15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="prevBtn15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="prevBtn15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>860, 19</value>
+  </data>
+  <data name="prevBtn15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="prevBtn15.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;prevBtn15.Name" xml:space="preserve">
+    <value>prevBtn15</value>
+  </data>
+  <data name="&gt;&gt;prevBtn15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prevBtn15.Parent" xml:space="preserve">
+    <value>panelPrev</value>
+  </data>
+  <data name="&gt;&gt;prevBtn15.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="prevBtn14.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="prevBtn14.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="prevBtn14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="prevBtn14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="prevBtn14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>799, 19</value>
+  </data>
+  <data name="prevBtn14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="prevBtn14.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;prevBtn14.Name" xml:space="preserve">
+    <value>prevBtn14</value>
+  </data>
+  <data name="&gt;&gt;prevBtn14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prevBtn14.Parent" xml:space="preserve">
+    <value>panelPrev</value>
+  </data>
+  <data name="&gt;&gt;prevBtn14.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="prevBtn13.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="prevBtn13.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="prevBtn13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="prevBtn13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="prevBtn13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>738, 19</value>
+  </data>
+  <data name="prevBtn13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="prevBtn13.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;prevBtn13.Name" xml:space="preserve">
+    <value>prevBtn13</value>
+  </data>
+  <data name="&gt;&gt;prevBtn13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prevBtn13.Parent" xml:space="preserve">
+    <value>panelPrev</value>
+  </data>
+  <data name="&gt;&gt;prevBtn13.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="prevBtn12.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="prevBtn12.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="prevBtn12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="prevBtn12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="prevBtn12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>677, 19</value>
+  </data>
+  <data name="prevBtn12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="prevBtn12.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;prevBtn12.Name" xml:space="preserve">
+    <value>prevBtn12</value>
+  </data>
+  <data name="&gt;&gt;prevBtn12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prevBtn12.Parent" xml:space="preserve">
+    <value>panelPrev</value>
+  </data>
+  <data name="&gt;&gt;prevBtn12.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="prevBtn11.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="prevBtn11.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="prevBtn11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="prevBtn11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="prevBtn11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 19</value>
+  </data>
+  <data name="prevBtn11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="prevBtn11.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;prevBtn11.Name" xml:space="preserve">
+    <value>prevBtn11</value>
+  </data>
+  <data name="&gt;&gt;prevBtn11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prevBtn11.Parent" xml:space="preserve">
+    <value>panelPrev</value>
+  </data>
+  <data name="&gt;&gt;prevBtn11.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="prevBtn10.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="prevBtn10.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="prevBtn10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="prevBtn10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="prevBtn10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>555, 19</value>
+  </data>
+  <data name="prevBtn10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="prevBtn10.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;prevBtn10.Name" xml:space="preserve">
+    <value>prevBtn10</value>
+  </data>
+  <data name="&gt;&gt;prevBtn10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prevBtn10.Parent" xml:space="preserve">
+    <value>panelPrev</value>
+  </data>
+  <data name="&gt;&gt;prevBtn10.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="prevBtn9.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="prevBtn9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="prevBtn9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="prevBtn9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="prevBtn9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>494, 19</value>
+  </data>
+  <data name="prevBtn9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="prevBtn9.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;prevBtn9.Name" xml:space="preserve">
+    <value>prevBtn9</value>
+  </data>
+  <data name="&gt;&gt;prevBtn9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prevBtn9.Parent" xml:space="preserve">
+    <value>panelPrev</value>
+  </data>
+  <data name="&gt;&gt;prevBtn9.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="prevBtn1000.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="prevBtn1000.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="prevBtn1000.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="prevBtn1000.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="prevBtn1000.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1386, 19</value>
+  </data>
+  <data name="prevBtn1000.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="prevBtn1000.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;prevBtn1000.Name" xml:space="preserve">
+    <value>prevBtn1000</value>
+  </data>
+  <data name="&gt;&gt;prevBtn1000.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prevBtn1000.Parent" xml:space="preserve">
+    <value>panelPrev</value>
+  </data>
+  <data name="&gt;&gt;prevBtn1000.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
   <data name="prevBtn8.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -334,7 +796,7 @@
     <value>panelPrev</value>
   </data>
   <data name="&gt;&gt;prevBtn8.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>14</value>
   </data>
   <data name="prevBtn7.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -364,7 +826,7 @@
     <value>panelPrev</value>
   </data>
   <data name="&gt;&gt;prevBtn7.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>15</value>
   </data>
   <data name="prevBtn0.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -376,7 +838,7 @@
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="prevBtn0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>494, 19</value>
+    <value>1307, 19</value>
   </data>
   <data name="prevBtn0.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 43</value>
@@ -394,7 +856,7 @@
     <value>panelPrev</value>
   </data>
   <data name="&gt;&gt;prevBtn0.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>16</value>
   </data>
   <data name="prevBtn6.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -424,7 +886,7 @@
     <value>panelPrev</value>
   </data>
   <data name="&gt;&gt;prevBtn6.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>17</value>
   </data>
   <data name="prevBtn3.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -454,7 +916,7 @@
     <value>panelPrev</value>
   </data>
   <data name="&gt;&gt;prevBtn3.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>18</value>
   </data>
   <data name="prevBtn5.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -484,7 +946,7 @@
     <value>panelPrev</value>
   </data>
   <data name="&gt;&gt;prevBtn5.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>19</value>
   </data>
   <data name="prevBtn1.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -514,7 +976,7 @@
     <value>panelPrev</value>
   </data>
   <data name="&gt;&gt;prevBtn1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>20</value>
   </data>
   <data name="prevBtn4.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -544,7 +1006,7 @@
     <value>panelPrev</value>
   </data>
   <data name="&gt;&gt;prevBtn4.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>21</value>
   </data>
   <data name="prevBtn2.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -574,13 +1036,13 @@
     <value>panelPrev</value>
   </data>
   <data name="&gt;&gt;prevBtn2.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>22</value>
   </data>
   <data name="panelPrev.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 93</value>
+    <value>6, 100</value>
   </data>
   <data name="panelPrev.Size" type="System.Drawing.Size, System.Drawing">
-    <value>560, 68</value>
+    <value>1447, 68</value>
   </data>
   <data name="panelPrev.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -599,6 +1061,468 @@
   </data>
   <data name="&gt;&gt;panelPrev.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="progBtn1000.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progBtn1000.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="progBtn1000.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="progBtn1000.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progBtn1000.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1386, 19</value>
+  </data>
+  <data name="progBtn1000.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="progBtn1000.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;progBtn1000.Name" xml:space="preserve">
+    <value>progBtn1000</value>
+  </data>
+  <data name="&gt;&gt;progBtn1000.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progBtn1000.Parent" xml:space="preserve">
+    <value>panelProg</value>
+  </data>
+  <data name="&gt;&gt;progBtn1000.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="progBtn6000.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progBtn6000.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="progBtn6000.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="progBtn6000.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progBtn6000.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1226, 19</value>
+  </data>
+  <data name="progBtn6000.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="progBtn6000.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;progBtn6000.Name" xml:space="preserve">
+    <value>progBtn6000</value>
+  </data>
+  <data name="&gt;&gt;progBtn6000.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progBtn6000.Parent" xml:space="preserve">
+    <value>panelProg</value>
+  </data>
+  <data name="&gt;&gt;progBtn6000.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="progBtn20.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progBtn20.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="progBtn20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="progBtn20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progBtn20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1165, 19</value>
+  </data>
+  <data name="progBtn20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="progBtn20.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;progBtn20.Name" xml:space="preserve">
+    <value>progBtn20</value>
+  </data>
+  <data name="&gt;&gt;progBtn20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progBtn20.Parent" xml:space="preserve">
+    <value>panelProg</value>
+  </data>
+  <data name="&gt;&gt;progBtn20.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="progBtn19.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progBtn19.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="progBtn19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="progBtn19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progBtn19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1104, 19</value>
+  </data>
+  <data name="progBtn19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="progBtn19.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;progBtn19.Name" xml:space="preserve">
+    <value>progBtn19</value>
+  </data>
+  <data name="&gt;&gt;progBtn19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progBtn19.Parent" xml:space="preserve">
+    <value>panelProg</value>
+  </data>
+  <data name="&gt;&gt;progBtn19.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="progBtn18.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progBtn18.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="progBtn18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="progBtn18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progBtn18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1043, 19</value>
+  </data>
+  <data name="progBtn18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="progBtn18.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;progBtn18.Name" xml:space="preserve">
+    <value>progBtn18</value>
+  </data>
+  <data name="&gt;&gt;progBtn18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progBtn18.Parent" xml:space="preserve">
+    <value>panelProg</value>
+  </data>
+  <data name="&gt;&gt;progBtn18.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="progBtn17.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progBtn17.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="progBtn17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="progBtn17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progBtn17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>982, 19</value>
+  </data>
+  <data name="progBtn17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="progBtn17.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;progBtn17.Name" xml:space="preserve">
+    <value>progBtn17</value>
+  </data>
+  <data name="&gt;&gt;progBtn17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progBtn17.Parent" xml:space="preserve">
+    <value>panelProg</value>
+  </data>
+  <data name="&gt;&gt;progBtn17.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="progBtn16.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progBtn16.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="progBtn16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="progBtn16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progBtn16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>921, 19</value>
+  </data>
+  <data name="progBtn16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="progBtn16.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;progBtn16.Name" xml:space="preserve">
+    <value>progBtn16</value>
+  </data>
+  <data name="&gt;&gt;progBtn16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progBtn16.Parent" xml:space="preserve">
+    <value>panelProg</value>
+  </data>
+  <data name="&gt;&gt;progBtn16.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="progBtn15.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progBtn15.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="progBtn15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="progBtn15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progBtn15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>860, 19</value>
+  </data>
+  <data name="progBtn15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="progBtn15.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;progBtn15.Name" xml:space="preserve">
+    <value>progBtn15</value>
+  </data>
+  <data name="&gt;&gt;progBtn15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progBtn15.Parent" xml:space="preserve">
+    <value>panelProg</value>
+  </data>
+  <data name="&gt;&gt;progBtn15.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="progBtn14.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progBtn14.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="progBtn14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="progBtn14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progBtn14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>799, 19</value>
+  </data>
+  <data name="progBtn14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="progBtn14.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;progBtn14.Name" xml:space="preserve">
+    <value>progBtn14</value>
+  </data>
+  <data name="&gt;&gt;progBtn14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progBtn14.Parent" xml:space="preserve">
+    <value>panelProg</value>
+  </data>
+  <data name="&gt;&gt;progBtn14.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="progBtn13.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progBtn13.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="progBtn13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="progBtn13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progBtn13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>738, 19</value>
+  </data>
+  <data name="progBtn13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="progBtn13.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;progBtn13.Name" xml:space="preserve">
+    <value>progBtn13</value>
+  </data>
+  <data name="&gt;&gt;progBtn13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progBtn13.Parent" xml:space="preserve">
+    <value>panelProg</value>
+  </data>
+  <data name="&gt;&gt;progBtn13.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="progBtn12.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progBtn12.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="progBtn12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="progBtn12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progBtn12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>677, 19</value>
+  </data>
+  <data name="progBtn12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="progBtn12.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;progBtn12.Name" xml:space="preserve">
+    <value>progBtn12</value>
+  </data>
+  <data name="&gt;&gt;progBtn12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progBtn12.Parent" xml:space="preserve">
+    <value>panelProg</value>
+  </data>
+  <data name="&gt;&gt;progBtn12.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="progBtn11.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progBtn11.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="progBtn11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="progBtn11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progBtn11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 19</value>
+  </data>
+  <data name="progBtn11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="progBtn11.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;progBtn11.Name" xml:space="preserve">
+    <value>progBtn11</value>
+  </data>
+  <data name="&gt;&gt;progBtn11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progBtn11.Parent" xml:space="preserve">
+    <value>panelProg</value>
+  </data>
+  <data name="&gt;&gt;progBtn11.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="progBtn10.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progBtn10.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="progBtn10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="progBtn10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progBtn10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>555, 19</value>
+  </data>
+  <data name="progBtn10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="progBtn10.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;progBtn10.Name" xml:space="preserve">
+    <value>progBtn10</value>
+  </data>
+  <data name="&gt;&gt;progBtn10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progBtn10.Parent" xml:space="preserve">
+    <value>panelProg</value>
+  </data>
+  <data name="&gt;&gt;progBtn10.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="progBtn9.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progBtn9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="progBtn9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="progBtn9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progBtn9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>494, 19</value>
+  </data>
+  <data name="progBtn9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 43</value>
+  </data>
+  <data name="progBtn9.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;progBtn9.Name" xml:space="preserve">
+    <value>progBtn9</value>
+  </data>
+  <data name="&gt;&gt;progBtn9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progBtn9.Parent" xml:space="preserve">
+    <value>panelProg</value>
+  </data>
+  <data name="&gt;&gt;progBtn9.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
   <data name="progBtn8.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -628,7 +1552,7 @@
     <value>panelProg</value>
   </data>
   <data name="&gt;&gt;progBtn8.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>14</value>
   </data>
   <data name="progBtn7.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -658,7 +1582,7 @@
     <value>panelProg</value>
   </data>
   <data name="&gt;&gt;progBtn7.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>15</value>
   </data>
   <data name="progBtn0.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -670,7 +1594,7 @@
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="progBtn0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>494, 19</value>
+    <value>1307, 19</value>
   </data>
   <data name="progBtn0.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 43</value>
@@ -688,7 +1612,7 @@
     <value>panelProg</value>
   </data>
   <data name="&gt;&gt;progBtn0.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>16</value>
   </data>
   <data name="progBtn6.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -718,7 +1642,7 @@
     <value>panelProg</value>
   </data>
   <data name="&gt;&gt;progBtn6.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>17</value>
   </data>
   <data name="progBtn5.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -748,7 +1672,7 @@
     <value>panelProg</value>
   </data>
   <data name="&gt;&gt;progBtn5.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>18</value>
   </data>
   <data name="progBtn4.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -778,7 +1702,7 @@
     <value>panelProg</value>
   </data>
   <data name="&gt;&gt;progBtn4.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>19</value>
   </data>
   <data name="progBtn3.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -808,7 +1732,7 @@
     <value>panelProg</value>
   </data>
   <data name="&gt;&gt;progBtn3.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>20</value>
   </data>
   <data name="progBtn2.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -838,7 +1762,7 @@
     <value>panelProg</value>
   </data>
   <data name="&gt;&gt;progBtn2.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>21</value>
   </data>
   <data name="progBtn1.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -868,13 +1792,13 @@
     <value>panelProg</value>
   </data>
   <data name="&gt;&gt;progBtn1.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>22</value>
   </data>
   <data name="panelProg.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
   <data name="panelProg.Size" type="System.Drawing.Size, System.Drawing">
-    <value>560, 68</value>
+    <value>1447, 75</value>
   </data>
   <data name="panelProg.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -895,10 +1819,10 @@
     <value>1</value>
   </data>
   <data name="panelATEM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>209, 6</value>
+    <value>6, 132</value>
   </data>
   <data name="panelATEM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>573, 172</value>
+    <value>1459, 175</value>
   </data>
   <data name="panelATEM.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -931,7 +1855,7 @@
     <value>OUTPUT</value>
   </data>
   <data name="slcControlIn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 176</value>
+    <value>205, 90</value>
   </data>
   <data name="slcControlIn.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -964,7 +1888,7 @@
     <value>INPUT</value>
   </data>
   <data name="slcControlOut.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 146</value>
+    <value>205, 60</value>
   </data>
   <data name="slcControlOut.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -997,7 +1921,7 @@
     <value>OUTPUT</value>
   </data>
   <data name="slcAudioOut.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 93</value>
+    <value>6, 90</value>
   </data>
   <data name="slcAudioOut.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -1030,7 +1954,7 @@
     <value>INPUT</value>
   </data>
   <data name="slcAudioIn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 63</value>
+    <value>6, 60</value>
   </data>
   <data name="slcAudioIn.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -1054,7 +1978,7 @@
     <value>True</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 130</value>
+    <value>205, 44</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 13</value>
@@ -1084,7 +2008,7 @@
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="btnControlConnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 177</value>
+    <value>311, 91</value>
   </data>
   <data name="btnControlConnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 22</value>
@@ -1111,7 +2035,7 @@
     <value>True</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 47</value>
+    <value>6, 44</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>62, 13</value>
@@ -1141,7 +2065,7 @@
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="btnAudioConnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 94</value>
+    <value>112, 91</value>
   </data>
   <data name="btnAudioConnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 22</value>
@@ -1171,7 +2095,7 @@
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="btnGetMidi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
+    <value>6, 17</value>
   </data>
   <data name="btnGetMidi.Size" type="System.Drawing.Size, System.Drawing">
     <value>181, 22</value>
@@ -1195,10 +2119,10 @@
     <value>0</value>
   </data>
   <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 132</value>
+    <value>209, 6</value>
   </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 221</value>
+    <value>429, 120</value>
   </data>
   <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1225,7 +2149,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabGeneral.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1301, 564</value>
+    <value>1471, 622</value>
   </data>
   <data name="tabGeneral.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2593,7 +3517,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabOverlays.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1301, 564</value>
+    <value>1471, 622</value>
   </data>
   <data name="tabOverlays.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -2612,6 +3536,129 @@
   </data>
   <data name="&gt;&gt;tabOverlays.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="groupBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1092, 6</value>
+  </data>
+  <data name="groupBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 610</value>
+  </data>
+  <data name="groupBox10.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Preset 3</value>
+  </data>
+  <data name="&gt;&gt;groupBox10.Name" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="&gt;&gt;groupBox10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox10.Parent" xml:space="preserve">
+    <value>tabSuperSource</value>
+  </data>
+  <data name="&gt;&gt;groupBox10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>731, 6</value>
+  </data>
+  <data name="groupBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 610</value>
+  </data>
+  <data name="groupBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Preset 3</value>
+  </data>
+  <data name="&gt;&gt;groupBox9.Name" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;groupBox9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox9.Parent" xml:space="preserve">
+    <value>tabSuperSource</value>
+  </data>
+  <data name="&gt;&gt;groupBox9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 6</value>
+  </data>
+  <data name="groupBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 610</value>
+  </data>
+  <data name="groupBox8.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>Preset 2</value>
+  </data>
+  <data name="&gt;&gt;groupBox8.Name" xml:space="preserve">
+    <value>groupBox8</value>
+  </data>
+  <data name="&gt;&gt;groupBox8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox8.Parent" xml:space="preserve">
+    <value>tabSuperSource</value>
+  </data>
+  <data name="&gt;&gt;groupBox8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="groupBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 610</value>
+  </data>
+  <data name="groupBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Preset 1</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Name" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Parent" xml:space="preserve">
+    <value>tabSuperSource</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabSuperSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabSuperSource.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabSuperSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1471, 622</value>
+  </data>
+  <data name="tabSuperSource.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tabSuperSource.Text" xml:space="preserve">
+    <value>SuperSource Presets</value>
+  </data>
+  <data name="&gt;&gt;tabSuperSource.Name" xml:space="preserve">
+    <value>tabSuperSource</value>
+  </data>
+  <data name="&gt;&gt;tabSuperSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabSuperSource.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabSuperSource.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="btnAudioTest.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -4012,7 +5059,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabAudioM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1301, 564</value>
+    <value>1471, 622</value>
   </data>
   <data name="tabAudioM.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -4030,7 +5077,7 @@
     <value>tabControl1</value>
   </data>
   <data name="&gt;&gt;tabAudioM.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="tabPresets.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
@@ -4039,7 +5086,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPresets.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1301, 564</value>
+    <value>1471, 622</value>
   </data>
   <data name="tabPresets.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -4057,13 +5104,13 @@
     <value>tabControl1</value>
   </data>
   <data name="&gt;&gt;tabPresets.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="tabPresetNew.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
   <data name="tabPresetNew.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1301, 564</value>
+    <value>1471, 622</value>
   </data>
   <data name="tabPresetNew.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -4081,13 +5128,13 @@
     <value>tabControl1</value>
   </data>
   <data name="&gt;&gt;tabPresetNew.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 13</value>
   </data>
   <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1309, 590</value>
+    <value>1479, 648</value>
   </data>
   <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -4107,17 +5154,20 @@
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1334, 615</value>
+    <value>1914, 1055</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Phoinx Video Production Control Panel (PVPCP)</value>
+    <value>VIDEO PRODUCTION MASTER CONTROL</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>GUI</value>

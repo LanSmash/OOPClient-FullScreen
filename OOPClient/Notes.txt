@@ -1,0 +1,76 @@
+Settings:
+Fill Source
+Place in: Background
+Border (always no bevel, inner=0,soft=0)
+--Hue,sat,lum
+--Outer-width
+
+Ingame1:
+-Box1
+--Source:POV1
+--X:-13,28
+--Y:-6,39
+--Size:0,16
+
+-Box2
+--Source:POV2
+--X:13,28
+--Y:-6,39
+--Size:0,16
+
+-Art
+--Fill Source: GAME1
+--Border
+---Style:No bevel
+---Hue:73,6
+---Sat:0
+---Lum:0
+---OuterW:0,03
+---InnerW:0
+---OuterS:0
+---InnerS:0
+
+
+
+Ingame2:
+Box1 and Box2 switch X
+
+
+
+1v1: - Might be changed a bit depending on background graphics
+-Box1
+--Source:GAME1
+--X:-7,3
+--Y:4,00
+--Size:0,5
+
+-Box2
+--Source:GAME2
+--X:7,3
+--Y:-4,00
+--Size:0,5
+
+-Art
+--Fill Source: Fill
+--Border
+---Hue:73,6
+---Sat:0
+---Lum:0
+---OuterW:0,10
+---InnerW:0,10
+---OuterS:0
+---InnerS:0
+
+
+Transition:
+-Box1
+--Source:CAM1
+--X:-5,50
+--Y:3,00
+--Size:0,50
+
+-Box2
+--Source:CAM2
+--X:10,00
+--Y:-5,60
+--Size:0,33

@@ -38,6 +38,20 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panelATEM = new System.Windows.Forms.GroupBox();
             this.panelPrev = new System.Windows.Forms.GroupBox();
+            this.prevBtn6000 = new System.Windows.Forms.Button();
+            this.prevBtn20 = new System.Windows.Forms.Button();
+            this.prevBtn19 = new System.Windows.Forms.Button();
+            this.prevBtn18 = new System.Windows.Forms.Button();
+            this.prevBtn17 = new System.Windows.Forms.Button();
+            this.prevBtn16 = new System.Windows.Forms.Button();
+            this.prevBtn15 = new System.Windows.Forms.Button();
+            this.prevBtn14 = new System.Windows.Forms.Button();
+            this.prevBtn13 = new System.Windows.Forms.Button();
+            this.prevBtn12 = new System.Windows.Forms.Button();
+            this.prevBtn11 = new System.Windows.Forms.Button();
+            this.prevBtn10 = new System.Windows.Forms.Button();
+            this.prevBtn9 = new System.Windows.Forms.Button();
+            this.prevBtn1000 = new System.Windows.Forms.Button();
             this.prevBtn8 = new System.Windows.Forms.Button();
             this.prevBtn7 = new System.Windows.Forms.Button();
             this.prevBtn0 = new System.Windows.Forms.Button();
@@ -48,6 +62,20 @@
             this.prevBtn4 = new System.Windows.Forms.Button();
             this.prevBtn2 = new System.Windows.Forms.Button();
             this.panelProg = new System.Windows.Forms.GroupBox();
+            this.progBtn1000 = new System.Windows.Forms.Button();
+            this.progBtn6000 = new System.Windows.Forms.Button();
+            this.progBtn20 = new System.Windows.Forms.Button();
+            this.progBtn19 = new System.Windows.Forms.Button();
+            this.progBtn18 = new System.Windows.Forms.Button();
+            this.progBtn17 = new System.Windows.Forms.Button();
+            this.progBtn16 = new System.Windows.Forms.Button();
+            this.progBtn15 = new System.Windows.Forms.Button();
+            this.progBtn14 = new System.Windows.Forms.Button();
+            this.progBtn13 = new System.Windows.Forms.Button();
+            this.progBtn12 = new System.Windows.Forms.Button();
+            this.progBtn11 = new System.Windows.Forms.Button();
+            this.progBtn10 = new System.Windows.Forms.Button();
+            this.progBtn9 = new System.Windows.Forms.Button();
             this.progBtn8 = new System.Windows.Forms.Button();
             this.progBtn7 = new System.Windows.Forms.Button();
             this.progBtn0 = new System.Windows.Forms.Button();
@@ -119,6 +147,11 @@
             this.txtIngameTeam2 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtIngameTeam1 = new System.Windows.Forms.TextBox();
+            this.tabSuperSource = new System.Windows.Forms.TabPage();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.tabAudioM = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btnAudioTest = new System.Windows.Forms.Button();
@@ -183,6 +216,7 @@
             this.tabOverlays.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.tabSuperSource.SuspendLayout();
             this.tabAudioM.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.boxAudioControl.SuspendLayout();
@@ -265,6 +299,20 @@
             // panelPrev
             // 
             this.panelPrev.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.panelPrev.Controls.Add(this.prevBtn6000);
+            this.panelPrev.Controls.Add(this.prevBtn20);
+            this.panelPrev.Controls.Add(this.prevBtn19);
+            this.panelPrev.Controls.Add(this.prevBtn18);
+            this.panelPrev.Controls.Add(this.prevBtn17);
+            this.panelPrev.Controls.Add(this.prevBtn16);
+            this.panelPrev.Controls.Add(this.prevBtn15);
+            this.panelPrev.Controls.Add(this.prevBtn14);
+            this.panelPrev.Controls.Add(this.prevBtn13);
+            this.panelPrev.Controls.Add(this.prevBtn12);
+            this.panelPrev.Controls.Add(this.prevBtn11);
+            this.panelPrev.Controls.Add(this.prevBtn10);
+            this.panelPrev.Controls.Add(this.prevBtn9);
+            this.panelPrev.Controls.Add(this.prevBtn1000);
             this.panelPrev.Controls.Add(this.prevBtn8);
             this.panelPrev.Controls.Add(this.prevBtn7);
             this.panelPrev.Controls.Add(this.prevBtn0);
@@ -277,6 +325,104 @@
             resources.ApplyResources(this.panelPrev, "panelPrev");
             this.panelPrev.Name = "panelPrev";
             this.panelPrev.TabStop = false;
+            // 
+            // prevBtn6000
+            // 
+            this.prevBtn6000.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.prevBtn6000, "prevBtn6000");
+            this.prevBtn6000.Name = "prevBtn6000";
+            this.prevBtn6000.UseVisualStyleBackColor = false;
+            // 
+            // prevBtn20
+            // 
+            this.prevBtn20.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.prevBtn20, "prevBtn20");
+            this.prevBtn20.Name = "prevBtn20";
+            this.prevBtn20.UseVisualStyleBackColor = false;
+            // 
+            // prevBtn19
+            // 
+            this.prevBtn19.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.prevBtn19, "prevBtn19");
+            this.prevBtn19.Name = "prevBtn19";
+            this.prevBtn19.UseVisualStyleBackColor = false;
+            // 
+            // prevBtn18
+            // 
+            this.prevBtn18.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.prevBtn18, "prevBtn18");
+            this.prevBtn18.Name = "prevBtn18";
+            this.prevBtn18.UseVisualStyleBackColor = false;
+            // 
+            // prevBtn17
+            // 
+            this.prevBtn17.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.prevBtn17, "prevBtn17");
+            this.prevBtn17.Name = "prevBtn17";
+            this.prevBtn17.UseVisualStyleBackColor = false;
+            // 
+            // prevBtn16
+            // 
+            this.prevBtn16.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.prevBtn16, "prevBtn16");
+            this.prevBtn16.Name = "prevBtn16";
+            this.prevBtn16.UseVisualStyleBackColor = false;
+            // 
+            // prevBtn15
+            // 
+            this.prevBtn15.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.prevBtn15, "prevBtn15");
+            this.prevBtn15.Name = "prevBtn15";
+            this.prevBtn15.UseVisualStyleBackColor = false;
+            // 
+            // prevBtn14
+            // 
+            this.prevBtn14.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.prevBtn14, "prevBtn14");
+            this.prevBtn14.Name = "prevBtn14";
+            this.prevBtn14.UseVisualStyleBackColor = false;
+            // 
+            // prevBtn13
+            // 
+            this.prevBtn13.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.prevBtn13, "prevBtn13");
+            this.prevBtn13.Name = "prevBtn13";
+            this.prevBtn13.UseVisualStyleBackColor = false;
+            // 
+            // prevBtn12
+            // 
+            this.prevBtn12.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.prevBtn12, "prevBtn12");
+            this.prevBtn12.Name = "prevBtn12";
+            this.prevBtn12.UseVisualStyleBackColor = false;
+            // 
+            // prevBtn11
+            // 
+            this.prevBtn11.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.prevBtn11, "prevBtn11");
+            this.prevBtn11.Name = "prevBtn11";
+            this.prevBtn11.UseVisualStyleBackColor = false;
+            // 
+            // prevBtn10
+            // 
+            this.prevBtn10.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.prevBtn10, "prevBtn10");
+            this.prevBtn10.Name = "prevBtn10";
+            this.prevBtn10.UseVisualStyleBackColor = false;
+            // 
+            // prevBtn9
+            // 
+            this.prevBtn9.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.prevBtn9, "prevBtn9");
+            this.prevBtn9.Name = "prevBtn9";
+            this.prevBtn9.UseVisualStyleBackColor = false;
+            // 
+            // prevBtn1000
+            // 
+            this.prevBtn1000.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.prevBtn1000, "prevBtn1000");
+            this.prevBtn1000.Name = "prevBtn1000";
+            this.prevBtn1000.UseVisualStyleBackColor = false;
             // 
             // prevBtn8
             // 
@@ -353,6 +499,20 @@
             // panelProg
             // 
             this.panelProg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.panelProg.Controls.Add(this.progBtn1000);
+            this.panelProg.Controls.Add(this.progBtn6000);
+            this.panelProg.Controls.Add(this.progBtn20);
+            this.panelProg.Controls.Add(this.progBtn19);
+            this.panelProg.Controls.Add(this.progBtn18);
+            this.panelProg.Controls.Add(this.progBtn17);
+            this.panelProg.Controls.Add(this.progBtn16);
+            this.panelProg.Controls.Add(this.progBtn15);
+            this.panelProg.Controls.Add(this.progBtn14);
+            this.panelProg.Controls.Add(this.progBtn13);
+            this.panelProg.Controls.Add(this.progBtn12);
+            this.panelProg.Controls.Add(this.progBtn11);
+            this.panelProg.Controls.Add(this.progBtn10);
+            this.panelProg.Controls.Add(this.progBtn9);
             this.panelProg.Controls.Add(this.progBtn8);
             this.panelProg.Controls.Add(this.progBtn7);
             this.panelProg.Controls.Add(this.progBtn0);
@@ -365,6 +525,104 @@
             resources.ApplyResources(this.panelProg, "panelProg");
             this.panelProg.Name = "panelProg";
             this.panelProg.TabStop = false;
+            // 
+            // progBtn1000
+            // 
+            this.progBtn1000.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.progBtn1000, "progBtn1000");
+            this.progBtn1000.Name = "progBtn1000";
+            this.progBtn1000.UseVisualStyleBackColor = false;
+            // 
+            // progBtn6000
+            // 
+            this.progBtn6000.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.progBtn6000, "progBtn6000");
+            this.progBtn6000.Name = "progBtn6000";
+            this.progBtn6000.UseVisualStyleBackColor = false;
+            // 
+            // progBtn20
+            // 
+            this.progBtn20.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.progBtn20, "progBtn20");
+            this.progBtn20.Name = "progBtn20";
+            this.progBtn20.UseVisualStyleBackColor = false;
+            // 
+            // progBtn19
+            // 
+            this.progBtn19.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.progBtn19, "progBtn19");
+            this.progBtn19.Name = "progBtn19";
+            this.progBtn19.UseVisualStyleBackColor = false;
+            // 
+            // progBtn18
+            // 
+            this.progBtn18.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.progBtn18, "progBtn18");
+            this.progBtn18.Name = "progBtn18";
+            this.progBtn18.UseVisualStyleBackColor = false;
+            // 
+            // progBtn17
+            // 
+            this.progBtn17.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.progBtn17, "progBtn17");
+            this.progBtn17.Name = "progBtn17";
+            this.progBtn17.UseVisualStyleBackColor = false;
+            // 
+            // progBtn16
+            // 
+            this.progBtn16.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.progBtn16, "progBtn16");
+            this.progBtn16.Name = "progBtn16";
+            this.progBtn16.UseVisualStyleBackColor = false;
+            // 
+            // progBtn15
+            // 
+            this.progBtn15.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.progBtn15, "progBtn15");
+            this.progBtn15.Name = "progBtn15";
+            this.progBtn15.UseVisualStyleBackColor = false;
+            // 
+            // progBtn14
+            // 
+            this.progBtn14.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.progBtn14, "progBtn14");
+            this.progBtn14.Name = "progBtn14";
+            this.progBtn14.UseVisualStyleBackColor = false;
+            // 
+            // progBtn13
+            // 
+            this.progBtn13.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.progBtn13, "progBtn13");
+            this.progBtn13.Name = "progBtn13";
+            this.progBtn13.UseVisualStyleBackColor = false;
+            // 
+            // progBtn12
+            // 
+            this.progBtn12.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.progBtn12, "progBtn12");
+            this.progBtn12.Name = "progBtn12";
+            this.progBtn12.UseVisualStyleBackColor = false;
+            // 
+            // progBtn11
+            // 
+            this.progBtn11.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.progBtn11, "progBtn11");
+            this.progBtn11.Name = "progBtn11";
+            this.progBtn11.UseVisualStyleBackColor = false;
+            // 
+            // progBtn10
+            // 
+            this.progBtn10.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.progBtn10, "progBtn10");
+            this.progBtn10.Name = "progBtn10";
+            this.progBtn10.UseVisualStyleBackColor = false;
+            // 
+            // progBtn9
+            // 
+            this.progBtn9.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.progBtn9, "progBtn9");
+            this.progBtn9.Name = "progBtn9";
+            this.progBtn9.UseVisualStyleBackColor = false;
             // 
             // progBtn8
             // 
@@ -524,6 +782,7 @@
             // 
             this.tabControl1.Controls.Add(this.tabGeneral);
             this.tabControl1.Controls.Add(this.tabOverlays);
+            this.tabControl1.Controls.Add(this.tabSuperSource);
             this.tabControl1.Controls.Add(this.tabAudioM);
             this.tabControl1.Controls.Add(this.tabPresets);
             this.tabControl1.Controls.Add(this.tabPresetNew);
@@ -885,6 +1144,44 @@
             this.txtIngameTeam1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtIngameTeam1, "txtIngameTeam1");
             this.txtIngameTeam1.Name = "txtIngameTeam1";
+            // 
+            // tabSuperSource
+            // 
+            this.tabSuperSource.Controls.Add(this.groupBox10);
+            this.tabSuperSource.Controls.Add(this.groupBox9);
+            this.tabSuperSource.Controls.Add(this.groupBox8);
+            this.tabSuperSource.Controls.Add(this.groupBox7);
+            resources.ApplyResources(this.tabSuperSource, "tabSuperSource");
+            this.tabSuperSource.Name = "tabSuperSource";
+            this.tabSuperSource.UseVisualStyleBackColor = true;
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            resources.ApplyResources(this.groupBox10, "groupBox10");
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.TabStop = false;
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.groupBox9, "groupBox9");
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.TabStop = false;
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.groupBox8, "groupBox8");
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.TabStop = false;
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.groupBox7, "groupBox7");
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.TabStop = false;
             // 
             // tabAudioM
             // 
@@ -1408,6 +1705,7 @@
             this.groupBox5.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.tabSuperSource.ResumeLayout(false);
             this.tabAudioM.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
@@ -1578,6 +1876,39 @@
         private System.Windows.Forms.TextBox textBox19;
         private System.Windows.Forms.TextBox textBox20;
         private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.Button progBtn6000;
+        private System.Windows.Forms.Button progBtn20;
+        private System.Windows.Forms.Button progBtn19;
+        private System.Windows.Forms.Button progBtn18;
+        private System.Windows.Forms.Button progBtn17;
+        private System.Windows.Forms.Button progBtn16;
+        private System.Windows.Forms.Button progBtn15;
+        private System.Windows.Forms.Button progBtn14;
+        private System.Windows.Forms.Button progBtn13;
+        private System.Windows.Forms.Button progBtn12;
+        private System.Windows.Forms.Button progBtn11;
+        private System.Windows.Forms.Button progBtn10;
+        private System.Windows.Forms.Button progBtn9;
+        private System.Windows.Forms.Button prevBtn6000;
+        private System.Windows.Forms.Button prevBtn20;
+        private System.Windows.Forms.Button prevBtn19;
+        private System.Windows.Forms.Button prevBtn18;
+        private System.Windows.Forms.Button prevBtn17;
+        private System.Windows.Forms.Button prevBtn16;
+        private System.Windows.Forms.Button prevBtn15;
+        private System.Windows.Forms.Button prevBtn14;
+        private System.Windows.Forms.Button prevBtn13;
+        private System.Windows.Forms.Button prevBtn12;
+        private System.Windows.Forms.Button prevBtn11;
+        private System.Windows.Forms.Button prevBtn10;
+        private System.Windows.Forms.Button prevBtn9;
+        private System.Windows.Forms.Button prevBtn1000;
+        private System.Windows.Forms.Button progBtn1000;
+        private System.Windows.Forms.TabPage tabSuperSource;
+        private System.Windows.Forms.GroupBox groupBox10;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.GroupBox groupBox7;
     }
 }
 

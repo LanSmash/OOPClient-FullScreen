@@ -88,15 +88,7 @@ namespace OOPClient
             // and then get the first one:
             m_mixEffectBlock1 = null;
             IBMDSwitcherMixEffectBlockIterator meIterator;
-            if (SwitcherAPIHelper.CreateIterator(m_switcher, out meIterator))
-            {
-                Console.WriteLine("YES");
-            }
-            else
-            {
-                Console.WriteLine("NO!");
-
-            }
+            SwitcherAPIHelper.CreateIterator(m_switcher, out meIterator);
 
             if (meIterator != null)
             {
@@ -169,6 +161,55 @@ namespace OOPClient
         }
 
         //Update the buttons with the text
+        /* Here is a list of inputIds for the sources:
+         *  0 - Black
+         *  1 - GAME 1
+         *  2 - GAME 2
+         *  3 - CASTERS
+         *  4 - STAGE
+         *  5 - INTERVIEW
+         *  6 - OVERVIEW
+         *  7 - Camera 7
+         *  8 - PLAYERCAM LEFT
+         *  9 - PLAYERCAM RIGHT
+         *  10 - Camera 10
+         *  11 - Camera 11
+         *  12 - Camera 12
+         *  13 - Camera 13
+         *  14 - Camera 14
+         *  15 - Camera 15
+         *  16 - Camera 16
+         *  17 - Camera 17
+         *  18 - Camera 18
+         *  19 - KEY
+         *  20 - FILL
+         *  1000 - Color Bars
+         *  2001 - Color 1
+         *  2002 - Color 2
+         *  3010 - Media Player 1
+         *  3011 - Media Player 1 Key
+         *  3020 - Media Player 2
+         *  3021 - Media Player 2 Key
+         *  4010 - ME 1 Key 1 Mask
+         *  4020 - ME 1 Key 2 Mask
+         *  4030 - ME 2 Key 1 Mask
+         *  4040 - ME 2 Key 2 Mask
+         *  5010 - DSK 1 Mask
+         *  5020 - DSK 2 Mask
+         *  6000 - SuperSource
+         *  7001 - Clean Feed 1
+         *  7002 - Clean Feed 2
+         *  8001 - Auxiliary 1
+         *  8002 - Auxiliary 2
+         *  8003 - Auxiliary 3
+         *  8004 - Auxiliary 4
+         *  8005 - Auxiliary 5
+         *  8006 - Auxiliary 6
+         *  10010 - ME 1 Prog
+         *  10011 - ME 1 Prev
+         *  10020 - ME 2 Prog
+         *  10021 - ME 2 Prev
+        */
         public Dictionary<int,string> GetSources()
         {
             Dictionary<int,string> sources = new Dictionary<int,string>();
@@ -178,7 +219,8 @@ namespace OOPClient
             if (!SwitcherAPIHelper.CreateIterator(m_switcher, out inputIterator))
                 return sources;
 
-            string[] ignore = { "Color Bars", "Color 1", "Color 2", "Media Player 1", "Media Player 1 Key", "Media Player 2", "Media Player 2 Key", "Program", "Preview", "Clean Feed 1", "Clean Feed 2" };
+            //string[] ignore = { "Color Bars", "Color 1", "Color 2", "Media Player 1", "Media Player 1 Key", "Media Player 2", "Media Player 2 Key", "Program", "Preview", "Clean Feed 1", "Clean Feed 2" };
+            long[] allowedInputs = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 1000, 6000 };
 
             IBMDSwitcherInput input;
             inputIterator.Next(out input);
@@ -191,12 +233,13 @@ namespace OOPClient
                 input.GetString(_BMDSwitcherInputPropertyId.bmdSwitcherInputPropertyIdLongName, out inputName);
 
                 // Add items to list
-                if (!ignore.Contains(inputName) && inputId < 9)
+                if (allowedInputs.Contains(inputId))
                 {
                     sources.Add((int) inputId, (string) inputName);
                 }
 
                 inputIterator.Next(out input);
+                //Console.WriteLine(inputId + " - " + inputName);
             }
 
             UpdateProgramButtonSelection(null,null);
