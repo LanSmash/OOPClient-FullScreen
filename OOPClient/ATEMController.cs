@@ -160,6 +160,12 @@ namespace OOPClient
             SwitcherDisconnected2(1);
         }
 
+        public long[] allowedInputs()
+        {
+            long[] allowedInputs = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 1000, 6000 };
+            return allowedInputs;
+        }
+
         //Update the buttons with the text
         /* Here is a list of inputIds for the sources:
          *  0 - Black
@@ -220,7 +226,6 @@ namespace OOPClient
                 return sources;
 
             //string[] ignore = { "Color Bars", "Color 1", "Color 2", "Media Player 1", "Media Player 1 Key", "Media Player 2", "Media Player 2 Key", "Program", "Preview", "Clean Feed 1", "Clean Feed 2" };
-            long[] allowedInputs = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 1000, 6000 };
 
             IBMDSwitcherInput input;
             inputIterator.Next(out input);
@@ -233,7 +238,7 @@ namespace OOPClient
                 input.GetString(_BMDSwitcherInputPropertyId.bmdSwitcherInputPropertyIdLongName, out inputName);
 
                 // Add items to list
-                if (allowedInputs.Contains(inputId))
+                if (allowedInputs().Contains(inputId))
                 {
                     sources.Add((int) inputId, (string) inputName);
                 }

@@ -135,6 +135,8 @@ namespace OOPClient
             btnAtemConnect.BackColor = c_red;
             btnAtemConnect.Text = "Connected";
 
+            panelATEM.Enabled = true;
+
             Dictionary<int, string> btns = atem.GetSources();
 
             foreach (KeyValuePair<int, string> pair in btns)
@@ -174,6 +176,8 @@ namespace OOPClient
                 btnAtemConnect.BackColor = c_green;
                 btnAtemConnect.Text = "Connect";
 
+                panelATEM.Enabled = false;
+
                 for (int i = 0; i < 9; i++)
                 {
                     panelProg.Controls["progBtn" + i].Enabled = false;
@@ -199,7 +203,7 @@ namespace OOPClient
             {
                 ATEMResetProg();
 
-                if (programId >= 0 && programId < 9)
+                if (atem.allowedInputs().Contains(programId))
                 {
                     panelProg.Controls["progBtn" + programId].BackColor = c_red;
 
@@ -224,7 +228,7 @@ namespace OOPClient
             {
                 ATEMResetPrev();
 
-                if (previewId >= 0 && previewId < 9)
+                if (atem.allowedInputs().Contains(previewId))
                 {
                     panelPrev.Controls["prevBtn" + previewId].BackColor = c_green;
 
@@ -241,7 +245,7 @@ namespace OOPClient
         //Reset all program buttons to non-active colors
         private void ATEMResetProg()
         {
-            for (int i = 0; i < 9; i++)
+            foreach (long i in atem.allowedInputs())
             {
                 if (panelProg.Controls["progBtn" + i] != null && panelProg.Controls["progBtn" + i].Enabled == true)
                 {
@@ -253,7 +257,7 @@ namespace OOPClient
         //Reset all preview buttons to non-active colors
         private void ATEMResetPrev()
         {
-            for (int i = 0; i < 9; i++)
+            foreach (long i in atem.allowedInputs())
             {
                 if (panelPrev.Controls["prevBtn" + i] != null && panelPrev.Controls["prevBtn" + i].Enabled == true)
                 {

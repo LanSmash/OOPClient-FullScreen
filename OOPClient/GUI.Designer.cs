@@ -95,9 +95,6 @@
             this.btnAudioConnect = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnGetMidi = new System.Windows.Forms.Button();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabGeneral = new System.Windows.Forms.TabPage();
-            this.tabOverlays = new System.Windows.Forms.TabPage();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.textBox19 = new System.Windows.Forms.TextBox();
             this.textBox20 = new System.Windows.Forms.TextBox();
@@ -147,13 +144,6 @@
             this.txtIngameTeam2 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtIngameTeam1 = new System.Windows.Forms.TextBox();
-            this.tabSuperSource = new System.Windows.Forms.TabPage();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.tabAudioM = new System.Windows.Forms.TabPage();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btnAudioTest = new System.Windows.Forms.Button();
             this.chkAudioDebug = new System.Windows.Forms.CheckBox();
             this.boxAudioControl = new System.Windows.Forms.GroupBox();
@@ -204,21 +194,15 @@
             this.checkBox36 = new System.Windows.Forms.CheckBox();
             this.checkBox38 = new System.Windows.Forms.CheckBox();
             this.checkBox37 = new System.Windows.Forms.CheckBox();
-            this.tabPresets = new System.Windows.Forms.TabPage();
-            this.tabPresetNew = new System.Windows.Forms.TabPage();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.panelATEM.SuspendLayout();
             this.panelPrev.SuspendLayout();
             this.panelProg.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.tabControl1.SuspendLayout();
-            this.tabGeneral.SuspendLayout();
-            this.tabOverlays.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            this.tabSuperSource.SuspendLayout();
-            this.tabAudioM.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             this.boxAudioControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
@@ -332,6 +316,7 @@
             resources.ApplyResources(this.prevBtn6000, "prevBtn6000");
             this.prevBtn6000.Name = "prevBtn6000";
             this.prevBtn6000.UseVisualStyleBackColor = false;
+            this.prevBtn6000.Click += new System.EventHandler(this.changePrev);
             // 
             // prevBtn20
             // 
@@ -339,6 +324,7 @@
             resources.ApplyResources(this.prevBtn20, "prevBtn20");
             this.prevBtn20.Name = "prevBtn20";
             this.prevBtn20.UseVisualStyleBackColor = false;
+            this.prevBtn20.Click += new System.EventHandler(this.changePrev);
             // 
             // prevBtn19
             // 
@@ -346,6 +332,7 @@
             resources.ApplyResources(this.prevBtn19, "prevBtn19");
             this.prevBtn19.Name = "prevBtn19";
             this.prevBtn19.UseVisualStyleBackColor = false;
+            this.prevBtn19.Click += new System.EventHandler(this.changePrev);
             // 
             // prevBtn18
             // 
@@ -353,6 +340,7 @@
             resources.ApplyResources(this.prevBtn18, "prevBtn18");
             this.prevBtn18.Name = "prevBtn18";
             this.prevBtn18.UseVisualStyleBackColor = false;
+            this.prevBtn18.Click += new System.EventHandler(this.changePrev);
             // 
             // prevBtn17
             // 
@@ -360,6 +348,7 @@
             resources.ApplyResources(this.prevBtn17, "prevBtn17");
             this.prevBtn17.Name = "prevBtn17";
             this.prevBtn17.UseVisualStyleBackColor = false;
+            this.prevBtn17.Click += new System.EventHandler(this.changePrev);
             // 
             // prevBtn16
             // 
@@ -367,6 +356,7 @@
             resources.ApplyResources(this.prevBtn16, "prevBtn16");
             this.prevBtn16.Name = "prevBtn16";
             this.prevBtn16.UseVisualStyleBackColor = false;
+            this.prevBtn16.Click += new System.EventHandler(this.changePrev);
             // 
             // prevBtn15
             // 
@@ -374,6 +364,7 @@
             resources.ApplyResources(this.prevBtn15, "prevBtn15");
             this.prevBtn15.Name = "prevBtn15";
             this.prevBtn15.UseVisualStyleBackColor = false;
+            this.prevBtn15.Click += new System.EventHandler(this.changePrev);
             // 
             // prevBtn14
             // 
@@ -381,6 +372,7 @@
             resources.ApplyResources(this.prevBtn14, "prevBtn14");
             this.prevBtn14.Name = "prevBtn14";
             this.prevBtn14.UseVisualStyleBackColor = false;
+            this.prevBtn14.Click += new System.EventHandler(this.changePrev);
             // 
             // prevBtn13
             // 
@@ -388,6 +380,7 @@
             resources.ApplyResources(this.prevBtn13, "prevBtn13");
             this.prevBtn13.Name = "prevBtn13";
             this.prevBtn13.UseVisualStyleBackColor = false;
+            this.prevBtn13.Click += new System.EventHandler(this.changePrev);
             // 
             // prevBtn12
             // 
@@ -395,6 +388,7 @@
             resources.ApplyResources(this.prevBtn12, "prevBtn12");
             this.prevBtn12.Name = "prevBtn12";
             this.prevBtn12.UseVisualStyleBackColor = false;
+            this.prevBtn12.Click += new System.EventHandler(this.changePrev);
             // 
             // prevBtn11
             // 
@@ -402,6 +396,7 @@
             resources.ApplyResources(this.prevBtn11, "prevBtn11");
             this.prevBtn11.Name = "prevBtn11";
             this.prevBtn11.UseVisualStyleBackColor = false;
+            this.prevBtn11.Click += new System.EventHandler(this.changePrev);
             // 
             // prevBtn10
             // 
@@ -409,6 +404,7 @@
             resources.ApplyResources(this.prevBtn10, "prevBtn10");
             this.prevBtn10.Name = "prevBtn10";
             this.prevBtn10.UseVisualStyleBackColor = false;
+            this.prevBtn10.Click += new System.EventHandler(this.changePrev);
             // 
             // prevBtn9
             // 
@@ -416,6 +412,7 @@
             resources.ApplyResources(this.prevBtn9, "prevBtn9");
             this.prevBtn9.Name = "prevBtn9";
             this.prevBtn9.UseVisualStyleBackColor = false;
+            this.prevBtn9.Click += new System.EventHandler(this.changePrev);
             // 
             // prevBtn1000
             // 
@@ -423,6 +420,7 @@
             resources.ApplyResources(this.prevBtn1000, "prevBtn1000");
             this.prevBtn1000.Name = "prevBtn1000";
             this.prevBtn1000.UseVisualStyleBackColor = false;
+            this.prevBtn1000.Click += new System.EventHandler(this.changePrev);
             // 
             // prevBtn8
             // 
@@ -532,6 +530,7 @@
             resources.ApplyResources(this.progBtn1000, "progBtn1000");
             this.progBtn1000.Name = "progBtn1000";
             this.progBtn1000.UseVisualStyleBackColor = false;
+            this.progBtn1000.Click += new System.EventHandler(this.changeProg);
             // 
             // progBtn6000
             // 
@@ -539,6 +538,7 @@
             resources.ApplyResources(this.progBtn6000, "progBtn6000");
             this.progBtn6000.Name = "progBtn6000";
             this.progBtn6000.UseVisualStyleBackColor = false;
+            this.progBtn6000.Click += new System.EventHandler(this.changeProg);
             // 
             // progBtn20
             // 
@@ -546,6 +546,7 @@
             resources.ApplyResources(this.progBtn20, "progBtn20");
             this.progBtn20.Name = "progBtn20";
             this.progBtn20.UseVisualStyleBackColor = false;
+            this.progBtn20.Click += new System.EventHandler(this.changeProg);
             // 
             // progBtn19
             // 
@@ -553,6 +554,7 @@
             resources.ApplyResources(this.progBtn19, "progBtn19");
             this.progBtn19.Name = "progBtn19";
             this.progBtn19.UseVisualStyleBackColor = false;
+            this.progBtn19.Click += new System.EventHandler(this.changeProg);
             // 
             // progBtn18
             // 
@@ -560,6 +562,7 @@
             resources.ApplyResources(this.progBtn18, "progBtn18");
             this.progBtn18.Name = "progBtn18";
             this.progBtn18.UseVisualStyleBackColor = false;
+            this.progBtn18.Click += new System.EventHandler(this.changeProg);
             // 
             // progBtn17
             // 
@@ -567,6 +570,7 @@
             resources.ApplyResources(this.progBtn17, "progBtn17");
             this.progBtn17.Name = "progBtn17";
             this.progBtn17.UseVisualStyleBackColor = false;
+            this.progBtn17.Click += new System.EventHandler(this.changeProg);
             // 
             // progBtn16
             // 
@@ -574,6 +578,7 @@
             resources.ApplyResources(this.progBtn16, "progBtn16");
             this.progBtn16.Name = "progBtn16";
             this.progBtn16.UseVisualStyleBackColor = false;
+            this.progBtn16.Click += new System.EventHandler(this.changeProg);
             // 
             // progBtn15
             // 
@@ -581,6 +586,7 @@
             resources.ApplyResources(this.progBtn15, "progBtn15");
             this.progBtn15.Name = "progBtn15";
             this.progBtn15.UseVisualStyleBackColor = false;
+            this.progBtn15.Click += new System.EventHandler(this.changeProg);
             // 
             // progBtn14
             // 
@@ -588,6 +594,7 @@
             resources.ApplyResources(this.progBtn14, "progBtn14");
             this.progBtn14.Name = "progBtn14";
             this.progBtn14.UseVisualStyleBackColor = false;
+            this.progBtn14.Click += new System.EventHandler(this.changeProg);
             // 
             // progBtn13
             // 
@@ -595,6 +602,7 @@
             resources.ApplyResources(this.progBtn13, "progBtn13");
             this.progBtn13.Name = "progBtn13";
             this.progBtn13.UseVisualStyleBackColor = false;
+            this.progBtn13.Click += new System.EventHandler(this.changeProg);
             // 
             // progBtn12
             // 
@@ -602,6 +610,7 @@
             resources.ApplyResources(this.progBtn12, "progBtn12");
             this.progBtn12.Name = "progBtn12";
             this.progBtn12.UseVisualStyleBackColor = false;
+            this.progBtn12.Click += new System.EventHandler(this.changeProg);
             // 
             // progBtn11
             // 
@@ -609,6 +618,7 @@
             resources.ApplyResources(this.progBtn11, "progBtn11");
             this.progBtn11.Name = "progBtn11";
             this.progBtn11.UseVisualStyleBackColor = false;
+            this.progBtn11.Click += new System.EventHandler(this.changeProg);
             // 
             // progBtn10
             // 
@@ -616,6 +626,7 @@
             resources.ApplyResources(this.progBtn10, "progBtn10");
             this.progBtn10.Name = "progBtn10";
             this.progBtn10.UseVisualStyleBackColor = false;
+            this.progBtn10.Click += new System.EventHandler(this.changeProg);
             // 
             // progBtn9
             // 
@@ -623,6 +634,7 @@
             resources.ApplyResources(this.progBtn9, "progBtn9");
             this.progBtn9.Name = "progBtn9";
             this.progBtn9.UseVisualStyleBackColor = false;
+            this.progBtn9.Click += new System.EventHandler(this.changeProg);
             // 
             // progBtn8
             // 
@@ -777,35 +789,6 @@
             this.btnGetMidi.Name = "btnGetMidi";
             this.btnGetMidi.UseVisualStyleBackColor = false;
             this.btnGetMidi.Click += new System.EventHandler(this.btnGetMidi_Click);
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tabGeneral);
-            this.tabControl1.Controls.Add(this.tabOverlays);
-            this.tabControl1.Controls.Add(this.tabSuperSource);
-            this.tabControl1.Controls.Add(this.tabAudioM);
-            this.tabControl1.Controls.Add(this.tabPresets);
-            this.tabControl1.Controls.Add(this.tabPresetNew);
-            resources.ApplyResources(this.tabControl1, "tabControl1");
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            // 
-            // tabGeneral
-            // 
-            this.tabGeneral.Controls.Add(this.groupBox1);
-            this.tabGeneral.Controls.Add(this.groupBox2);
-            this.tabGeneral.Controls.Add(this.panelATEM);
-            resources.ApplyResources(this.tabGeneral, "tabGeneral");
-            this.tabGeneral.Name = "tabGeneral";
-            this.tabGeneral.UseVisualStyleBackColor = true;
-            // 
-            // tabOverlays
-            // 
-            this.tabOverlays.Controls.Add(this.groupBox5);
-            this.tabOverlays.Controls.Add(this.groupBox3);
-            resources.ApplyResources(this.tabOverlays, "tabOverlays");
-            this.tabOverlays.Name = "tabOverlays";
-            this.tabOverlays.UseVisualStyleBackColor = true;
             // 
             // groupBox5
             // 
@@ -1145,61 +1128,6 @@
             resources.ApplyResources(this.txtIngameTeam1, "txtIngameTeam1");
             this.txtIngameTeam1.Name = "txtIngameTeam1";
             // 
-            // tabSuperSource
-            // 
-            this.tabSuperSource.Controls.Add(this.groupBox10);
-            this.tabSuperSource.Controls.Add(this.groupBox9);
-            this.tabSuperSource.Controls.Add(this.groupBox8);
-            this.tabSuperSource.Controls.Add(this.groupBox7);
-            resources.ApplyResources(this.tabSuperSource, "tabSuperSource");
-            this.tabSuperSource.Name = "tabSuperSource";
-            this.tabSuperSource.UseVisualStyleBackColor = true;
-            // 
-            // groupBox10
-            // 
-            this.groupBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.groupBox10, "groupBox10");
-            this.groupBox10.Name = "groupBox10";
-            this.groupBox10.TabStop = false;
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            resources.ApplyResources(this.groupBox9, "groupBox9");
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.TabStop = false;
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            resources.ApplyResources(this.groupBox8, "groupBox8");
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.TabStop = false;
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            resources.ApplyResources(this.groupBox7, "groupBox7");
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.TabStop = false;
-            // 
-            // tabAudioM
-            // 
-            this.tabAudioM.Controls.Add(this.groupBox4);
-            this.tabAudioM.Controls.Add(this.boxAudioControl);
-            resources.ApplyResources(this.tabAudioM, "tabAudioM");
-            this.tabAudioM.Name = "tabAudioM";
-            this.tabAudioM.UseVisualStyleBackColor = true;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.groupBox4.Controls.Add(this.btnAudioTest);
-            this.groupBox4.Controls.Add(this.chkAudioDebug);
-            resources.ApplyResources(this.groupBox4, "groupBox4");
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.TabStop = false;
-            // 
             // btnAudioTest
             // 
             this.btnAudioTest.BackColor = System.Drawing.Color.White;
@@ -1219,7 +1147,11 @@
             // boxAudioControl
             // 
             this.boxAudioControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.boxAudioControl.Controls.Add(this.button5);
+            this.boxAudioControl.Controls.Add(this.button4);
+            this.boxAudioControl.Controls.Add(this.btnAudioTest);
             this.boxAudioControl.Controls.Add(this.label5);
+            this.boxAudioControl.Controls.Add(this.chkAudioDebug);
             this.boxAudioControl.Controls.Add(this.trackBar1);
             this.boxAudioControl.Controls.Add(this.label6);
             this.boxAudioControl.Controls.Add(this.trackBar2);
@@ -1669,23 +1601,30 @@
             this.checkBox37.UseVisualStyleBackColor = false;
             this.checkBox37.CheckedChanged += new System.EventHandler(this.checkBox_CheckedChanged);
             // 
-            // tabPresets
+            // button4
             // 
-            resources.ApplyResources(this.tabPresets, "tabPresets");
-            this.tabPresets.Name = "tabPresets";
-            this.tabPresets.UseVisualStyleBackColor = true;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            resources.ApplyResources(this.button4, "button4");
+            this.button4.Name = "button4";
+            this.button4.UseVisualStyleBackColor = false;
             // 
-            // tabPresetNew
+            // button5
             // 
-            resources.ApplyResources(this.tabPresetNew, "tabPresetNew");
-            this.tabPresetNew.Name = "tabPresetNew";
-            this.tabPresetNew.UseVisualStyleBackColor = true;
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            resources.ApplyResources(this.button5, "button5");
+            this.button5.Name = "button5";
+            this.button5.UseVisualStyleBackColor = false;
             // 
             // GUI
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.boxAudioControl);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.panelATEM);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -1698,17 +1637,10 @@
             this.panelProg.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.tabControl1.ResumeLayout(false);
-            this.tabGeneral.ResumeLayout(false);
-            this.tabOverlays.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            this.tabSuperSource.ResumeLayout(false);
-            this.tabAudioM.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
             this.boxAudioControl.ResumeLayout(false);
             this.boxAudioControl.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
@@ -1770,10 +1702,6 @@
         private System.Windows.Forms.Button btnAudioConnect;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnGetMidi;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabGeneral;
-        private System.Windows.Forms.TabPage tabAudioM;
-        private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button btnAudioTest;
         private System.Windows.Forms.CheckBox chkAudioDebug;
         private System.Windows.Forms.GroupBox boxAudioControl;
@@ -1824,9 +1752,6 @@
         private System.Windows.Forms.CheckBox checkBox36;
         private System.Windows.Forms.CheckBox checkBox38;
         private System.Windows.Forms.CheckBox checkBox37;
-        private System.Windows.Forms.TabPage tabPresets;
-        private System.Windows.Forms.TabPage tabPresetNew;
-        private System.Windows.Forms.TabPage tabOverlays;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
@@ -1904,11 +1829,8 @@
         private System.Windows.Forms.Button prevBtn9;
         private System.Windows.Forms.Button prevBtn1000;
         private System.Windows.Forms.Button progBtn1000;
-        private System.Windows.Forms.TabPage tabSuperSource;
-        private System.Windows.Forms.GroupBox groupBox10;
-        private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
     }
 }
 
