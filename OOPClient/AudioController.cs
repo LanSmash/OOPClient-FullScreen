@@ -75,6 +75,45 @@ namespace OOPClient
             }
         }
 
+        public void programFade(int channel, int from, int value, Boolean updateUI = true)
+        {
+            if (channel < 16 && channel > 0 || channel == 27)
+            {
+                channel = (channel == 15) ? 27 : channel;
+
+                if (from > value)
+                {
+                    for (int i = from; i >= value; i--)
+                    {
+                        changeSliderValue(channel, i);
+
+                        if (updateUI)
+                        {
+                            TrackBarChange(channel, i);
+                        }
+
+                        Thread.Sleep(30);
+                    }
+                }
+                else
+                {
+                    for (int i = from; i <= value; i++)
+                    {
+                        changeSliderValue(channel, i);
+
+                        if (updateUI)
+                        {
+                            TrackBarChange(channel, i);
+                        }
+
+                        Thread.Sleep(30);
+                    }
+                }
+                
+                changeSliderValue(channel, value);
+            }
+        }
+
         public void programChangeOnOff(int channel, Boolean isOn, Boolean updateUI = true)
         {
             int val = (isOn) ? 127 : 0;

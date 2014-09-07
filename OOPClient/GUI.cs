@@ -24,13 +24,19 @@ namespace OOPClient
 
         private int audioIn, audioOut, controlIn, controlOut;
 
-        private bool lpIsOpen, audioIsOpen;
+        private bool atemIsOpen, lpIsOpen, audioIsOpen;
+
+        private PresetHandler presetHandler;
 
         public GUI()
         {
             InitializeComponent();
 
-            lpIsOpen = audioIsOpen = false;
+            lpIsOpen = audioIsOpen = atemIsOpen = false;
+
+            presetHandler = new PresetHandler("");
+            presetHandler.SendAudio += audioMixer_HandleTemplate;
+            presetHandler.SendRundown += presetHandler_SendRundown;
 
             atem = new ATEMController();
             atem.SwitcherConnected2 += ATEMConnected;
@@ -58,7 +64,38 @@ namespace OOPClient
             audioMixer.CheckBoxChange += audioMixer_CheckBoxChange;
         }
 
+        void presetHandler_SendRundown(string type, object args)
+        {
+            
+        }
+
+        
+
         #region audioMixer
+        private void audioMixer_HandleTemplate(object sender, object args)
+        {
+            if (audioIsOpen)
+            {
+                string type = Convert.ToString(sender);
+                if (type == "mute")
+                {
+                    Dictionary<int, bool> mute = (Dictionary<int, bool>)args;
+                    foreach (KeyValuePair<int, bool> entry in mute)
+                    {
+                        audioMixer.programChangeOnOff(entry.Key, entry.Value);
+                    }
+                }
+                else if (type == "fader")
+                {
+                    Dictionary<int, int> fader = (Dictionary<int, int>)args;
+                    foreach (KeyValuePair<int, int> entry in fader)
+                    {
+                        audioMixer.programChangeSlider(entry.Key, entry.Value);
+                    }
+                }
+            }
+        }
+
         private void audioMixer_CheckBoxChange(int channel, int val)
         {
             bool isOn = (val == 127) ? true : false;
@@ -103,6 +140,14 @@ namespace OOPClient
         private void btnAudioConnect_Click(object sender, EventArgs e)
         {
             audioMixer.Open(audioIn, audioOut);
+            audioIsOpen = true;
+            boxAudioControl.Enabled = true;
+
+            for (int i = 1; i < 16; i++)
+            {
+                audioMixer.programChangeSlider(i, 0);
+                audioMixer.programChangeOnOff(i, false);
+            }
         }
 
         private void chkAudioDebug_CheckedChanged(object sender, EventArgs e)
@@ -124,6 +169,26 @@ namespace OOPClient
                 audioMixer.programChangeSlider(i, 127);
                 audioMixer.programChangeOnOff(i, true);
             }
+        }
+
+        private void pushToPreset()
+        {
+            Dictionary<int, int> faders = new Dictionary<int, int>();
+            Dictionary<int, bool> mute = new Dictionary<int, bool>();
+
+            for (int i = 1; i < 15; i++)
+            {
+                int muteChan = i + 27;
+                if (i > 4)
+                {
+                    muteChan = muteChan + 1;
+                }
+
+                faders.Add(i, ((TrackBar)this.boxAudioControl.Controls["trackBar" + i]).Value);
+                mute.Add(i, ((CheckBox)this.boxAudioControl.Controls["checkBox" + muteChan]).Checked);
+            }
+
+            presetHandler.pushToPreset(mute, faders);
         }
         #endregion
 
@@ -398,6 +463,26 @@ namespace OOPClient
                 launchpad.Close();
                 audioMixer.Close();
             }
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            presetHandler.changePreset("Ingame");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            presetHandler.revertToPreset();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            pushToPreset();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            audioMixer.programFade(1, 127, 0);
         }
     }
 }
