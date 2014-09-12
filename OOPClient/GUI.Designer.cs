@@ -147,8 +147,8 @@
             this.btnAudioTest = new System.Windows.Forms.Button();
             this.chkAudioDebug = new System.Windows.Forms.CheckBox();
             this.boxAudioControl = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnAudioRevert = new System.Windows.Forms.Button();
+            this.btnAudioPush = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.label6 = new System.Windows.Forms.Label();
@@ -196,8 +196,7 @@
             this.checkBox36 = new System.Windows.Forms.CheckBox();
             this.checkBox38 = new System.Windows.Forms.CheckBox();
             this.checkBox37 = new System.Windows.Forms.CheckBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.panelATEM.SuspendLayout();
             this.panelPrev.SuspendLayout();
@@ -1149,8 +1148,8 @@
             // boxAudioControl
             // 
             this.boxAudioControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.boxAudioControl.Controls.Add(this.button5);
-            this.boxAudioControl.Controls.Add(this.button4);
+            this.boxAudioControl.Controls.Add(this.btnAudioRevert);
+            this.boxAudioControl.Controls.Add(this.btnAudioPush);
             this.boxAudioControl.Controls.Add(this.btnAudioTest);
             this.boxAudioControl.Controls.Add(this.label5);
             this.boxAudioControl.Controls.Add(this.chkAudioDebug);
@@ -1204,21 +1203,21 @@
             this.boxAudioControl.Name = "boxAudioControl";
             this.boxAudioControl.TabStop = false;
             // 
-            // button5
+            // btnAudioRevert
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            resources.ApplyResources(this.button5, "button5");
-            this.button5.Name = "button5";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnAudioRevert.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            resources.ApplyResources(this.btnAudioRevert, "btnAudioRevert");
+            this.btnAudioRevert.Name = "btnAudioRevert";
+            this.btnAudioRevert.UseVisualStyleBackColor = false;
+            this.btnAudioRevert.Click += new System.EventHandler(this.btnAudioRevert_Click);
             // 
-            // button4
+            // btnAudioPush
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            resources.ApplyResources(this.button4, "button4");
-            this.button4.Name = "button4";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnAudioPush.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            resources.ApplyResources(this.btnAudioPush, "btnAudioPush");
+            this.btnAudioPush.Name = "btnAudioPush";
+            this.btnAudioPush.UseVisualStyleBackColor = false;
+            this.btnAudioPush.Click += new System.EventHandler(this.btnAudioPush_Click);
             // 
             // label5
             // 
@@ -1619,26 +1618,18 @@
             this.checkBox37.UseVisualStyleBackColor = false;
             this.checkBox37.CheckedChanged += new System.EventHandler(this.checkBox_CheckedChanged);
             // 
-            // button6
+            // button4
             // 
-            resources.ApplyResources(this.button6, "button6");
-            this.button6.Name = "button6";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click_1);
-            // 
-            // button7
-            // 
-            resources.ApplyResources(this.button7, "button7");
-            this.button7.Name = "button7";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            resources.ApplyResources(this.button4, "button4");
+            this.button4.Name = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // GUI
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.boxAudioControl);
             this.Controls.Add(this.groupBox1);
@@ -1849,10 +1840,9 @@
         private System.Windows.Forms.Button prevBtn9;
         private System.Windows.Forms.Button prevBtn1000;
         private System.Windows.Forms.Button progBtn1000;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnAudioRevert;
+        private System.Windows.Forms.Button btnAudioPush;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
     }
 }
 

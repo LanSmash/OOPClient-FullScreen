@@ -12,7 +12,7 @@ namespace OOPClient
         private string currentPreset = "";
 
         public delegate void TemplateHandler(string type, object args);
-        public event TemplateHandler SendAudio, SendRundown;
+        public event TemplateHandler SendAudio, SendRundown, SendSuperSource;
         
 
         public PresetHandler(string preset)
@@ -66,9 +66,13 @@ namespace OOPClient
         {
             Dictionary<int, int> fader = new Dictionary<int, int>();
             Dictionary<int, bool> mute = new Dictionary<int, bool>();
-            List<string> atem = new List<string>();
-            List<string> caspar = new List<string>();
-            List<string> main = new List<string>();
+            List<string> rundown = new List<string>();
+            Dictionary<int, Dictionary<string, double>> superSource = new Dictionary<int,Dictionary<string,double>>();
+            superSource.Add(0, new Dictionary<string,double>());
+            superSource.Add(1, new Dictionary<string,double>());
+            superSource.Add(2, new Dictionary<string,double>());
+            superSource.Add(3, new Dictionary<string,double>());
+            superSource.Add(4, new Dictionary<string,double>());
 
             string path = "Presets/" + preset + ".xml";
             if (File.Exists(path))
@@ -77,6 +81,7 @@ namespace OOPClient
                 {
                     string section = "";
                     int chan = 0;
+                    int box = 0;
 
                     while (reader.Read())
                     {
@@ -86,7 +91,9 @@ namespace OOPClient
                             // Get element name and switch on it.
                             switch (reader.Name)
                             {
-                                //Audio section
+                                /*
+                                 * AUDIO SECTION
+                                 */
                                 case "audio":
                                     // Detect this element.
                                     if (section != "audio")
@@ -130,7 +137,9 @@ namespace OOPClient
                                     }
                                     break;
 
-                                //Rundown section
+                                /*
+                                 * RUNDOWN SECTION
+                                 */
                                 case "rundown":
                                     if (section != "rundown")
                                     {
@@ -148,7 +157,7 @@ namespace OOPClient
                                         if (reader.Read())
                                         {
                                             //Console.WriteLine("ATEM: " + reader.Value.Trim());
-                                            atem.Add(reader.Value.Trim());
+                                            rundown.Add("A|" + reader.Value.Trim());
                                         }
                                     }
                                     break;
@@ -159,7 +168,7 @@ namespace OOPClient
                                         if (reader.Read())
                                         {
                                             //Console.WriteLine("CASPAR: " + reader.Value.Trim());
-                                            caspar.Add(reader.Value.Trim());
+                                            rundown.Add("C|" + reader.Value.Trim());
                                         }
                                     }
                                     break;
@@ -170,7 +179,188 @@ namespace OOPClient
                                         if (reader.Read())
                                         {
                                             //Console.WriteLine("MAIN: " + reader.Value.Trim());
-                                            main.Add(reader.Value.Trim());
+                                            rundown.Add("M|" + reader.Value.Trim());
+                                        }
+                                    }
+                                    break;
+
+
+                                /*
+                                 * SUPERSOURCE SECTION
+                                 */
+                                case "supersource":
+                                    if (section != "supersource")
+                                    {
+                                        section = "supersource";
+                                    }
+                                    else
+                                    {
+                                        section = "";
+                                    }
+                                    break;
+
+                                case "fill":
+                                    if (section == "supersource")
+                                    {
+                                        if(reader.Read())
+                                        {
+                                            superSource[box].Add("fill", Convert.ToDouble(reader.Value.Trim()));
+                                        }
+                                    }
+                                    break;
+
+                                case "box1":
+                                    if (box != 1 && section == "supersource")
+                                    {
+                                        box = 1;
+                                    }
+                                    break;
+
+                                case "box2":
+                                    if (box != 2 && section == "supersource")
+                                    {
+                                        box = 2;
+                                    }
+                                    break;
+
+                                case "box3":
+                                    if (box != 3 && section == "supersource")
+                                    {
+                                        box = 3;
+                                    }
+                                    break;
+
+                                case "box4":
+                                    if (box != 4 && section == "supersource")
+                                    {
+                                        box = 4;
+                                    }
+                                    break;
+
+                                case "art":
+                                    if (box != 0 && section == "supersource")
+                                    {
+                                        box = 0;
+                                    }
+                                    break;
+
+                                case "enable":
+                                    if (box > 0 && box < 5 && section == "supersource")
+                                    {
+                                        if(reader.Read())
+                                        {
+                                            double enable = (Convert.ToBoolean(reader.Value.Trim())) ? 1 : 0;
+                                            superSource[box].Add("enable", enable);
+                                        }
+                                    }
+                                    break;
+
+                                case "source":
+                                    if (box > 0 && box < 5 && section == "supersource")
+                                    {
+                                        if(reader.Read())
+                                        {
+                                            superSource[box].Add("source", Double.Parse(reader.Value.Trim()));
+                                        }
+                                    }
+                                    break;
+
+                                case "x":
+                                    if (box > 0 && box < 5 && section == "supersource")
+                                    {
+                                        if (reader.Read())
+                                        {
+                                            superSource[box].Add("x", Double.Parse(reader.Value.Trim()));
+                                        }
+                                    }
+                                    break;
+
+                                case "y":
+                                    if (box > 0 && box < 5 && section == "supersource")
+                                    {
+                                        if (reader.Read())
+                                        {
+                                            superSource[box].Add("y", Double.Parse(reader.Value.Trim()));
+                                        }
+                                    }
+                                    break;
+
+                                case "size":
+                                    if (box > 0 && box < 5 && section == "supersource")
+                                    {
+                                        if (reader.Read())
+                                        {
+                                            superSource[box].Add("size", Double.Parse(reader.Value.Trim()));
+                                        }
+                                    }
+                                    break;
+
+                                case "hue":
+                                    if (box == 0 && section == "supersource")
+                                    {
+                                        if (reader.Read())
+                                        {
+                                            superSource[box].Add("hue", Double.Parse(reader.Value.Trim()));
+                                        }
+                                    }
+                                    break;
+
+                                case "sat":
+                                    if (box == 0 && section == "supersource")
+                                    {
+                                        if (reader.Read())
+                                        {
+                                            superSource[box].Add("sat", Double.Parse(reader.Value.Trim()));
+                                        }
+                                    }
+                                    break;
+
+                                case "lum":
+                                    if (box == 0 && section == "supersource")
+                                    {
+                                        if (reader.Read())
+                                        {
+                                            superSource[box].Add("lum", Double.Parse(reader.Value.Trim()));
+                                        }
+                                    }
+                                    break;
+
+                                case "outerw":
+                                    if (box == 0 && section == "supersource")
+                                    {
+                                        if (reader.Read())
+                                        {
+                                            superSource[box].Add("outerw", Double.Parse(reader.Value.Trim()));
+                                        }
+                                    }
+                                    break;
+
+                                case "innerw":
+                                    if (box == 0 && section == "supersource")
+                                    {
+                                        if (reader.Read())
+                                        {
+                                            superSource[box].Add("innerw", Double.Parse(reader.Value.Trim()));
+                                        }
+                                    }
+                                    break;
+
+                                case "outers":
+                                    if (box == 0 && section == "supersource")
+                                    {
+                                        if (reader.Read())
+                                        {
+                                            superSource[box].Add("outers", Double.Parse(reader.Value.Trim()));
+                                        }
+                                    }
+                                    break;
+
+                                case "inners":
+                                    if (box == 0 && section == "supersource")
+                                    {
+                                        if (reader.Read())
+                                        {
+                                            superSource[box].Add("inners", Double.Parse(reader.Value.Trim()));
                                         }
                                     }
                                     break;
@@ -187,9 +377,8 @@ namespace OOPClient
 
                     if (sendAll == true)
                     {
-                        SendRundown("atem", atem);
-                        SendRundown("caspar", caspar);
-                        SendRundown("main", main);
+                        SendSuperSource("super", superSource);
+                        SendRundown("rundown", rundown);
                     }
                 }
             }

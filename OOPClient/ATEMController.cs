@@ -17,6 +17,7 @@ namespace OOPClient
         private IBMDSwitcher m_switcher;
         public IBMDSwitcherMixEffectBlock m_mixEffectBlock1;
         private IBMDSwitcherTransitionParameters m_transition;
+        private IBMDSwitcherInputSuperSource m_superSource;
 
         //Switcher keys (usk)
         private IBMDSwitcherKey me1_key1, me1_key2;
@@ -35,8 +36,11 @@ namespace OOPClient
         public event SwitcherEventHandler UpdateProgramButtonSelection2;
         public event SwitcherEventHandler UpdatePreviewButtonSelection2;
 
+        private bool hasSuper;
+
         public ATEMController()
         {
+            hasSuper = false;
             m_inputMonitors = new List<InputMonitor>();
             m_switcherMonitor = new SwitcherMonitor();
             m_switcherMonitor.SwitcherDisconnected += SwitcherDisconnectedFix;
@@ -72,14 +76,25 @@ namespace OOPClient
             if (SwitcherAPIHelper.CreateIterator(m_switcher, out inputIterator))
             {
                 IBMDSwitcherInput input;
+                long portType;
                 inputIterator.Next(out input);
                 while (input != null)
                 {
+                    input.GetInt(BMDSwitcherAPI._BMDSwitcherInputPropertyId.bmdSwitcherInputPropertyIdPortType, out portType);
+
+                    if((_BMDSwitcherPortType)portType == BMDSwitcherAPI._BMDSwitcherPortType.bmdSwitcherPortTypeSuperSource) {
+                        m_superSource = (IBMDSwitcherInputSuperSource) input;
+                        hasSuper = true;
+                        m_superSource.SetArtOption(_BMDSwitcherSuperSourceArtOption.bmdSwitcherSuperSourceArtOptionBackground);
+                        m_superSource.SetBorderBevel(_BMDSwitcherBorderBevelOption.bmdSwitcherBorderBevelOptionNone);
+                        m_superSource.SetBorderSoftnessIn(0);
+                        m_superSource.SetBorderSoftnessOut(0);
+                    }
+
                     InputMonitor newInputMonitor = new InputMonitor(input);
                     input.AddCallback(newInputMonitor);
 
                     m_inputMonitors.Add(newInputMonitor);
-
                     inputIterator.Next(out input);
                 }
             }
@@ -102,7 +117,7 @@ namespace OOPClient
 
             // Install MixEffectBlockMonitor callbacks:
             m_mixEffectBlock1.AddCallback(m_mixEffectBlockMonitor);
-
+            
             me1_key1 = null;
             IBMDSwitcherKeyIterator keyIterator;
             SwitcherAPIHelper.CreateIterator(m_mixEffectBlock1, out keyIterator);
@@ -410,6 +425,121 @@ namespace OOPClient
             }
 
             return curTrans;
+        }
+
+        public void changeTransition(int type)
+        {
+            m_transition = (BMDSwitcherAPI.IBMDSwitcherTransitionParameters)m_mixEffectBlock1;
+
+            switch (type)
+            {
+                case 1:
+                    m_transition.SetNextTransitionStyle(_BMDSwitcherTransitionStyle.bmdSwitcherTransitionStyleMix);
+                    break;
+
+                case 2:
+                    m_transition.SetNextTransitionStyle(_BMDSwitcherTransitionStyle.bmdSwitcherTransitionStyleDip);
+                    break;
+
+                case 3:
+                    m_transition.SetNextTransitionStyle(_BMDSwitcherTransitionStyle.bmdSwitcherTransitionStyleWipe);
+                    break;
+
+                case 4:
+                    m_transition.SetNextTransitionStyle(_BMDSwitcherTransitionStyle.bmdSwitcherTransitionStyleStinger);
+                    break;
+
+                case 5:
+                    m_transition.SetNextTransitionStyle(_BMDSwitcherTransitionStyle.bmdSwitcherTransitionStyleDVE);
+                    break;
+            }
+        }
+
+        public void setSuperSource(Dictionary<int,Dictionary<string,double>> settings)
+        {
+            if (hasSuper)
+            {
+                IBMDSwitcherSuperSourceBoxIterator superIterator;
+                IBMDSwitcherSuperSourceBox box;
+                IBMDSwitcherSuperSourceBox[] boxes = new IBMDSwitcherSuperSourceBox[5];
+
+                if (SwitcherAPIHelper.CreateIterator(m_superSource, out superIterator))
+                {
+                    if (superIterator != null)
+                    {
+                        int i = 1;
+                        superIterator.Next(out box);
+                        while (box != null)
+                        {
+                            boxes[i] = box;
+                            superIterator.Next(out box);
+                            i++;
+                        }
+                    }
+                }
+
+                foreach(KeyValuePair<int,Dictionary<string, double>> entry in settings)
+                {
+                    int boxKey = entry.Key;
+
+                    foreach (KeyValuePair<string, double> boxEntry in entry.Value)
+                    {
+                        if (boxKey == 0 || boxes[boxKey] != null)
+                        {
+                            switch (boxEntry.Key)
+                            {
+                                case "enable":
+                                    boxes[boxKey].SetEnabled((int) boxEntry.Value);
+                                    break;
+
+                                case "source":
+                                    boxes[boxKey].SetInputSource((long)boxEntry.Value);
+                                    break;
+
+                                case "x":
+                                    boxes[boxKey].SetPositionX((double)boxEntry.Value);
+                                    break;
+
+                                case "y":
+                                    boxes[boxKey].SetPositionY((double)boxEntry.Value);
+                                    break;
+
+                                case "size":
+                                    boxes[boxKey].SetSize((double)boxEntry.Value);
+                                    break;
+
+                                case "hue":
+                                    m_superSource.SetBorderHue((double)boxEntry.Value);
+                                    break;
+
+                                case "sat":
+                                    m_superSource.SetBorderSaturation((double)boxEntry.Value);
+                                    break;
+
+                                case "lum":
+                                    m_superSource.SetBorderLuma((double)boxEntry.Value);
+                                    break;
+
+                                case "outerw":
+                                    m_superSource.SetBorderWidthOut((double)boxEntry.Value);
+                                    break;
+
+                                case "innerw":
+                                    m_superSource.SetBorderWidthIn((double)boxEntry.Value);
+                                    break;
+
+                                case "outers":
+                                    m_superSource.SetBorderSoftnessOut((double)boxEntry.Value);
+                                    break;
+
+                                case "inners":
+                                    m_superSource.SetBorderSoftnessIn((double)boxEntry.Value);
+                                    break;
+                            }
+                        }
+                    }
+                }
+            }
         }
 
         /// <summary>

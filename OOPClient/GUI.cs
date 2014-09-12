@@ -36,7 +36,8 @@ namespace OOPClient
 
             presetHandler = new PresetHandler("");
             presetHandler.SendAudio += audioMixer_HandleTemplate;
-            presetHandler.SendRundown += presetHandler_SendRundown;
+            presetHandler.SendRundown += rundownHandler;
+            presetHandler.SendSuperSource += superSourceHandler;
 
             atem = new ATEMController();
             atem.SwitcherConnected2 += ATEMConnected;
@@ -64,9 +65,86 @@ namespace OOPClient
             audioMixer.CheckBoxChange += audioMixer_CheckBoxChange;
         }
 
-        void presetHandler_SendRundown(string type, object args)
+        private void superSourceHandler(string type, object args)
         {
-            
+            if (atemIsOpen)
+            {
+                atem.setSuperSource((Dictionary<int, Dictionary<string, double>>)args);
+            }
+        }
+
+
+        private void rundownHandler(string type, object args)
+        {
+            foreach (string entry in (List<string>)args)
+            {
+                string[] parts = entry.Split('|');
+                string[] cmd = parts[1].Split('-');
+
+                switch (parts[0])
+                {
+                    //ATEM Case
+                    case "A":
+                        if (atemIsOpen)
+                        {
+                            switch (cmd[0])
+                            {
+                                case "PROG":
+                                    atem.changeProg(long.Parse(cmd[1]));
+                                    break;
+
+                                case "PREV":
+                                    atem.changePrev(long.Parse(cmd[1]));
+                                    break;
+
+                                //Transitions and perform them
+                                case "TRANS":
+                                    switch (cmd[1])
+                                    {
+                                        case "AUTO":
+                                            atem.performAuto();
+                                            break;
+
+                                        case "CUT":
+                                            atem.performCut();
+                                            break;
+
+                                        case "MIX":
+                                            atem.changeTransition(1);
+                                            break;
+
+                                        case "DIP":
+                                            atem.changeTransition(2);
+                                            break;
+
+                                        case "WIPE":
+                                            atem.changeTransition(3);
+                                            break;
+
+                                        case "STING":
+                                            atem.changeTransition(4);
+                                            break;
+
+                                        case "DVE":
+                                            atem.changeTransition(5);
+                                            break;
+                                    }
+                                    break;
+                            }
+                        }
+                        break;
+
+                    //MAIN STUFF
+                    case "M":
+                        switch (cmd[0])
+                        {
+                            case "SLEEP":
+                                Thread.Sleep(Int32.Parse(cmd[1]));
+                                break;
+                        }
+                        break;
+                }
+            }
         }
 
         
@@ -201,6 +279,8 @@ namespace OOPClient
             btnAtemConnect.Text = "Connected";
 
             panelATEM.Enabled = true;
+
+            atemIsOpen = true;
 
             Dictionary<int, string> btns = atem.GetSources();
 
@@ -465,24 +545,19 @@ namespace OOPClient
             }
         }
 
-        private void button6_Click_1(object sender, EventArgs e)
-        {
-            presetHandler.changePreset("Ingame");
-        }
-
-        private void button5_Click(object sender, EventArgs e)
+        private void btnAudioRevert_Click(object sender, EventArgs e)
         {
             presetHandler.revertToPreset();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btnAudioPush_Click(object sender, EventArgs e)
         {
             pushToPreset();
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void button4_Click_1(object sender, EventArgs e)
         {
-            audioMixer.programFade(1, 127, 0);
+            presetHandler.changePreset("Ingame");
         }
     }
 }
