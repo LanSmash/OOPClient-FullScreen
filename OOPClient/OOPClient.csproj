@@ -98,6 +98,7 @@
   <ItemGroup>
     <Compile Include="ATEMController.cs" />
     <Compile Include="AudioController.cs" />
+    <Compile Include="CasparController.cs" />
     <Compile Include="GUI.cs">
       <SubType>Form</SubType>
     </Compile>
