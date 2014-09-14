@@ -174,78 +174,6 @@
   <data name="&gt;&gt;btnAtemConnect.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 120</value>
-  </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>CONNECTIONS (IP)</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -354,176 +282,29 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
-    <value>groupBox4</value>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
   </data>
-  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 120</value>
   </data>
-  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
-    <value>panelATEM</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panelPrev.Name" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;panelPrev.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelPrev.Parent" xml:space="preserve">
-    <value>panelATEM</value>
-  </data>
-  <data name="&gt;&gt;panelPrev.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;panelProg.Name" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;panelProg.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelProg.Parent" xml:space="preserve">
-    <value>panelATEM</value>
-  </data>
-  <data name="&gt;&gt;panelProg.ZOrder" xml:space="preserve">
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="panelATEM.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>CONNECTIONS (IP)</value>
   </data>
-  <data name="panelATEM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 333</value>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
-  <data name="panelATEM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1890, 175</value>
-  </data>
-  <data name="panelATEM.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="panelATEM.Text" xml:space="preserve">
-    <value>ATEM Control</value>
-  </data>
-  <data name="&gt;&gt;panelATEM.Name" xml:space="preserve">
-    <value>panelATEM</value>
-  </data>
-  <data name="&gt;&gt;panelATEM.Type" xml:space="preserve">
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panelATEM.Parent" xml:space="preserve">
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panelATEM.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;btnTransAuto.Name" xml:space="preserve">
-    <value>btnTransAuto</value>
-  </data>
-  <data name="&gt;&gt;btnTransAuto.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnTransAuto.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;btnTransAuto.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnTransCut.Name" xml:space="preserve">
-    <value>btnTransCut</value>
-  </data>
-  <data name="&gt;&gt;btnTransCut.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnTransCut.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;btnTransCut.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnTransDve.Name" xml:space="preserve">
-    <value>btnTransDve</value>
-  </data>
-  <data name="&gt;&gt;btnTransDve.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnTransDve.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;btnTransDve.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnTransSting.Name" xml:space="preserve">
-    <value>btnTransSting</value>
-  </data>
-  <data name="&gt;&gt;btnTransSting.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnTransSting.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;btnTransSting.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnTransWipe.Name" xml:space="preserve">
-    <value>btnTransWipe</value>
-  </data>
-  <data name="&gt;&gt;btnTransWipe.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnTransWipe.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;btnTransWipe.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnTransDip.Name" xml:space="preserve">
-    <value>btnTransDip</value>
-  </data>
-  <data name="&gt;&gt;btnTransDip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnTransDip.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;btnTransDip.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnTransMix.Name" xml:space="preserve">
-    <value>btnTransMix</value>
-  </data>
-  <data name="&gt;&gt;btnTransMix.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnTransMix.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;btnTransMix.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1472, 19</value>
-  </data>
-  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 150</value>
-  </data>
-  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="groupBox4.Text" xml:space="preserve">
-    <value>TRANSITIONS</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
-    <value>panelATEM</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="btnTransAuto.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -756,305 +537,29 @@
   <data name="&gt;&gt;btnTransMix.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;prevBtn6000.Name" xml:space="preserve">
-    <value>prevBtn6000</value>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1472, 19</value>
   </data>
-  <data name="&gt;&gt;prevBtn6000.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 150</value>
   </data>
-  <data name="&gt;&gt;prevBtn6000.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn6000.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;prevBtn20.Name" xml:space="preserve">
-    <value>prevBtn20</value>
-  </data>
-  <data name="&gt;&gt;prevBtn20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn20.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn20.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;prevBtn19.Name" xml:space="preserve">
-    <value>prevBtn19</value>
-  </data>
-  <data name="&gt;&gt;prevBtn19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn19.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn19.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;prevBtn18.Name" xml:space="preserve">
-    <value>prevBtn18</value>
-  </data>
-  <data name="&gt;&gt;prevBtn18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn18.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn18.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;prevBtn17.Name" xml:space="preserve">
-    <value>prevBtn17</value>
-  </data>
-  <data name="&gt;&gt;prevBtn17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn17.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn17.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;prevBtn16.Name" xml:space="preserve">
-    <value>prevBtn16</value>
-  </data>
-  <data name="&gt;&gt;prevBtn16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn16.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn16.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;prevBtn15.Name" xml:space="preserve">
-    <value>prevBtn15</value>
-  </data>
-  <data name="&gt;&gt;prevBtn15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn15.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn15.ZOrder" xml:space="preserve">
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;prevBtn14.Name" xml:space="preserve">
-    <value>prevBtn14</value>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>TRANSITIONS</value>
   </data>
-  <data name="&gt;&gt;prevBtn14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
   </data>
-  <data name="&gt;&gt;prevBtn14.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn14.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;prevBtn13.Name" xml:space="preserve">
-    <value>prevBtn13</value>
-  </data>
-  <data name="&gt;&gt;prevBtn13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn13.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn13.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;prevBtn12.Name" xml:space="preserve">
-    <value>prevBtn12</value>
-  </data>
-  <data name="&gt;&gt;prevBtn12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn12.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn12.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;prevBtn11.Name" xml:space="preserve">
-    <value>prevBtn11</value>
-  </data>
-  <data name="&gt;&gt;prevBtn11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn11.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn11.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;prevBtn10.Name" xml:space="preserve">
-    <value>prevBtn10</value>
-  </data>
-  <data name="&gt;&gt;prevBtn10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn10.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn10.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;prevBtn9.Name" xml:space="preserve">
-    <value>prevBtn9</value>
-  </data>
-  <data name="&gt;&gt;prevBtn9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn9.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn9.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;prevBtn1000.Name" xml:space="preserve">
-    <value>prevBtn1000</value>
-  </data>
-  <data name="&gt;&gt;prevBtn1000.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn1000.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn1000.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;prevBtn8.Name" xml:space="preserve">
-    <value>prevBtn8</value>
-  </data>
-  <data name="&gt;&gt;prevBtn8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn8.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn8.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;prevBtn7.Name" xml:space="preserve">
-    <value>prevBtn7</value>
-  </data>
-  <data name="&gt;&gt;prevBtn7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn7.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn7.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;prevBtn0.Name" xml:space="preserve">
-    <value>prevBtn0</value>
-  </data>
-  <data name="&gt;&gt;prevBtn0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn0.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn0.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;prevBtn6.Name" xml:space="preserve">
-    <value>prevBtn6</value>
-  </data>
-  <data name="&gt;&gt;prevBtn6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn6.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn6.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;prevBtn3.Name" xml:space="preserve">
-    <value>prevBtn3</value>
-  </data>
-  <data name="&gt;&gt;prevBtn3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn3.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn3.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;prevBtn5.Name" xml:space="preserve">
-    <value>prevBtn5</value>
-  </data>
-  <data name="&gt;&gt;prevBtn5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn5.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn5.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;prevBtn1.Name" xml:space="preserve">
-    <value>prevBtn1</value>
-  </data>
-  <data name="&gt;&gt;prevBtn1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn1.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn1.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;prevBtn4.Name" xml:space="preserve">
-    <value>prevBtn4</value>
-  </data>
-  <data name="&gt;&gt;prevBtn4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn4.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn4.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;prevBtn2.Name" xml:space="preserve">
-    <value>prevBtn2</value>
-  </data>
-  <data name="&gt;&gt;prevBtn2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prevBtn2.Parent" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;prevBtn2.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="panelPrev.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 100</value>
-  </data>
-  <data name="panelPrev.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1447, 68</value>
-  </data>
-  <data name="panelPrev.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="panelPrev.Text" xml:space="preserve">
-    <value>PREVIEW</value>
-  </data>
-  <data name="&gt;&gt;panelPrev.Name" xml:space="preserve">
-    <value>panelPrev</value>
-  </data>
-  <data name="&gt;&gt;panelPrev.Type" xml:space="preserve">
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panelPrev.Parent" xml:space="preserve">
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
     <value>panelATEM</value>
   </data>
-  <data name="&gt;&gt;panelPrev.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="prevBtn6000.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -1788,305 +1293,29 @@
   <data name="&gt;&gt;prevBtn2.ZOrder" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="&gt;&gt;progBtn1000.Name" xml:space="preserve">
-    <value>progBtn1000</value>
+  <data name="panelPrev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 100</value>
   </data>
-  <data name="&gt;&gt;progBtn1000.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="panelPrev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1447, 68</value>
   </data>
-  <data name="&gt;&gt;progBtn1000.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn1000.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;progBtn6000.Name" xml:space="preserve">
-    <value>progBtn6000</value>
-  </data>
-  <data name="&gt;&gt;progBtn6000.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn6000.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn6000.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;progBtn20.Name" xml:space="preserve">
-    <value>progBtn20</value>
-  </data>
-  <data name="&gt;&gt;progBtn20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn20.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn20.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;progBtn19.Name" xml:space="preserve">
-    <value>progBtn19</value>
-  </data>
-  <data name="&gt;&gt;progBtn19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn19.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn19.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;progBtn18.Name" xml:space="preserve">
-    <value>progBtn18</value>
-  </data>
-  <data name="&gt;&gt;progBtn18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn18.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn18.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;progBtn17.Name" xml:space="preserve">
-    <value>progBtn17</value>
-  </data>
-  <data name="&gt;&gt;progBtn17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn17.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn17.ZOrder" xml:space="preserve">
+  <data name="panelPrev.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;progBtn16.Name" xml:space="preserve">
-    <value>progBtn16</value>
+  <data name="panelPrev.Text" xml:space="preserve">
+    <value>PREVIEW</value>
   </data>
-  <data name="&gt;&gt;progBtn16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;panelPrev.Name" xml:space="preserve">
+    <value>panelPrev</value>
   </data>
-  <data name="&gt;&gt;progBtn16.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn16.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;progBtn15.Name" xml:space="preserve">
-    <value>progBtn15</value>
-  </data>
-  <data name="&gt;&gt;progBtn15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn15.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn15.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;progBtn14.Name" xml:space="preserve">
-    <value>progBtn14</value>
-  </data>
-  <data name="&gt;&gt;progBtn14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn14.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn14.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;progBtn13.Name" xml:space="preserve">
-    <value>progBtn13</value>
-  </data>
-  <data name="&gt;&gt;progBtn13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn13.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn13.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;progBtn12.Name" xml:space="preserve">
-    <value>progBtn12</value>
-  </data>
-  <data name="&gt;&gt;progBtn12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn12.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn12.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;progBtn11.Name" xml:space="preserve">
-    <value>progBtn11</value>
-  </data>
-  <data name="&gt;&gt;progBtn11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn11.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn11.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;progBtn10.Name" xml:space="preserve">
-    <value>progBtn10</value>
-  </data>
-  <data name="&gt;&gt;progBtn10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn10.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn10.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;progBtn9.Name" xml:space="preserve">
-    <value>progBtn9</value>
-  </data>
-  <data name="&gt;&gt;progBtn9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn9.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn9.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;progBtn8.Name" xml:space="preserve">
-    <value>progBtn8</value>
-  </data>
-  <data name="&gt;&gt;progBtn8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn8.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn8.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;progBtn7.Name" xml:space="preserve">
-    <value>progBtn7</value>
-  </data>
-  <data name="&gt;&gt;progBtn7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn7.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn7.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;progBtn0.Name" xml:space="preserve">
-    <value>progBtn0</value>
-  </data>
-  <data name="&gt;&gt;progBtn0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn0.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn0.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;progBtn6.Name" xml:space="preserve">
-    <value>progBtn6</value>
-  </data>
-  <data name="&gt;&gt;progBtn6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn6.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn6.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;progBtn5.Name" xml:space="preserve">
-    <value>progBtn5</value>
-  </data>
-  <data name="&gt;&gt;progBtn5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn5.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn5.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;progBtn4.Name" xml:space="preserve">
-    <value>progBtn4</value>
-  </data>
-  <data name="&gt;&gt;progBtn4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn4.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn4.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;progBtn3.Name" xml:space="preserve">
-    <value>progBtn3</value>
-  </data>
-  <data name="&gt;&gt;progBtn3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn3.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn3.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;progBtn2.Name" xml:space="preserve">
-    <value>progBtn2</value>
-  </data>
-  <data name="&gt;&gt;progBtn2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn2.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn2.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;progBtn1.Name" xml:space="preserve">
-    <value>progBtn1</value>
-  </data>
-  <data name="&gt;&gt;progBtn1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progBtn1.Parent" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;progBtn1.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="panelProg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
-  </data>
-  <data name="panelProg.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1447, 75</value>
-  </data>
-  <data name="panelProg.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="panelProg.Text" xml:space="preserve">
-    <value>PROGRAM</value>
-  </data>
-  <data name="&gt;&gt;panelProg.Name" xml:space="preserve">
-    <value>panelProg</value>
-  </data>
-  <data name="&gt;&gt;panelProg.Type" xml:space="preserve">
+  <data name="&gt;&gt;panelPrev.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panelProg.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panelPrev.Parent" xml:space="preserve">
     <value>panelATEM</value>
   </data>
-  <data name="&gt;&gt;panelProg.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;panelPrev.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="progBtn1000.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2820,6 +2049,57 @@
   <data name="&gt;&gt;progBtn1.ZOrder" xml:space="preserve">
     <value>22</value>
   </data>
+  <data name="panelProg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="panelProg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1447, 75</value>
+  </data>
+  <data name="panelProg.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="panelProg.Text" xml:space="preserve">
+    <value>PROGRAM</value>
+  </data>
+  <data name="&gt;&gt;panelProg.Name" xml:space="preserve">
+    <value>panelProg</value>
+  </data>
+  <data name="&gt;&gt;panelProg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelProg.Parent" xml:space="preserve">
+    <value>panelATEM</value>
+  </data>
+  <data name="&gt;&gt;panelProg.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelATEM.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panelATEM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 333</value>
+  </data>
+  <data name="panelATEM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1890, 175</value>
+  </data>
+  <data name="panelATEM.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="panelATEM.Text" xml:space="preserve">
+    <value>ATEM Control</value>
+  </data>
+  <data name="&gt;&gt;panelATEM.Name" xml:space="preserve">
+    <value>panelATEM</value>
+  </data>
+  <data name="&gt;&gt;panelATEM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelATEM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelATEM.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
   <data name="slcControlIn.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -3066,6 +2346,24 @@
   <data name="&gt;&gt;btnAudioConnect.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="btnGetMidi.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnGetMidi.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnGetMidi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="btnGetMidi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="btnGetMidi.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="btnGetMidi.Text" xml:space="preserve">
+    <value>Get MIDI Devices</value>
+  </data>
   <data name="&gt;&gt;btnGetMidi.Name" xml:space="preserve">
     <value>btnGetMidi</value>
   </data>
@@ -3077,6 +2375,18 @@
   </data>
   <data name="&gt;&gt;btnGetMidi.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 17</value>
+  </data>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>button4</value>
   </data>
   <data name="&gt;&gt;button4.Name" xml:space="preserve">
     <value>button4</value>
@@ -3113,195 +2423,6 @@
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>5</value>
-  </data>
-  <data name="btnGetMidi.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnGetMidi.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
-  </data>
-  <data name="btnGetMidi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 17</value>
-  </data>
-  <data name="btnGetMidi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
-  </data>
-  <data name="btnGetMidi.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="btnGetMidi.Text" xml:space="preserve">
-    <value>Get MIDI Devices</value>
-  </data>
-  <data name="&gt;&gt;btnGetMidi.Name" xml:space="preserve">
-    <value>btnGetMidi</value>
-  </data>
-  <data name="&gt;&gt;btnGetMidi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnGetMidi.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;btnGetMidi.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;textBox19.Name" xml:space="preserve">
-    <value>textBox19</value>
-  </data>
-  <data name="&gt;&gt;textBox19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox19.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;textBox19.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;textBox20.Name" xml:space="preserve">
-    <value>textBox20</value>
-  </data>
-  <data name="&gt;&gt;textBox20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox20.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;textBox20.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;textBox21.Name" xml:space="preserve">
-    <value>textBox21</value>
-  </data>
-  <data name="&gt;&gt;textBox21.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox21.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;textBox21.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;textBox18.Name" xml:space="preserve">
-    <value>textBox18</value>
-  </data>
-  <data name="&gt;&gt;textBox18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox18.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;textBox18.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;label19.Name" xml:space="preserve">
-    <value>label19</value>
-  </data>
-  <data name="&gt;&gt;label19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;textBox16.Name" xml:space="preserve">
-    <value>textBox16</value>
-  </data>
-  <data name="&gt;&gt;textBox16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox16.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;textBox16.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;textBox17.Name" xml:space="preserve">
-    <value>textBox17</value>
-  </data>
-  <data name="&gt;&gt;textBox17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox17.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;textBox17.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;label17.Name" xml:space="preserve">
-    <value>label17</value>
-  </data>
-  <data name="&gt;&gt;label17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;label18.Name" xml:space="preserve">
-    <value>label18</value>
-  </data>
-  <data name="&gt;&gt;label18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="groupBox5.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>780, 6</value>
-  </data>
-  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>432, 180</value>
-  </data>
-  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="groupBox5.Text" xml:space="preserve">
-    <value>CASTERS</value>
-  </data>
-  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
-    <value>tabGeneral</value>
-  </data>
-  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="textBox19.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 9pt</value>
@@ -3603,464 +2724,32 @@
   <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;label16.Name" xml:space="preserve">
-    <value>label16</value>
-  </data>
-  <data name="&gt;&gt;label16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label15.Name" xml:space="preserve">
-    <value>label15</value>
-  </data>
-  <data name="&gt;&gt;label15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label14.Name" xml:space="preserve">
-    <value>label14</value>
-  </data>
-  <data name="&gt;&gt;label14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label13.Name" xml:space="preserve">
-    <value>label13</value>
-  </data>
-  <data name="&gt;&gt;label13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnIngameSwap.Name" xml:space="preserve">
-    <value>btnIngameSwap</value>
-  </data>
-  <data name="&gt;&gt;btnIngameSwap.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnIngameSwap.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;btnIngameSwap.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnIngameMapHide.Name" xml:space="preserve">
-    <value>btnIngameMapHide</value>
-  </data>
-  <data name="&gt;&gt;btnIngameMapHide.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnIngameMapHide.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;btnIngameMapHide.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnIngameMapShow.Name" xml:space="preserve">
-    <value>btnIngameMapShow</value>
-  </data>
-  <data name="&gt;&gt;btnIngameMapShow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnIngameMapShow.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;btnIngameMapShow.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;chkIngameMap4.Name" xml:space="preserve">
-    <value>chkIngameMap4</value>
-  </data>
-  <data name="&gt;&gt;chkIngameMap4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkIngameMap4.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;chkIngameMap4.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap4Score2.Name" xml:space="preserve">
-    <value>txtIngameMap4Score2</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap4Score2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap4Score2.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap4Score2.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap4Score1.Name" xml:space="preserve">
-    <value>txtIngameMap4Score1</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap4Score1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap4Score1.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap4Score1.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap4.Name" xml:space="preserve">
-    <value>txtIngameMap4</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap4.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap4.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;chkIngameMap3.Name" xml:space="preserve">
-    <value>chkIngameMap3</value>
-  </data>
-  <data name="&gt;&gt;chkIngameMap3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkIngameMap3.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;chkIngameMap3.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap3Score2.Name" xml:space="preserve">
-    <value>txtIngameMap3Score2</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap3Score2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap3Score2.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap3Score2.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap3Score1.Name" xml:space="preserve">
-    <value>txtIngameMap3Score1</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap3Score1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap3Score1.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap3Score1.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap3.Name" xml:space="preserve">
-    <value>txtIngameMap3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap3.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap3.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;chkIngameMap2.Name" xml:space="preserve">
-    <value>chkIngameMap2</value>
-  </data>
-  <data name="&gt;&gt;chkIngameMap2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkIngameMap2.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;chkIngameMap2.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap2Score2.Name" xml:space="preserve">
-    <value>txtIngameMap2Score2</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap2Score2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap2Score2.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap2Score2.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap2Score1.Name" xml:space="preserve">
-    <value>txtIngameMap2Score1</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap2Score1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap2Score1.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap2Score1.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap2.Name" xml:space="preserve">
-    <value>txtIngameMap2</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap2.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap2.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;chkIngameMap1.Name" xml:space="preserve">
-    <value>chkIngameMap1</value>
-  </data>
-  <data name="&gt;&gt;chkIngameMap1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkIngameMap1.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;chkIngameMap1.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap1Score2.Name" xml:space="preserve">
-    <value>txtIngameMap1Score2</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap1Score2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap1Score2.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap1Score2.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap1Score1.Name" xml:space="preserve">
-    <value>txtIngameMap1Score1</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap1Score1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap1Score1.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap1Score1.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap1.Name" xml:space="preserve">
-    <value>txtIngameMap1</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap1.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameMap1.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;label12.Name" xml:space="preserve">
-    <value>label12</value>
-  </data>
-  <data name="&gt;&gt;label12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;btnIngameHide.Name" xml:space="preserve">
-    <value>btnIngameHide</value>
-  </data>
-  <data name="&gt;&gt;btnIngameHide.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnIngameHide.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;btnIngameHide.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;btnIngameShow.Name" xml:space="preserve">
-    <value>btnIngameShow</value>
-  </data>
-  <data name="&gt;&gt;btnIngameShow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnIngameShow.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;btnIngameShow.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;label11.Name" xml:space="preserve">
-    <value>label11</value>
-  </data>
-  <data name="&gt;&gt;label11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>26</value>
-  </data>
-  <data name="&gt;&gt;txtIngameRound.Name" xml:space="preserve">
-    <value>txtIngameRound</value>
-  </data>
-  <data name="&gt;&gt;txtIngameRound.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameRound.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameRound.ZOrder" xml:space="preserve">
-    <value>27</value>
-  </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
-  </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;txtIngameType.Name" xml:space="preserve">
-    <value>txtIngameType</value>
-  </data>
-  <data name="&gt;&gt;txtIngameType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameType.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameType.ZOrder" xml:space="preserve">
-    <value>29</value>
-  </data>
-  <data name="&gt;&gt;txtIngameScore2.Name" xml:space="preserve">
-    <value>txtIngameScore2</value>
-  </data>
-  <data name="&gt;&gt;txtIngameScore2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameScore2.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameScore2.ZOrder" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;txtIngameScore1.Name" xml:space="preserve">
-    <value>txtIngameScore1</value>
-  </data>
-  <data name="&gt;&gt;txtIngameScore1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameScore1.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameScore1.ZOrder" xml:space="preserve">
-    <value>31</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>32</value>
-  </data>
-  <data name="&gt;&gt;txtIngameTeam2.Name" xml:space="preserve">
-    <value>txtIngameTeam2</value>
-  </data>
-  <data name="&gt;&gt;txtIngameTeam2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameTeam2.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameTeam2.ZOrder" xml:space="preserve">
-    <value>33</value>
-  </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>34</value>
-  </data>
-  <data name="&gt;&gt;txtIngameTeam1.Name" xml:space="preserve">
-    <value>txtIngameTeam1</value>
-  </data>
-  <data name="&gt;&gt;txtIngameTeam1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtIngameTeam1.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;txtIngameTeam1.ZOrder" xml:space="preserve">
-    <value>35</value>
-  </data>
-  <data name="groupBox3.Enabled" type="System.Boolean, mscorlib">
+  <data name="groupBox5.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, 6</value>
   </data>
-  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>291, 355</value>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 180</value>
   </data>
-  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>INGAME</value>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>CASTERS</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
     <value>tabGeneral</value>
   </data>
-  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="label16.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -5055,6 +3744,33 @@
   <data name="&gt;&gt;txtIngameTeam1.ZOrder" xml:space="preserve">
     <value>35</value>
   </data>
+  <data name="groupBox3.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 355</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>INGAME</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="btnAudioTest.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
@@ -5120,621 +3836,6 @@
   </data>
   <data name="&gt;&gt;chkAudioDebug.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnAudioRevert.Name" xml:space="preserve">
-    <value>btnAudioRevert</value>
-  </data>
-  <data name="&gt;&gt;btnAudioRevert.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnAudioRevert.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;btnAudioRevert.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnAudioPush.Name" xml:space="preserve">
-    <value>btnAudioPush</value>
-  </data>
-  <data name="&gt;&gt;btnAudioPush.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnAudioPush.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;btnAudioPush.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;trackBar1.Name" xml:space="preserve">
-    <value>trackBar1</value>
-  </data>
-  <data name="&gt;&gt;trackBar1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBar1.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;trackBar1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;trackBar2.Name" xml:space="preserve">
-    <value>trackBar2</value>
-  </data>
-  <data name="&gt;&gt;trackBar2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBar2.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;trackBar2.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;trackBar3.Name" xml:space="preserve">
-    <value>trackBar3</value>
-  </data>
-  <data name="&gt;&gt;trackBar3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBar3.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;trackBar3.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;textBox14.Name" xml:space="preserve">
-    <value>textBox14</value>
-  </data>
-  <data name="&gt;&gt;textBox14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox14.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;textBox14.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;trackBar4.Name" xml:space="preserve">
-    <value>trackBar4</value>
-  </data>
-  <data name="&gt;&gt;trackBar4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBar4.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;trackBar4.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;textBox13.Name" xml:space="preserve">
-    <value>textBox13</value>
-  </data>
-  <data name="&gt;&gt;textBox13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox13.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;textBox13.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;trackBar5.Name" xml:space="preserve">
-    <value>trackBar5</value>
-  </data>
-  <data name="&gt;&gt;trackBar5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBar5.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;trackBar5.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;textBox12.Name" xml:space="preserve">
-    <value>textBox12</value>
-  </data>
-  <data name="&gt;&gt;textBox12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox12.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;textBox12.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;trackBar6.Name" xml:space="preserve">
-    <value>trackBar6</value>
-  </data>
-  <data name="&gt;&gt;trackBar6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBar6.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;trackBar6.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;textBox11.Name" xml:space="preserve">
-    <value>textBox11</value>
-  </data>
-  <data name="&gt;&gt;textBox11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox11.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;textBox11.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;trackBar7.Name" xml:space="preserve">
-    <value>trackBar7</value>
-  </data>
-  <data name="&gt;&gt;trackBar7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBar7.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;trackBar7.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;textBox10.Name" xml:space="preserve">
-    <value>textBox10</value>
-  </data>
-  <data name="&gt;&gt;textBox10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox10.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;textBox10.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;trackBar8.Name" xml:space="preserve">
-    <value>trackBar8</value>
-  </data>
-  <data name="&gt;&gt;trackBar8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBar8.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;trackBar8.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;textBox9.Name" xml:space="preserve">
-    <value>textBox9</value>
-  </data>
-  <data name="&gt;&gt;textBox9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox9.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;textBox9.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;trackBar9.Name" xml:space="preserve">
-    <value>trackBar9</value>
-  </data>
-  <data name="&gt;&gt;trackBar9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBar9.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;trackBar9.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;textBox8.Name" xml:space="preserve">
-    <value>textBox8</value>
-  </data>
-  <data name="&gt;&gt;textBox8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox8.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;textBox8.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;trackBar10.Name" xml:space="preserve">
-    <value>trackBar10</value>
-  </data>
-  <data name="&gt;&gt;trackBar10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBar10.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;trackBar10.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;textBox7.Name" xml:space="preserve">
-    <value>textBox7</value>
-  </data>
-  <data name="&gt;&gt;textBox7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox7.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;textBox7.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;trackBar11.Name" xml:space="preserve">
-    <value>trackBar11</value>
-  </data>
-  <data name="&gt;&gt;trackBar11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBar11.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;trackBar11.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;textBox6.Name" xml:space="preserve">
-    <value>textBox6</value>
-  </data>
-  <data name="&gt;&gt;textBox6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox6.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;textBox6.ZOrder" xml:space="preserve">
-    <value>26</value>
-  </data>
-  <data name="&gt;&gt;trackBar12.Name" xml:space="preserve">
-    <value>trackBar12</value>
-  </data>
-  <data name="&gt;&gt;trackBar12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBar12.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;trackBar12.ZOrder" xml:space="preserve">
-    <value>27</value>
-  </data>
-  <data name="&gt;&gt;textBox5.Name" xml:space="preserve">
-    <value>textBox5</value>
-  </data>
-  <data name="&gt;&gt;textBox5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox5.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;trackBar13.Name" xml:space="preserve">
-    <value>trackBar13</value>
-  </data>
-  <data name="&gt;&gt;trackBar13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBar13.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;trackBar13.ZOrder" xml:space="preserve">
-    <value>29</value>
-  </data>
-  <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
-    <value>textBox4</value>
-  </data>
-  <data name="&gt;&gt;textBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;trackBar14.Name" xml:space="preserve">
-    <value>trackBar14</value>
-  </data>
-  <data name="&gt;&gt;trackBar14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBar14.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;trackBar14.ZOrder" xml:space="preserve">
-    <value>31</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
-    <value>textBox3</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
-    <value>32</value>
-  </data>
-  <data name="&gt;&gt;trackBar27.Name" xml:space="preserve">
-    <value>trackBar27</value>
-  </data>
-  <data name="&gt;&gt;trackBar27.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBar27.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;trackBar27.ZOrder" xml:space="preserve">
-    <value>33</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
-    <value>textBox2</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
-    <value>34</value>
-  </data>
-  <data name="&gt;&gt;checkBox28.Name" xml:space="preserve">
-    <value>checkBox28</value>
-  </data>
-  <data name="&gt;&gt;checkBox28.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox28.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;checkBox28.ZOrder" xml:space="preserve">
-    <value>35</value>
-  </data>
-  <data name="&gt;&gt;textBox15.Name" xml:space="preserve">
-    <value>textBox15</value>
-  </data>
-  <data name="&gt;&gt;textBox15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox15.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;textBox15.ZOrder" xml:space="preserve">
-    <value>36</value>
-  </data>
-  <data name="&gt;&gt;checkBox29.Name" xml:space="preserve">
-    <value>checkBox29</value>
-  </data>
-  <data name="&gt;&gt;checkBox29.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox29.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;checkBox29.ZOrder" xml:space="preserve">
-    <value>37</value>
-  </data>
-  <data name="&gt;&gt;checkBox30.Name" xml:space="preserve">
-    <value>checkBox30</value>
-  </data>
-  <data name="&gt;&gt;checkBox30.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox30.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;checkBox30.ZOrder" xml:space="preserve">
-    <value>38</value>
-  </data>
-  <data name="&gt;&gt;checkBox55.Name" xml:space="preserve">
-    <value>checkBox55</value>
-  </data>
-  <data name="&gt;&gt;checkBox55.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox55.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;checkBox55.ZOrder" xml:space="preserve">
-    <value>39</value>
-  </data>
-  <data name="&gt;&gt;checkBox31.Name" xml:space="preserve">
-    <value>checkBox31</value>
-  </data>
-  <data name="&gt;&gt;checkBox31.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox31.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;checkBox31.ZOrder" xml:space="preserve">
-    <value>40</value>
-  </data>
-  <data name="&gt;&gt;checkBox42.Name" xml:space="preserve">
-    <value>checkBox42</value>
-  </data>
-  <data name="&gt;&gt;checkBox42.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox42.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;checkBox42.ZOrder" xml:space="preserve">
-    <value>41</value>
-  </data>
-  <data name="&gt;&gt;checkBox33.Name" xml:space="preserve">
-    <value>checkBox33</value>
-  </data>
-  <data name="&gt;&gt;checkBox33.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox33.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;checkBox33.ZOrder" xml:space="preserve">
-    <value>42</value>
-  </data>
-  <data name="&gt;&gt;checkBox41.Name" xml:space="preserve">
-    <value>checkBox41</value>
-  </data>
-  <data name="&gt;&gt;checkBox41.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox41.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;checkBox41.ZOrder" xml:space="preserve">
-    <value>43</value>
-  </data>
-  <data name="&gt;&gt;checkBox34.Name" xml:space="preserve">
-    <value>checkBox34</value>
-  </data>
-  <data name="&gt;&gt;checkBox34.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox34.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;checkBox34.ZOrder" xml:space="preserve">
-    <value>44</value>
-  </data>
-  <data name="&gt;&gt;checkBox40.Name" xml:space="preserve">
-    <value>checkBox40</value>
-  </data>
-  <data name="&gt;&gt;checkBox40.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox40.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;checkBox40.ZOrder" xml:space="preserve">
-    <value>45</value>
-  </data>
-  <data name="&gt;&gt;checkBox35.Name" xml:space="preserve">
-    <value>checkBox35</value>
-  </data>
-  <data name="&gt;&gt;checkBox35.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox35.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;checkBox35.ZOrder" xml:space="preserve">
-    <value>46</value>
-  </data>
-  <data name="&gt;&gt;checkBox39.Name" xml:space="preserve">
-    <value>checkBox39</value>
-  </data>
-  <data name="&gt;&gt;checkBox39.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox39.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;checkBox39.ZOrder" xml:space="preserve">
-    <value>47</value>
-  </data>
-  <data name="&gt;&gt;checkBox36.Name" xml:space="preserve">
-    <value>checkBox36</value>
-  </data>
-  <data name="&gt;&gt;checkBox36.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox36.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;checkBox36.ZOrder" xml:space="preserve">
-    <value>48</value>
-  </data>
-  <data name="&gt;&gt;checkBox38.Name" xml:space="preserve">
-    <value>checkBox38</value>
-  </data>
-  <data name="&gt;&gt;checkBox38.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox38.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;checkBox38.ZOrder" xml:space="preserve">
-    <value>49</value>
-  </data>
-  <data name="&gt;&gt;checkBox37.Name" xml:space="preserve">
-    <value>checkBox37</value>
-  </data>
-  <data name="&gt;&gt;checkBox37.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox37.Parent" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;checkBox37.ZOrder" xml:space="preserve">
-    <value>50</value>
-  </data>
-  <data name="boxAudioControl.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="boxAudioControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1043, 12</value>
-  </data>
-  <data name="boxAudioControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>859, 315</value>
-  </data>
-  <data name="boxAudioControl.TabIndex" type="System.Int32, mscorlib">
-    <value>99</value>
-  </data>
-  <data name="boxAudioControl.Text" xml:space="preserve">
-    <value>AUDIO CONTROL</value>
-  </data>
-  <data name="&gt;&gt;boxAudioControl.Name" xml:space="preserve">
-    <value>boxAudioControl</value>
-  </data>
-  <data name="&gt;&gt;boxAudioControl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boxAudioControl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;boxAudioControl.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="btnAudioRevert.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -7080,100 +5181,211 @@
   <data name="&gt;&gt;checkBox37.ZOrder" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>311, 17</value>
+  <data name="boxAudioControl.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="boxAudioControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1043, 12</value>
   </data>
-  <data name="button4.TabIndex" type="System.Int32, mscorlib">
-    <value>100</value>
+  <data name="boxAudioControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>859, 315</value>
   </data>
-  <data name="button4.Text" xml:space="preserve">
-    <value>button4</value>
+  <data name="boxAudioControl.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
   </data>
-  <data name="&gt;&gt;button4.Name" xml:space="preserve">
-    <value>button4</value>
+  <data name="boxAudioControl.Text" xml:space="preserve">
+    <value>AUDIO CONTROL</value>
   </data>
-  <data name="&gt;&gt;button4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;boxAudioControl.Name" xml:space="preserve">
+    <value>boxAudioControl</value>
   </data>
-  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+  <data name="&gt;&gt;boxAudioControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;boxAudioControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;boxAudioControl.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;label25.Name" xml:space="preserve">
-    <value>label25</value>
+  <data name="statusControlOut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+  <data name="statusControlOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 73</value>
+  </data>
+  <data name="statusControlOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 31</value>
+  </data>
+  <data name="statusControlOut.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="statusControlOut.Text" xml:space="preserve">
+    <value>CONTROL OUT</value>
+  </data>
+  <data name="statusControlOut.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;statusControlOut.Name" xml:space="preserve">
+    <value>statusControlOut</value>
+  </data>
+  <data name="&gt;&gt;statusControlOut.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+  <data name="&gt;&gt;statusControlOut.Parent" xml:space="preserve">
     <value>groupBox6</value>
   </data>
-  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;statusControlOut.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;label24.Name" xml:space="preserve">
-    <value>label24</value>
+  <data name="statusControlIn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+  <data name="statusControlIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 29</value>
+  </data>
+  <data name="statusControlIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 31</value>
+  </data>
+  <data name="statusControlIn.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="statusControlIn.Text" xml:space="preserve">
+    <value>CONTROL IN</value>
+  </data>
+  <data name="statusControlIn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;statusControlIn.Name" xml:space="preserve">
+    <value>statusControlIn</value>
+  </data>
+  <data name="&gt;&gt;statusControlIn.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+  <data name="&gt;&gt;statusControlIn.Parent" xml:space="preserve">
     <value>groupBox6</value>
   </data>
-  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;statusControlIn.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;label23.Name" xml:space="preserve">
-    <value>label23</value>
+  <data name="statusAudioOut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+  <data name="statusAudioOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 73</value>
+  </data>
+  <data name="statusAudioOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 31</value>
+  </data>
+  <data name="statusAudioOut.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="statusAudioOut.Text" xml:space="preserve">
+    <value>MIXER OUT</value>
+  </data>
+  <data name="statusAudioOut.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;statusAudioOut.Name" xml:space="preserve">
+    <value>statusAudioOut</value>
+  </data>
+  <data name="&gt;&gt;statusAudioOut.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+  <data name="&gt;&gt;statusAudioOut.Parent" xml:space="preserve">
     <value>groupBox6</value>
   </data>
-  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;statusAudioOut.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;label22.Name" xml:space="preserve">
-    <value>label22</value>
+  <data name="statusAudioIn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+  <data name="statusAudioIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 29</value>
+  </data>
+  <data name="statusAudioIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 31</value>
+  </data>
+  <data name="statusAudioIn.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="statusAudioIn.Text" xml:space="preserve">
+    <value>MIXER IN</value>
+  </data>
+  <data name="statusAudioIn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;statusAudioIn.Name" xml:space="preserve">
+    <value>statusAudioIn</value>
+  </data>
+  <data name="&gt;&gt;statusAudioIn.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+  <data name="&gt;&gt;statusAudioIn.Parent" xml:space="preserve">
     <value>groupBox6</value>
   </data>
-  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;statusAudioIn.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;label21.Name" xml:space="preserve">
-    <value>label21</value>
+  <data name="statusCaspar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+  <data name="statusCaspar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 73</value>
+  </data>
+  <data name="statusCaspar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 31</value>
+  </data>
+  <data name="statusCaspar.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="statusCaspar.Text" xml:space="preserve">
+    <value>CASPARCG</value>
+  </data>
+  <data name="statusCaspar.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;statusCaspar.Name" xml:space="preserve">
+    <value>statusCaspar</value>
+  </data>
+  <data name="&gt;&gt;statusCaspar.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+  <data name="&gt;&gt;statusCaspar.Parent" xml:space="preserve">
     <value>groupBox6</value>
   </data>
-  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;statusCaspar.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;label20.Name" xml:space="preserve">
-    <value>label20</value>
+  <data name="statusAtem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+  <data name="statusAtem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="statusAtem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 31</value>
+  </data>
+  <data name="statusAtem.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="statusAtem.Text" xml:space="preserve">
+    <value>ATEM</value>
+  </data>
+  <data name="statusAtem.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;statusAtem.Name" xml:space="preserve">
+    <value>statusAtem</value>
+  </data>
+  <data name="&gt;&gt;statusAtem.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+  <data name="&gt;&gt;statusAtem.Parent" xml:space="preserve">
     <value>groupBox6</value>
   </data>
-  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;statusAtem.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
@@ -7199,234 +5411,6 @@
   </data>
   <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="label25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
-    <value>258, 73</value>
-  </data>
-  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 31</value>
-  </data>
-  <data name="label25.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="label25.Text" xml:space="preserve">
-    <value>CONTROL OUT</value>
-  </data>
-  <data name="label25.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;label25.Name" xml:space="preserve">
-    <value>label25</value>
-  </data>
-  <data name="&gt;&gt;label25.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
-    <value>groupBox6</value>
-  </data>
-  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
-    <value>258, 29</value>
-  </data>
-  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 31</value>
-  </data>
-  <data name="label24.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="label24.Text" xml:space="preserve">
-    <value>CONTROL IN</value>
-  </data>
-  <data name="label24.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;label24.Name" xml:space="preserve">
-    <value>label24</value>
-  </data>
-  <data name="&gt;&gt;label24.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
-    <value>groupBox6</value>
-  </data>
-  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 73</value>
-  </data>
-  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 31</value>
-  </data>
-  <data name="label23.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="label23.Text" xml:space="preserve">
-    <value>MIXER OUT</value>
-  </data>
-  <data name="label23.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;label23.Name" xml:space="preserve">
-    <value>label23</value>
-  </data>
-  <data name="&gt;&gt;label23.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
-    <value>groupBox6</value>
-  </data>
-  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="label22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 29</value>
-  </data>
-  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 31</value>
-  </data>
-  <data name="label22.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="label22.Text" xml:space="preserve">
-    <value>MIXER IN</value>
-  </data>
-  <data name="label22.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;label22.Name" xml:space="preserve">
-    <value>label22</value>
-  </data>
-  <data name="&gt;&gt;label22.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
-    <value>groupBox6</value>
-  </data>
-  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 73</value>
-  </data>
-  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 31</value>
-  </data>
-  <data name="label21.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="label21.Text" xml:space="preserve">
-    <value>CASPARCG</value>
-  </data>
-  <data name="label21.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;label21.Name" xml:space="preserve">
-    <value>label21</value>
-  </data>
-  <data name="&gt;&gt;label21.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
-    <value>groupBox6</value>
-  </data>
-  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 29</value>
-  </data>
-  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 31</value>
-  </data>
-  <data name="label20.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="label20.Text" xml:space="preserve">
-    <value>ATEM</value>
-  </data>
-  <data name="label20.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;label20.Name" xml:space="preserve">
-    <value>label20</value>
-  </data>
-  <data name="&gt;&gt;label20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
-    <value>groupBox6</value>
-  </data>
-  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;panelPresetsInner.Name" xml:space="preserve">
-    <value>panelPresetsInner</value>
-  </data>
-  <data name="&gt;&gt;panelPresetsInner.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelPresetsInner.Parent" xml:space="preserve">
-    <value>panelPresets</value>
-  </data>
-  <data name="&gt;&gt;panelPresetsInner.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnPresetReload.Name" xml:space="preserve">
-    <value>btnPresetReload</value>
-  </data>
-  <data name="&gt;&gt;btnPresetReload.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnPresetReload.Parent" xml:space="preserve">
-    <value>panelPresets</value>
-  </data>
-  <data name="&gt;&gt;btnPresetReload.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="panelPresets.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 138</value>
-  </data>
-  <data name="panelPresets.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1025, 186</value>
-  </data>
-  <data name="panelPresets.TabIndex" type="System.Int32, mscorlib">
-    <value>101</value>
-  </data>
-  <data name="panelPresets.Text" xml:space="preserve">
-    <value>PRESETS</value>
-  </data>
-  <data name="&gt;&gt;panelPresets.Name" xml:space="preserve">
-    <value>panelPresets</value>
-  </data>
-  <data name="&gt;&gt;panelPresets.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelPresets.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panelPresets.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="panelPresetsInner.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
@@ -7480,6 +5464,30 @@
     <value>panelPresets</value>
   </data>
   <data name="&gt;&gt;btnPresetReload.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelPresets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 138</value>
+  </data>
+  <data name="panelPresets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1025, 186</value>
+  </data>
+  <data name="panelPresets.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="panelPresets.Text" xml:space="preserve">
+    <value>PRESETS</value>
+  </data>
+  <data name="&gt;&gt;panelPresets.Name" xml:space="preserve">
+    <value>panelPresets</value>
+  </data>
+  <data name="&gt;&gt;panelPresets.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelPresets.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelPresets.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="tabGeneral.Location" type="System.Drawing.Point, System.Drawing">

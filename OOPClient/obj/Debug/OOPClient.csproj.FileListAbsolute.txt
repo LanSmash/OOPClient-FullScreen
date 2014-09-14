@@ -16,7 +16,6 @@ C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\obj\Debug\OOPCli
 C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\obj\Debug\OOPClient.pdb
 C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\OOPClient.exe
 C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\OOPClient.pdb
-C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Sanford.Multimedia.Midi.pdb
 C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Interop.BMDSwitcherAPI.dll
 C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\obj\Debug\OOPClient.csprojResolveAssemblyReference.cache
 C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\obj\Debug\OOPClient.GUI.resources

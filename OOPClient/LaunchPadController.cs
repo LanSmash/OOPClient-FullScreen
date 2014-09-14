@@ -38,9 +38,15 @@ namespace OOPClient
             inDevice = new InputDevice(input);
             inDevice.SysExBufferSize = 16;
             inDevice.ChannelMessageReceived += inDevice_ButtonPressed;
+            inDevice.Error += inDevice_Error;
             inDevice.StartRecording();
 
             Clear();
+        }
+
+        void inDevice_Error(object sender, Sanford.Multimedia.ErrorEventArgs e)
+        {
+            
         }
 
         public void Clear() {

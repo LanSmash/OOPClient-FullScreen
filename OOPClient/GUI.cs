@@ -283,6 +283,8 @@ namespace OOPClient
             audioMixer.Open(audioIn, audioOut);
             audioIsOpen = true;
             boxAudioControl.Enabled = true;
+            statusAudioIn.BackColor = c_green;
+            statusAudioOut.BackColor = c_green;
 
             for (int i = 1; i < 16; i++)
             {
@@ -340,6 +342,8 @@ namespace OOPClient
             btnAtemConnect.Enabled = false;
             btnAtemConnect.BackColor = c_red;
             btnAtemConnect.Text = "Connected";
+
+            statusAtem.BackColor = c_green;
 
             panelATEM.Enabled = true;
 
@@ -417,6 +421,8 @@ namespace OOPClient
                 btnAtemConnect.Enabled = true;
                 btnAtemConnect.BackColor = c_green;
                 btnAtemConnect.Text = "Connect";
+
+                statusAtem.BackColor = c_red;
 
                 panelATEM.Enabled = false;
 
@@ -593,12 +599,17 @@ namespace OOPClient
                 btnControlConnect.BackColor = c_green;
                 btnControlConnect.Text = "Connect";
                 lpIsOpen = false;
+                statusControlIn.BackColor = c_red;
+                statusControlOut.BackColor = c_red;
             }
             else
             {
                 launchpad.Open(controlIn, controlOut);
                 btnControlConnect.BackColor = c_red;
                 btnControlConnect.Text = "Disconnect";
+
+                statusControlIn.BackColor = c_green;
+                statusControlOut.BackColor = c_green;
 
                 //ATEM Program Layout
                 launchpad.SetColor(0, 0, 1);

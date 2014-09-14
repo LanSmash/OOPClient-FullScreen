@@ -103,6 +103,7 @@
             this.btnAudioConnect = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnGetMidi = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.textBox19 = new System.Windows.Forms.TextBox();
             this.textBox20 = new System.Windows.Forms.TextBox();
@@ -204,14 +205,13 @@
             this.checkBox36 = new System.Windows.Forms.CheckBox();
             this.checkBox38 = new System.Windows.Forms.CheckBox();
             this.checkBox37 = new System.Windows.Forms.CheckBox();
-            this.button4 = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
+            this.statusControlOut = new System.Windows.Forms.Label();
+            this.statusControlIn = new System.Windows.Forms.Label();
+            this.statusAudioOut = new System.Windows.Forms.Label();
+            this.statusAudioIn = new System.Windows.Forms.Label();
+            this.statusCaspar = new System.Windows.Forms.Label();
+            this.statusAtem = new System.Windows.Forms.Label();
             this.panelPresets = new System.Windows.Forms.GroupBox();
             this.panelPresetsInner = new System.Windows.Forms.Panel();
             this.btnPresetReload = new System.Windows.Forms.Button();
@@ -894,6 +894,13 @@
             this.btnGetMidi.Name = "btnGetMidi";
             this.btnGetMidi.UseVisualStyleBackColor = false;
             this.btnGetMidi.Click += new System.EventHandler(this.btnGetMidi_Click);
+            // 
+            // button4
+            // 
+            resources.ApplyResources(this.button4, "button4");
+            this.button4.Name = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // groupBox5
             // 
@@ -1722,73 +1729,66 @@
             this.checkBox37.UseVisualStyleBackColor = false;
             this.checkBox37.CheckedChanged += new System.EventHandler(this.checkBox_CheckedChanged);
             // 
-            // button4
-            // 
-            resources.ApplyResources(this.button4, "button4");
-            this.button4.Name = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click_1);
-            // 
             // groupBox6
             // 
             this.groupBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.groupBox6.Controls.Add(this.label25);
-            this.groupBox6.Controls.Add(this.label24);
-            this.groupBox6.Controls.Add(this.label23);
-            this.groupBox6.Controls.Add(this.label22);
-            this.groupBox6.Controls.Add(this.label21);
-            this.groupBox6.Controls.Add(this.label20);
+            this.groupBox6.Controls.Add(this.statusControlOut);
+            this.groupBox6.Controls.Add(this.statusControlIn);
+            this.groupBox6.Controls.Add(this.statusAudioOut);
+            this.groupBox6.Controls.Add(this.statusAudioIn);
+            this.groupBox6.Controls.Add(this.statusCaspar);
+            this.groupBox6.Controls.Add(this.statusAtem);
             resources.ApplyResources(this.groupBox6, "groupBox6");
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.TabStop = false;
             // 
-            // label25
+            // statusControlOut
             // 
-            this.label25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label25.ForeColor = System.Drawing.SystemColors.ControlText;
-            resources.ApplyResources(this.label25, "label25");
-            this.label25.Name = "label25";
+            this.statusControlOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.statusControlOut.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.statusControlOut.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.statusControlOut, "statusControlOut");
+            this.statusControlOut.Name = "statusControlOut";
             // 
-            // label24
+            // statusControlIn
             // 
-            this.label24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label24.ForeColor = System.Drawing.SystemColors.ControlText;
-            resources.ApplyResources(this.label24, "label24");
-            this.label24.Name = "label24";
+            this.statusControlIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.statusControlIn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.statusControlIn.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.statusControlIn, "statusControlIn");
+            this.statusControlIn.Name = "statusControlIn";
             // 
-            // label23
+            // statusAudioOut
             // 
-            this.label23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label23.ForeColor = System.Drawing.SystemColors.ControlText;
-            resources.ApplyResources(this.label23, "label23");
-            this.label23.Name = "label23";
+            this.statusAudioOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.statusAudioOut.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.statusAudioOut.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.statusAudioOut, "statusAudioOut");
+            this.statusAudioOut.Name = "statusAudioOut";
             // 
-            // label22
+            // statusAudioIn
             // 
-            this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label22.ForeColor = System.Drawing.SystemColors.ControlText;
-            resources.ApplyResources(this.label22, "label22");
-            this.label22.Name = "label22";
+            this.statusAudioIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.statusAudioIn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.statusAudioIn.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.statusAudioIn, "statusAudioIn");
+            this.statusAudioIn.Name = "statusAudioIn";
             // 
-            // label21
+            // statusCaspar
             // 
-            this.label21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label21.ForeColor = System.Drawing.SystemColors.ControlText;
-            resources.ApplyResources(this.label21, "label21");
-            this.label21.Name = "label21";
+            this.statusCaspar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.statusCaspar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.statusCaspar.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.statusCaspar, "statusCaspar");
+            this.statusCaspar.Name = "statusCaspar";
             // 
-            // label20
+            // statusAtem
             // 
-            this.label20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label20.ForeColor = System.Drawing.SystemColors.ControlText;
-            resources.ApplyResources(this.label20, "label20");
-            this.label20.Name = "label20";
+            this.statusAtem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.statusAtem.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.statusAtem.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.statusAtem, "statusAtem");
+            this.statusAtem.Name = "statusAtem";
             // 
             // panelPresets
             // 
@@ -2075,12 +2075,12 @@
         private System.Windows.Forms.Button btnTransDip;
         private System.Windows.Forms.Button btnTransMix;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label statusControlOut;
+        private System.Windows.Forms.Label statusControlIn;
+        private System.Windows.Forms.Label statusAudioOut;
+        private System.Windows.Forms.Label statusAudioIn;
+        private System.Windows.Forms.Label statusCaspar;
+        private System.Windows.Forms.Label statusAtem;
         private System.Windows.Forms.GroupBox panelPresets;
         private System.Windows.Forms.Button btnPresetReload;
         private System.Windows.Forms.Panel panelPresetsInner;
