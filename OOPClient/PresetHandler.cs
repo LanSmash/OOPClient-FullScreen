@@ -62,6 +62,13 @@ namespace OOPClient
             }
         }
 
+        //Get all presets
+        public string[] GetPresets()
+        {
+            string[] list = Directory.GetFiles(@"Presets\", "*.xml");
+            return list.OrderBy(f => f).ToArray();
+        }
+
         public void changePreset(string preset, bool sendAll = true)
         {
             Dictionary<int, int> fader = new Dictionary<int, int>();

@@ -35,6 +35,7 @@ namespace OOPClient
         public event SwitcherEventHandler SwitcherConnected2;
         public event SwitcherEventHandler UpdateProgramButtonSelection2;
         public event SwitcherEventHandler UpdatePreviewButtonSelection2;
+        public event SwitcherEventHandler UpdateTransitionSelection;
 
         private bool hasSuper;
 

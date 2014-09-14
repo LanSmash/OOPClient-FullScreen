@@ -63,6 +63,69 @@ namespace OOPClient
             audioMixer = new AudioController();
             audioMixer.TrackBarChange += audioMixer_TrackBarChange;
             audioMixer.CheckBoxChange += audioMixer_CheckBoxChange;
+
+            populatePresets();
+        }
+
+        #region presethandling
+        private void populatePresets()
+        {
+            this.panelPresets.Enabled = false;
+            this.panelPresetsInner.Controls.Clear();
+
+            int left = 0;
+            int top = 0;
+            int buttonCount = 0;
+
+            foreach (string preset in presetHandler.GetPresets())
+            {
+                if (buttonCount < 16)
+                {
+                    Console.WriteLine(preset);
+                    Button presetButton = new Button();
+                    presetButton.Text = preset.Remove(0, 8).Replace(".xml", "").ToUpper();
+                    presetButton.Width = 100;
+                    presetButton.Height = 70;
+                    presetButton.BackColor = c_red;
+                    presetButton.FlatStyle = FlatStyle.Flat;
+                    presetButton.Left = left;
+                    presetButton.Top = top;
+                    presetButton.Tag = "PresetButton";
+                    presetButton.Click += presetButton_Click;
+                    this.panelPresetsInner.Controls.Add(presetButton);
+
+                    if (buttonCount == 7)
+                    {
+                        left = 0;
+                        top = 90;
+                    }
+                    else
+                    {
+                        left = left + 117;
+                    }
+
+                    buttonCount++;
+                }
+            }
+
+            this.panelPresets.Enabled = true;
+        }
+
+        private void presetButton_Click(object sender, EventArgs e)
+        {
+            string preset = ((Button)sender).Text;
+
+            foreach (object button in panelPresetsInner.Controls)
+            {
+                if ((String)((Button)button).Tag == "PresetButton")
+                {
+                    ((Button)button).BackColor = c_red;
+                }
+            }
+
+            ((Button)sender).BackColor = c_green;
+
+            presetHandler.changePreset(preset);
         }
 
         private void superSourceHandler(string type, object args)
@@ -146,8 +209,8 @@ namespace OOPClient
                 }
             }
         }
+        #endregion
 
-        
 
         #region audioMixer
         private void audioMixer_HandleTemplate(object sender, object args)
@@ -306,6 +369,40 @@ namespace OOPClient
                     panelPrev.Controls["prevBtn" + inputId].BackColor = c_grey;
                 }
             }
+
+            resetTransButtons();
+
+            switch (atem.getCurrentTransition())
+            {
+                case 1:
+                    btnTransMix.BackColor = c_green;
+                    break;
+
+                case 2:
+                    btnTransDip.BackColor = c_green;
+                    break;
+
+                case 3:
+                    btnTransWipe.BackColor = c_green;
+                    break;
+
+                case 4:
+                    btnTransSting.BackColor = c_green;
+                    break;
+
+                case 5:
+                    btnTransDve.BackColor = c_green;
+                    break;
+            }
+        }
+
+        private void resetTransButtons()
+        {
+            btnTransMix.BackColor = c_red;
+            btnTransDip.BackColor = c_red;
+            btnTransWipe.BackColor = c_red;
+            btnTransSting.BackColor = c_red;
+            btnTransDve.BackColor = c_red;
         }
 
         //When atem disconnects - update the buttons
@@ -558,6 +655,28 @@ namespace OOPClient
         private void button4_Click_1(object sender, EventArgs e)
         {
             presetHandler.changePreset("Ingame");
+        }
+
+        private void btnPresetReload_Click(object sender, EventArgs e)
+        {
+            populatePresets();
+        }
+
+        private void btnTransChange(object sender, EventArgs e)
+        {
+            resetTransButtons();
+            ((Button)sender).BackColor = c_green;
+            atem.changeTransition((int)((Button)sender).Tag);
+        }
+
+        private void btnTransCut_Click(object sender, EventArgs e)
+        {
+            atem.performCut();
+        }
+
+        private void btnTransAuto_Click(object sender, EventArgs e)
+        {
+            atem.performAuto();
         }
     }
 }

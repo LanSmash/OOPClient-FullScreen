@@ -14,12 +14,9 @@ namespace OOPClient
         CasparDevice caspar_ = new CasparDevice();
         CasparCGDataCollection cgData = new CasparCGDataCollection();
 
-        private string flashCmd;
-
         private string CasparChannel;
         private string CasparVideoLayer;
         private string FlashLayer;
-
 
         public CasparController()
         {
@@ -27,9 +24,6 @@ namespace OOPClient
             caspar_.Connected += new EventHandler<NetworkEventArgs>(caspar__Connected);
             caspar_.FailedConnect += new EventHandler<NetworkEventArgs>(caspar__FailedConnected);
             caspar_.Disconnected += new EventHandler<NetworkEventArgs>(caspar__Disconnected);
-
-            //Creates the first part of every CG command ("CG CC-FL")
-            flashCmd = "CG " + CasparChannel + "-" + FlashLayer;
         }
 
         public void Connect(string host, int port) {

@@ -22,3 +22,12 @@ C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\obj\Debug\OOPCli
 C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\obj\Debug\OOPClient.GUI.resources
 C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\obj\Debug\OOPClient.Properties.Resources.resources
 C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\obj\Debug\OOPClient.csproj.GenerateResource.Cache
+C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Midi.dll
+C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Sanford.Collections.dll
+C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Sanford.Multimedia.dll
+C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Sanford.Multimedia.Midi.dll
+C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Sanford.Multimedia.Timers.dll
+C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Sanford.Threading.dll
+C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Svt.Caspar.Controls.dll
+C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Svt.Caspar.dll
+C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Svt.Network.dll

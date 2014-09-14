@@ -37,6 +37,14 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panelATEM = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.btnTransAuto = new System.Windows.Forms.Button();
+            this.btnTransCut = new System.Windows.Forms.Button();
+            this.btnTransDve = new System.Windows.Forms.Button();
+            this.btnTransSting = new System.Windows.Forms.Button();
+            this.btnTransWipe = new System.Windows.Forms.Button();
+            this.btnTransDip = new System.Windows.Forms.Button();
+            this.btnTransMix = new System.Windows.Forms.Button();
             this.panelPrev = new System.Windows.Forms.GroupBox();
             this.prevBtn6000 = new System.Windows.Forms.Button();
             this.prevBtn20 = new System.Windows.Forms.Button();
@@ -197,8 +205,23 @@
             this.checkBox38 = new System.Windows.Forms.CheckBox();
             this.checkBox37 = new System.Windows.Forms.CheckBox();
             this.button4 = new System.Windows.Forms.Button();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.panelPresets = new System.Windows.Forms.GroupBox();
+            this.panelPresetsInner = new System.Windows.Forms.Panel();
+            this.btnPresetReload = new System.Windows.Forms.Button();
+            this.tabOverlays = new System.Windows.Forms.TabControl();
+            this.tabGeneral = new System.Windows.Forms.TabPage();
+            this.tabGroup = new System.Windows.Forms.TabPage();
+            this.tabBracket = new System.Windows.Forms.TabPage();
             this.groupBox1.SuspendLayout();
             this.panelATEM.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.panelPrev.SuspendLayout();
             this.panelProg.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -220,6 +243,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar27)).BeginInit();
+            this.groupBox6.SuspendLayout();
+            this.panelPresets.SuspendLayout();
+            this.tabOverlays.SuspendLayout();
+            this.tabGeneral.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtAtemAddress
@@ -274,12 +301,88 @@
             // 
             // panelATEM
             // 
-            this.panelATEM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.panelATEM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.panelATEM.Controls.Add(this.groupBox4);
             this.panelATEM.Controls.Add(this.panelPrev);
             this.panelATEM.Controls.Add(this.panelProg);
             resources.ApplyResources(this.panelATEM, "panelATEM");
             this.panelATEM.Name = "panelATEM";
             this.panelATEM.TabStop = false;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.groupBox4.Controls.Add(this.btnTransAuto);
+            this.groupBox4.Controls.Add(this.btnTransCut);
+            this.groupBox4.Controls.Add(this.btnTransDve);
+            this.groupBox4.Controls.Add(this.btnTransSting);
+            this.groupBox4.Controls.Add(this.btnTransWipe);
+            this.groupBox4.Controls.Add(this.btnTransDip);
+            this.groupBox4.Controls.Add(this.btnTransMix);
+            resources.ApplyResources(this.groupBox4, "groupBox4");
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.TabStop = false;
+            // 
+            // btnTransAuto
+            // 
+            this.btnTransAuto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.btnTransAuto, "btnTransAuto");
+            this.btnTransAuto.Name = "btnTransAuto";
+            this.btnTransAuto.UseVisualStyleBackColor = false;
+            this.btnTransAuto.Click += new System.EventHandler(this.btnTransAuto_Click);
+            // 
+            // btnTransCut
+            // 
+            this.btnTransCut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.btnTransCut, "btnTransCut");
+            this.btnTransCut.Name = "btnTransCut";
+            this.btnTransCut.UseVisualStyleBackColor = false;
+            this.btnTransCut.Click += new System.EventHandler(this.btnTransCut_Click);
+            // 
+            // btnTransDve
+            // 
+            this.btnTransDve.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.btnTransDve, "btnTransDve");
+            this.btnTransDve.Name = "btnTransDve";
+            this.btnTransDve.Tag = "5";
+            this.btnTransDve.UseVisualStyleBackColor = false;
+            this.btnTransDve.Click += new System.EventHandler(this.btnTransChange);
+            // 
+            // btnTransSting
+            // 
+            this.btnTransSting.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.btnTransSting, "btnTransSting");
+            this.btnTransSting.Name = "btnTransSting";
+            this.btnTransSting.Tag = "4";
+            this.btnTransSting.UseVisualStyleBackColor = false;
+            this.btnTransSting.Click += new System.EventHandler(this.btnTransChange);
+            // 
+            // btnTransWipe
+            // 
+            this.btnTransWipe.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.btnTransWipe, "btnTransWipe");
+            this.btnTransWipe.Name = "btnTransWipe";
+            this.btnTransWipe.Tag = "3";
+            this.btnTransWipe.UseVisualStyleBackColor = false;
+            this.btnTransWipe.Click += new System.EventHandler(this.btnTransChange);
+            // 
+            // btnTransDip
+            // 
+            this.btnTransDip.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.btnTransDip, "btnTransDip");
+            this.btnTransDip.Name = "btnTransDip";
+            this.btnTransDip.Tag = "2";
+            this.btnTransDip.UseVisualStyleBackColor = false;
+            this.btnTransDip.Click += new System.EventHandler(this.btnTransChange);
+            // 
+            // btnTransMix
+            // 
+            this.btnTransMix.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.btnTransMix, "btnTransMix");
+            this.btnTransMix.Name = "btnTransMix";
+            this.btnTransMix.Tag = "1";
+            this.btnTransMix.UseVisualStyleBackColor = false;
+            this.btnTransMix.Click += new System.EventHandler(this.btnTransChange);
             // 
             // panelPrev
             // 
@@ -773,6 +876,7 @@
             this.groupBox2.Controls.Add(this.btnGetMidi);
             this.groupBox2.Controls.Add(this.slcAudioIn);
             this.groupBox2.Controls.Add(this.slcControlIn);
+            this.groupBox2.Controls.Add(this.button4);
             this.groupBox2.Controls.Add(this.btnAudioConnect);
             this.groupBox2.Controls.Add(this.slcControlOut);
             this.groupBox2.Controls.Add(this.label3);
@@ -1625,25 +1729,140 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
+            // groupBox6
+            // 
+            this.groupBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.groupBox6.Controls.Add(this.label25);
+            this.groupBox6.Controls.Add(this.label24);
+            this.groupBox6.Controls.Add(this.label23);
+            this.groupBox6.Controls.Add(this.label22);
+            this.groupBox6.Controls.Add(this.label21);
+            this.groupBox6.Controls.Add(this.label20);
+            resources.ApplyResources(this.groupBox6, "groupBox6");
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.TabStop = false;
+            // 
+            // label25
+            // 
+            this.label25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label25.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.label25, "label25");
+            this.label25.Name = "label25";
+            // 
+            // label24
+            // 
+            this.label24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label24.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.label24, "label24");
+            this.label24.Name = "label24";
+            // 
+            // label23
+            // 
+            this.label23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label23.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.label23, "label23");
+            this.label23.Name = "label23";
+            // 
+            // label22
+            // 
+            this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label22.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.label22, "label22");
+            this.label22.Name = "label22";
+            // 
+            // label21
+            // 
+            this.label21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label21.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.label21, "label21");
+            this.label21.Name = "label21";
+            // 
+            // label20
+            // 
+            this.label20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label20.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.label20, "label20");
+            this.label20.Name = "label20";
+            // 
+            // panelPresets
+            // 
+            this.panelPresets.BackColor = System.Drawing.Color.White;
+            this.panelPresets.Controls.Add(this.panelPresetsInner);
+            this.panelPresets.Controls.Add(this.btnPresetReload);
+            resources.ApplyResources(this.panelPresets, "panelPresets");
+            this.panelPresets.Name = "panelPresets";
+            this.panelPresets.TabStop = false;
+            // 
+            // panelPresetsInner
+            // 
+            resources.ApplyResources(this.panelPresetsInner, "panelPresetsInner");
+            this.panelPresetsInner.Name = "panelPresetsInner";
+            // 
+            // btnPresetReload
+            // 
+            this.btnPresetReload.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            resources.ApplyResources(this.btnPresetReload, "btnPresetReload");
+            this.btnPresetReload.Name = "btnPresetReload";
+            this.btnPresetReload.UseVisualStyleBackColor = false;
+            this.btnPresetReload.Click += new System.EventHandler(this.btnPresetReload_Click);
+            // 
+            // tabOverlays
+            // 
+            this.tabOverlays.Controls.Add(this.tabGeneral);
+            this.tabOverlays.Controls.Add(this.tabGroup);
+            this.tabOverlays.Controls.Add(this.tabBracket);
+            resources.ApplyResources(this.tabOverlays, "tabOverlays");
+            this.tabOverlays.Name = "tabOverlays";
+            this.tabOverlays.SelectedIndex = 0;
+            // 
+            // tabGeneral
+            // 
+            this.tabGeneral.BackColor = System.Drawing.SystemColors.Control;
+            this.tabGeneral.Controls.Add(this.groupBox3);
+            this.tabGeneral.Controls.Add(this.groupBox5);
+            resources.ApplyResources(this.tabGeneral, "tabGeneral");
+            this.tabGeneral.Name = "tabGeneral";
+            // 
+            // tabGroup
+            // 
+            resources.ApplyResources(this.tabGroup, "tabGroup");
+            this.tabGroup.Name = "tabGroup";
+            this.tabGroup.UseVisualStyleBackColor = true;
+            // 
+            // tabBracket
+            // 
+            resources.ApplyResources(this.tabBracket, "tabBracket");
+            this.tabBracket.Name = "tabBracket";
+            this.tabBracket.UseVisualStyleBackColor = true;
+            // 
             // GUI
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.tabOverlays);
+            this.Controls.Add(this.panelPresets);
+            this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.boxAudioControl);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.panelATEM);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "GUI";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GUI_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.panelATEM.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
             this.panelPrev.ResumeLayout(false);
             this.panelProg.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
@@ -1669,6 +1888,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar27)).EndInit();
+            this.groupBox6.ResumeLayout(false);
+            this.panelPresets.ResumeLayout(false);
+            this.tabOverlays.ResumeLayout(false);
+            this.tabGeneral.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1843,6 +2066,28 @@
         private System.Windows.Forms.Button btnAudioRevert;
         private System.Windows.Forms.Button btnAudioPush;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Button btnTransAuto;
+        private System.Windows.Forms.Button btnTransCut;
+        private System.Windows.Forms.Button btnTransDve;
+        private System.Windows.Forms.Button btnTransSting;
+        private System.Windows.Forms.Button btnTransWipe;
+        private System.Windows.Forms.Button btnTransDip;
+        private System.Windows.Forms.Button btnTransMix;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.GroupBox panelPresets;
+        private System.Windows.Forms.Button btnPresetReload;
+        private System.Windows.Forms.Panel panelPresetsInner;
+        private System.Windows.Forms.TabControl tabOverlays;
+        private System.Windows.Forms.TabPage tabGeneral;
+        private System.Windows.Forms.TabPage tabGroup;
+        private System.Windows.Forms.TabPage tabBracket;
     }
 }
 
