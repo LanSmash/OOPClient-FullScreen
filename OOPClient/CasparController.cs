@@ -18,6 +18,12 @@ namespace OOPClient
         private string CasparVideoLayer;
         private string FlashLayer;
 
+        //Delegate for events
+        public delegate void CasparEventHandler(string message);
+
+        //Events
+        public event CasparEventHandler OnCasparConnected2, OnCasparFailedConnect, OnCasparDisconnected;
+
         public CasparController()
         {
             //CasparCG Events.
@@ -27,26 +33,22 @@ namespace OOPClient
         }
 
         public void Connect(string host, int port) {
-            if(!caspar_.IsConnected) {
-                caspar_.Settings.Hostname = host; // Properties.Settings.Default.Hostname;
-                caspar_.Settings.Port = port;
-                caspar_.Connect();
-            }
-            else
+            try
             {
-                //Error already connected
+                if (!caspar_.IsConnected)
+                {
+                    caspar_.Settings.Hostname = host;
+                    caspar_.Settings.Port = port;
+                    caspar_.Connect();
+                }
+                else
+                {
+                    caspar_.Disconnect();
+                }
             }
-        }
-
-        public void Disconnect()
-        {
-            if (caspar_.IsConnected)
+            catch (Exception e)
             {
-                caspar_.Disconnect();
-            }
-            else
-            {
-                //Error not connected
+                throw new System.SystemException("Unexpected: " + e.Message);
             }
         }
 
@@ -70,45 +72,19 @@ namespace OOPClient
         {
             caspar_.RefreshMediafiles();
             caspar_.RefreshDatalist();
-
-            NetworkEventArgs e = (NetworkEventArgs)param;
-            //buttonConnect.Enabled = true;
-            //updateConnectButtonText();
-            //statusStrip1.BackColor = Color.LightGreen;
-            //toolStripStatusLabel1.Text = "Connected to " + caspar_.Settings.Hostname; // Properties.Settings.Default.Hostname;
+            OnCasparConnected2("Connected");
         }
 
         //caspar event - failed connect
         private void caspar__FailedConnected(object sender, NetworkEventArgs e)
         {
-            OnCasparFailedConnect(e);
-        }
-
-        private void OnCasparFailedConnect(object param)
-        {
-            NetworkEventArgs e = (NetworkEventArgs)param;
-            //statusStrip1.BackColor = Color.LightCoral;
-            //toolStripStatusLabel1.Text = "Failed to connect to " + caspar_.Settings.Hostname; // Properties.Settings.Default.Hostname;
-            //buttonConnect.Enabled = true;
-            //updateConnectButtonText();
+            OnCasparFailedConnect("Couldn't connect to the CasparCG server!");
         }
 
         //caspar event - disconnected
         private void caspar__Disconnected(object sender, NetworkEventArgs e)
         {
-            OnCasparDisconnected(e);
-        }
-
-        //When caspar is disconnected
-        private void OnCasparDisconnected(object param)
-        {
-            NetworkEventArgs e = (NetworkEventArgs)param;
-            //GUI Update
-            //Send event!
-            //statusStrip1.BackColor = Color.LightCoral;
-            //toolStripStatusLabel1.Text = "Disconnected from " + caspar_.Settings.Hostname; // Properties.Settings.Default.Hostname;
-            //buttonConnect.Enabled = true;
-            //updateConnectButtonText();
+            OnCasparDisconnected("Disconnected");
         }
     }
 }

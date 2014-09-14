@@ -30,3 +30,4 @@ C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Sanfor
 C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Svt.Caspar.Controls.dll
 C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Svt.Caspar.dll
 C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Svt.Network.dll
+C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Sanford.Multimedia.Midi.pdb

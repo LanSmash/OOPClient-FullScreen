@@ -21,6 +21,7 @@ namespace OOPClient
         
         private LaunchPadController launchpad;
         private AudioController audioMixer;
+        private CasparController caspar;
 
         private int audioIn, audioOut, controlIn, controlOut;
 
@@ -33,6 +34,11 @@ namespace OOPClient
             InitializeComponent();
 
             lpIsOpen = audioIsOpen = atemIsOpen = false;
+
+            caspar = new CasparController();
+            caspar.OnCasparConnected2 += caspar_OnCasparConnected2;
+            caspar.OnCasparDisconnected += caspar_OnCasparDisconnected;
+            caspar.OnCasparFailedConnect += caspar_OnCasparFailedConnect;
 
             presetHandler = new PresetHandler("");
             presetHandler.SendAudio += audioMixer_HandleTemplate;
@@ -51,6 +57,7 @@ namespace OOPClient
             c_grey = Color.FromArgb(224, 224, 224);
 
             txtAtemAddress.Text = "192.168.0.201";
+            txtCasparAddress.Text = "127.0.0.1";
 
             slcAudioIn.SelectedIndex = 0;
             slcAudioOut.SelectedIndex = 0;
@@ -209,8 +216,20 @@ namespace OOPClient
                 }
             }
         }
-        #endregion
 
+        #region buttons
+        //Testing
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            presetHandler.changePreset("Ingame");
+        }
+
+        private void btnPresetReload_Click(object sender, EventArgs e)
+        {
+            populatePresets();
+        }
+        #endregion
+        #endregion
 
         #region audioMixer
         private void audioMixer_HandleTemplate(object sender, object args)
@@ -333,6 +352,18 @@ namespace OOPClient
 
             presetHandler.pushToPreset(mute, faders);
         }
+
+        #region buttons
+        private void btnAudioRevert_Click(object sender, EventArgs e)
+        {
+            presetHandler.revertToPreset();
+        }
+
+        private void btnAudioPush_Click(object sender, EventArgs e)
+        {
+            pushToPreset();
+        }
+        #endregion
         #endregion
 
         #region ATEM
@@ -545,6 +576,25 @@ namespace OOPClient
                 MessageBox.Show("Exception: " + ex.Message, "Exception Error");
             }
         }
+
+        #region buttons
+        private void btnTransChange(object sender, EventArgs e)
+        {
+            resetTransButtons();
+            ((Button)sender).BackColor = c_green;
+            atem.changeTransition((int)((Button)sender).Tag);
+        }
+
+        private void btnTransCut_Click(object sender, EventArgs e)
+        {
+            atem.performCut();
+        }
+
+        private void btnTransAuto_Click(object sender, EventArgs e)
+        {
+            atem.performAuto();
+        }
+        #endregion
         #endregion
 
         #region launchpad
@@ -638,6 +688,78 @@ namespace OOPClient
         }
         #endregion
 
+        #region casparcg
+        private void btnCasparConnect_Click(object sender, EventArgs e)
+        {
+            string cip = "127.0.0.1";
+            int cport = 5250;
+
+            string ipport = txtCasparAddress.Text;
+
+            if (ipport.Length > 1)
+            {
+                if (ipport.Contains(':'))
+                {
+                    string[] ipparts = ipport.Split(':');
+                    cip = ipparts[0];
+
+                    if (ipparts[1].Length > 1)
+                    {
+                        cport = Int32.Parse(ipparts[1]);
+                    }
+                }
+                else
+                {
+                    cip = ipport;
+                }
+            }
+
+            try
+            {
+                Console.WriteLine(cip + ":" + cport);
+                caspar.Connect(cip, cport);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
+            }
+        }
+
+        private void caspar_OnCasparFailedConnect(string message)
+        {
+            this.Invoke(new MethodInvoker(delegate
+            {
+                btnCasparConnect.BackColor = c_green;
+                btnCasparConnect.Text = "Connect";
+                tabOverlays.Enabled = false;
+                statusCaspar.BackColor = c_red;
+                MessageBox.Show(message);
+            }));
+        }
+
+        private void caspar_OnCasparDisconnected(string message)
+        {
+            this.Invoke(new MethodInvoker(delegate
+            {
+                btnCasparConnect.BackColor = c_green;
+                btnCasparConnect.Text = "Connect";
+                tabOverlays.Enabled = false;
+                statusCaspar.BackColor = c_red;
+            }));
+        }
+
+        private void caspar_OnCasparConnected2(string message)
+        {
+            this.Invoke(new MethodInvoker(delegate
+            {
+                btnCasparConnect.BackColor = c_red;
+                btnCasparConnect.Text = "Disconnect";
+                tabOverlays.Enabled = true;
+                statusCaspar.BackColor = c_green;
+            }));
+        }
+        #endregion
+
         private void GUI_FormClosing(object sender, System.ComponentModel.CancelEventArgs e)
         {
 
@@ -648,46 +770,16 @@ namespace OOPClient
             }
             else
             {
-                launchpad.Close();
-                audioMixer.Close();
+                if (lpIsOpen)
+                {
+                    launchpad.Close();
+                }
+
+                if (audioIsOpen)
+                {
+                    audioMixer.Close();
+                }
             }
-        }
-
-        private void btnAudioRevert_Click(object sender, EventArgs e)
-        {
-            presetHandler.revertToPreset();
-        }
-
-        private void btnAudioPush_Click(object sender, EventArgs e)
-        {
-            pushToPreset();
-        }
-
-        private void button4_Click_1(object sender, EventArgs e)
-        {
-            presetHandler.changePreset("Ingame");
-        }
-
-        private void btnPresetReload_Click(object sender, EventArgs e)
-        {
-            populatePresets();
-        }
-
-        private void btnTransChange(object sender, EventArgs e)
-        {
-            resetTransButtons();
-            ((Button)sender).BackColor = c_green;
-            atem.changeTransition((int)((Button)sender).Tag);
-        }
-
-        private void btnTransCut_Click(object sender, EventArgs e)
-        {
-            atem.performCut();
-        }
-
-        private void btnTransAuto_Click(object sender, EventArgs e)
-        {
-            atem.performAuto();
         }
     }
 }

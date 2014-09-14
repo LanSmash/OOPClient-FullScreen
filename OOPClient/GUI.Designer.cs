@@ -33,8 +33,8 @@
             this.btnAtemConnect = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnCasparConnect = new System.Windows.Forms.Button();
+            this.txtCasparAddress = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panelATEM = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
@@ -267,8 +267,8 @@
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.btnCasparConnect);
+            this.groupBox1.Controls.Add(this.txtCasparAddress);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.btnAtemConnect);
             this.groupBox1.Controls.Add(this.txtAtemAddress);
@@ -281,18 +281,19 @@
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
             // 
-            // button1
+            // btnCasparConnect
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnCasparConnect.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.btnCasparConnect, "btnCasparConnect");
+            this.btnCasparConnect.Name = "btnCasparConnect";
+            this.btnCasparConnect.UseVisualStyleBackColor = false;
+            this.btnCasparConnect.Click += new System.EventHandler(this.btnCasparConnect_Click);
             // 
-            // textBox1
+            // txtCasparAddress
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
+            this.txtCasparAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtCasparAddress, "txtCasparAddress");
+            this.txtCasparAddress.Name = "txtCasparAddress";
             // 
             // label1
             // 
@@ -1902,8 +1903,8 @@
         private System.Windows.Forms.Button btnAtemConnect;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnCasparConnect;
+        private System.Windows.Forms.TextBox txtCasparAddress;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox panelATEM;
         private System.Windows.Forms.GroupBox panelPrev;
