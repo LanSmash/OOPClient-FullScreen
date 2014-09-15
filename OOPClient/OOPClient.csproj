@@ -104,6 +104,7 @@
     <Compile Include="GUI.Designer.cs">
       <DependentUpon>GUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="HyperdeckController.cs" />
     <Compile Include="LaunchPadController.cs" />
     <Compile Include="PresetHandler.cs" />
     <Compile Include="Program.cs" />

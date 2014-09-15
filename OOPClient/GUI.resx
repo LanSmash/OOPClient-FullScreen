@@ -122,7 +122,7 @@
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
   <data name="txtAtemAddress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 39</value>
+    <value>70, 25</value>
   </data>
   <data name="txtAtemAddress.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 22</value>
@@ -141,7 +141,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;txtAtemAddress.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>8</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnAtemConnect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
@@ -151,7 +151,7 @@
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="btnAtemConnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 39</value>
+    <value>176, 25</value>
   </data>
   <data name="btnAtemConnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 22</value>
@@ -172,13 +172,208 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;btnAtemConnect.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckConnect.Name" xml:space="preserve">
+    <value>btnHyperdeckConnect</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckConnect.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckConnect.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtHyperdeckAddress.Name" xml:space="preserve">
+    <value>txtHyperdeckAddress</value>
+  </data>
+  <data name="&gt;&gt;txtHyperdeckAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHyperdeckAddress.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtHyperdeckAddress.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnCasparConnect.Name" xml:space="preserve">
+    <value>btnCasparConnect</value>
+  </data>
+  <data name="&gt;&gt;btnCasparConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCasparConnect.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnCasparConnect.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtCasparAddress.Name" xml:space="preserve">
+    <value>txtCasparAddress</value>
+  </data>
+  <data name="&gt;&gt;txtCasparAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCasparAddress.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtCasparAddress.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 120</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>CONNECTIONS (IP)</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 85</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>HyperDeck</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnHyperdeckConnect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnHyperdeckConnect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnHyperdeckConnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHyperdeckConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 81</value>
+  </data>
+  <data name="btnHyperdeckConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 22</value>
+  </data>
+  <data name="btnHyperdeckConnect.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnHyperdeckConnect.Text" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckConnect.Name" xml:space="preserve">
+    <value>btnHyperdeckConnect</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckConnect.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckConnect.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtHyperdeckAddress.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtHyperdeckAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 81</value>
+  </data>
+  <data name="txtHyperdeckAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="txtHyperdeckAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtHyperdeckAddress.Name" xml:space="preserve">
+    <value>txtHyperdeckAddress</value>
+  </data>
+  <data name="&gt;&gt;txtHyperdeckAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHyperdeckAddress.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtHyperdeckAddress.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 69</value>
+    <value>9, 57</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 13</value>
@@ -199,7 +394,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
   </data>
   <data name="btnCasparConnect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -208,7 +403,7 @@
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="btnCasparConnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 85</value>
+    <value>176, 53</value>
   </data>
   <data name="btnCasparConnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 22</value>
@@ -229,13 +424,13 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;btnCasparConnect.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="txtCasparAddress.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
   <data name="txtCasparAddress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 85</value>
+    <value>70, 53</value>
   </data>
   <data name="txtCasparAddress.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 22</value>
@@ -253,13 +448,13 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;txtCasparAddress.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 23</value>
+    <value>23, 29</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 13</value>
@@ -280,31 +475,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 120</value>
-  </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>CONNECTIONS (IP)</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
     <value>groupBox4</value>
@@ -367,7 +538,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panelATEM.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="&gt;&gt;btnTransAuto.Name" xml:space="preserve">
     <value>btnTransAuto</value>
@@ -2836,7 +3007,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;slcControlOut.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="slcAudioOut.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2869,7 +3040,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;slcAudioOut.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="slcAudioIn.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2929,7 +3100,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>8</value>
   </data>
   <data name="btnControlConnect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -2959,7 +3130,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;btnControlConnect.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2986,7 +3157,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="btnAudioConnect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -3016,55 +3187,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;btnAudioConnect.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnGetMidi.Name" xml:space="preserve">
-    <value>btnGetMidi</value>
-  </data>
-  <data name="&gt;&gt;btnGetMidi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnGetMidi.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;btnGetMidi.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button4.Name" xml:space="preserve">
-    <value>button4</value>
-  </data>
-  <data name="&gt;&gt;button4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 12</value>
-  </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 120</value>
-  </data>
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>CONNECTIONS (MIDI)</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>5</value>
   </data>
   <data name="btnGetMidi.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -3096,29 +3219,29 @@
   <data name="&gt;&gt;btnGetMidi.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>311, 17</value>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 12</value>
   </data>
-  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 120</value>
   </data>
-  <data name="button4.TabIndex" type="System.Int32, mscorlib">
-    <value>100</value>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="button4.Text" xml:space="preserve">
-    <value>button4</value>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>CONNECTIONS (MIDI)</value>
   </data>
-  <data name="&gt;&gt;button4.Name" xml:space="preserve">
-    <value>button4</value>
-  </data>
-  <data name="&gt;&gt;button4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;textBox19.Name" xml:space="preserve">
     <value>textBox19</value>
@@ -5704,7 +5827,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;boxAudioControl.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="btnAudioRevert.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -7050,53 +7173,41 @@
   <data name="&gt;&gt;checkBox37.ZOrder" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="&gt;&gt;statusControlOut.Name" xml:space="preserve">
-    <value>statusControlOut</value>
+  <data name="&gt;&gt;statusHyperdeck.Name" xml:space="preserve">
+    <value>statusHyperdeck</value>
   </data>
-  <data name="&gt;&gt;statusControlOut.Type" xml:space="preserve">
+  <data name="&gt;&gt;statusHyperdeck.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;statusControlOut.Parent" xml:space="preserve">
+  <data name="&gt;&gt;statusHyperdeck.Parent" xml:space="preserve">
     <value>groupBox6</value>
   </data>
-  <data name="&gt;&gt;statusControlOut.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;statusHyperdeck.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;statusControlIn.Name" xml:space="preserve">
-    <value>statusControlIn</value>
+  <data name="&gt;&gt;statusControl.Name" xml:space="preserve">
+    <value>statusControl</value>
   </data>
-  <data name="&gt;&gt;statusControlIn.Type" xml:space="preserve">
+  <data name="&gt;&gt;statusControl.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;statusControlIn.Parent" xml:space="preserve">
+  <data name="&gt;&gt;statusControl.Parent" xml:space="preserve">
     <value>groupBox6</value>
   </data>
-  <data name="&gt;&gt;statusControlIn.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;statusControl.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;statusAudioOut.Name" xml:space="preserve">
-    <value>statusAudioOut</value>
+  <data name="&gt;&gt;statusAudio.Name" xml:space="preserve">
+    <value>statusAudio</value>
   </data>
-  <data name="&gt;&gt;statusAudioOut.Type" xml:space="preserve">
+  <data name="&gt;&gt;statusAudio.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;statusAudioOut.Parent" xml:space="preserve">
+  <data name="&gt;&gt;statusAudio.Parent" xml:space="preserve">
     <value>groupBox6</value>
   </data>
-  <data name="&gt;&gt;statusAudioOut.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;statusAudio.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="&gt;&gt;statusAudioIn.Name" xml:space="preserve">
-    <value>statusAudioIn</value>
-  </data>
-  <data name="&gt;&gt;statusAudioIn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;statusAudioIn.Parent" xml:space="preserve">
-    <value>groupBox6</value>
-  </data>
-  <data name="&gt;&gt;statusAudioIn.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;statusCaspar.Name" xml:space="preserve">
     <value>statusCaspar</value>
@@ -7108,7 +7219,7 @@
     <value>groupBox6</value>
   </data>
   <data name="&gt;&gt;statusCaspar.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;statusAtem.Name" xml:space="preserve">
     <value>statusAtem</value>
@@ -7120,13 +7231,13 @@
     <value>groupBox6</value>
   </data>
   <data name="&gt;&gt;statusAtem.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>650, 12</value>
+    <value>685, 12</value>
   </data>
   <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>387, 120</value>
+    <value>352, 120</value>
   </data>
   <data name="groupBox6.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -7144,136 +7255,106 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
-  <data name="statusControlOut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="statusHyperdeck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="statusControlOut.Location" type="System.Drawing.Point, System.Drawing">
-    <value>258, 73</value>
+  <data name="statusHyperdeck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 52</value>
   </data>
-  <data name="statusControlOut.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 31</value>
+  <data name="statusHyperdeck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 31</value>
   </data>
-  <data name="statusControlOut.TabIndex" type="System.Int32, mscorlib">
+  <data name="statusHyperdeck.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
-  <data name="statusControlOut.Text" xml:space="preserve">
-    <value>CONTROL OUT</value>
+  <data name="statusHyperdeck.Text" xml:space="preserve">
+    <value>HYPERDECK</value>
   </data>
-  <data name="statusControlOut.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="statusHyperdeck.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="&gt;&gt;statusControlOut.Name" xml:space="preserve">
-    <value>statusControlOut</value>
+  <data name="&gt;&gt;statusHyperdeck.Name" xml:space="preserve">
+    <value>statusHyperdeck</value>
   </data>
-  <data name="&gt;&gt;statusControlOut.Type" xml:space="preserve">
+  <data name="&gt;&gt;statusHyperdeck.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;statusControlOut.Parent" xml:space="preserve">
+  <data name="&gt;&gt;statusHyperdeck.Parent" xml:space="preserve">
     <value>groupBox6</value>
   </data>
-  <data name="&gt;&gt;statusControlOut.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;statusHyperdeck.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="statusControlIn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="statusControl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="statusControlIn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>258, 29</value>
+  <data name="statusControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 73</value>
   </data>
-  <data name="statusControlIn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 31</value>
+  <data name="statusControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 31</value>
   </data>
-  <data name="statusControlIn.TabIndex" type="System.Int32, mscorlib">
+  <data name="statusControl.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="statusControlIn.Text" xml:space="preserve">
-    <value>CONTROL IN</value>
+  <data name="statusControl.Text" xml:space="preserve">
+    <value>CONTROL SURFACE</value>
   </data>
-  <data name="statusControlIn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="statusControl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="&gt;&gt;statusControlIn.Name" xml:space="preserve">
-    <value>statusControlIn</value>
+  <data name="&gt;&gt;statusControl.Name" xml:space="preserve">
+    <value>statusControl</value>
   </data>
-  <data name="&gt;&gt;statusControlIn.Type" xml:space="preserve">
+  <data name="&gt;&gt;statusControl.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;statusControlIn.Parent" xml:space="preserve">
+  <data name="&gt;&gt;statusControl.Parent" xml:space="preserve">
     <value>groupBox6</value>
   </data>
-  <data name="&gt;&gt;statusControlIn.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;statusControl.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="statusAudioOut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="statusAudio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="statusAudioOut.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 73</value>
+  <data name="statusAudio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 29</value>
   </data>
-  <data name="statusAudioOut.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 31</value>
+  <data name="statusAudio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 31</value>
   </data>
-  <data name="statusAudioOut.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="statusAudioOut.Text" xml:space="preserve">
-    <value>MIXER OUT</value>
-  </data>
-  <data name="statusAudioOut.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;statusAudioOut.Name" xml:space="preserve">
-    <value>statusAudioOut</value>
-  </data>
-  <data name="&gt;&gt;statusAudioOut.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;statusAudioOut.Parent" xml:space="preserve">
-    <value>groupBox6</value>
-  </data>
-  <data name="&gt;&gt;statusAudioOut.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="statusAudioIn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="statusAudioIn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 29</value>
-  </data>
-  <data name="statusAudioIn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 31</value>
-  </data>
-  <data name="statusAudioIn.TabIndex" type="System.Int32, mscorlib">
+  <data name="statusAudio.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
-  <data name="statusAudioIn.Text" xml:space="preserve">
-    <value>MIXER IN</value>
+  <data name="statusAudio.Text" xml:space="preserve">
+    <value>AUDIO MIXER</value>
   </data>
-  <data name="statusAudioIn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="statusAudio.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="&gt;&gt;statusAudioIn.Name" xml:space="preserve">
-    <value>statusAudioIn</value>
+  <data name="&gt;&gt;statusAudio.Name" xml:space="preserve">
+    <value>statusAudio</value>
   </data>
-  <data name="&gt;&gt;statusAudioIn.Type" xml:space="preserve">
+  <data name="&gt;&gt;statusAudio.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;statusAudioIn.Parent" xml:space="preserve">
+  <data name="&gt;&gt;statusAudio.Parent" xml:space="preserve">
     <value>groupBox6</value>
   </data>
-  <data name="&gt;&gt;statusAudioIn.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;statusAudio.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="statusCaspar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="statusCaspar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 73</value>
+    <value>10, 73</value>
   </data>
   <data name="statusCaspar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 31</value>
+    <value>106, 31</value>
   </data>
   <data name="statusCaspar.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -7294,16 +7375,16 @@
     <value>groupBox6</value>
   </data>
   <data name="&gt;&gt;statusCaspar.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="statusAtem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="statusAtem.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 29</value>
+    <value>10, 29</value>
   </data>
   <data name="statusAtem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 31</value>
+    <value>106, 31</value>
   </data>
   <data name="statusAtem.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -7324,7 +7405,7 @@
     <value>groupBox6</value>
   </data>
   <data name="&gt;&gt;statusAtem.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;panelPresetsInner.Name" xml:space="preserve">
     <value>panelPresetsInner</value>
@@ -7354,7 +7435,7 @@
     <value>12, 138</value>
   </data>
   <data name="panelPresets.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1025, 186</value>
+    <value>764, 189</value>
   </data>
   <data name="panelPresets.TabIndex" type="System.Int32, mscorlib">
     <value>101</value>
@@ -7372,13 +7453,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panelPresets.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="panelPresetsInner.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
   <data name="panelPresetsInner.Size" type="System.Drawing.Size, System.Drawing">
-    <value>932, 162</value>
+    <value>692, 162</value>
   </data>
   <data name="panelPresetsInner.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -7405,10 +7486,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnPresetReload.Location" type="System.Drawing.Point, System.Drawing">
-    <value>944, 19</value>
+    <value>704, 19</value>
   </data>
   <data name="btnPresetReload.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 161</value>
+    <value>54, 160</value>
   </data>
   <data name="btnPresetReload.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -7486,7 +7567,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tabOverlays.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="tabGeneral.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
@@ -7568,6 +7649,444 @@
   </data>
   <data name="&gt;&gt;tabBracket.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtHyperdeckSpeed.Name" xml:space="preserve">
+    <value>txtHyperdeckSpeed</value>
+  </data>
+  <data name="&gt;&gt;txtHyperdeckSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHyperdeckSpeed.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtHyperdeckSpeed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckEnd.Name" xml:space="preserve">
+    <value>btnHyperdeckEnd</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckEnd.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckEnd.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckRewind.Name" xml:space="preserve">
+    <value>btnHyperdeckRewind</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckRewind.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckRewind.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckRewind.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckRecord.Name" xml:space="preserve">
+    <value>btnHyperdeckRecord</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckRecord.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckRecord.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckStop.Name" xml:space="preserve">
+    <value>btnHyperdeckStop</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckStop.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckStop.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckPlay.Name" xml:space="preserve">
+    <value>btnHyperdeckPlay</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckPlay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckPlay.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckPlay.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="groupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>782, 138</value>
+  </data>
+  <data name="groupBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 189</value>
+  </data>
+  <data name="groupBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>HYPERDECK</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Name" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 148</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>-1600% to 1600%</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 127</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 13</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Playback speed in percentage</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtHyperdeckSpeed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txtHyperdeckSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 123</value>
+  </data>
+  <data name="txtHyperdeckSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 22</value>
+  </data>
+  <data name="txtHyperdeckSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="txtHyperdeckSpeed.Text" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="txtHyperdeckSpeed.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtHyperdeckSpeed.Name" xml:space="preserve">
+    <value>txtHyperdeckSpeed</value>
+  </data>
+  <data name="&gt;&gt;txtHyperdeckSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHyperdeckSpeed.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtHyperdeckSpeed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnHyperdeckEnd.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnHyperdeckEnd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnHyperdeckEnd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnHyperdeckEnd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHyperdeckEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 68</value>
+  </data>
+  <data name="btnHyperdeckEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 43</value>
+  </data>
+  <data name="btnHyperdeckEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="btnHyperdeckEnd.Text" xml:space="preserve">
+    <value>GOTO END</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckEnd.Name" xml:space="preserve">
+    <value>btnHyperdeckEnd</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckEnd.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckEnd.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="button1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 68</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 43</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>FORWARD</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnHyperdeckRewind.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnHyperdeckRewind.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnHyperdeckRewind.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnHyperdeckRewind.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHyperdeckRewind.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 68</value>
+  </data>
+  <data name="btnHyperdeckRewind.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 43</value>
+  </data>
+  <data name="btnHyperdeckRewind.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="btnHyperdeckRewind.Text" xml:space="preserve">
+    <value>REWIND</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckRewind.Name" xml:space="preserve">
+    <value>btnHyperdeckRewind</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckRewind.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckRewind.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckRewind.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnHyperdeckRecord.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnHyperdeckRecord.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnHyperdeckRecord.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnHyperdeckRecord.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHyperdeckRecord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 19</value>
+  </data>
+  <data name="btnHyperdeckRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 43</value>
+  </data>
+  <data name="btnHyperdeckRecord.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="btnHyperdeckRecord.Text" xml:space="preserve">
+    <value>RECORD</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckRecord.Name" xml:space="preserve">
+    <value>btnHyperdeckRecord</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckRecord.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckRecord.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnHyperdeckStop.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnHyperdeckStop.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnHyperdeckStop.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnHyperdeckStop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHyperdeckStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 19</value>
+  </data>
+  <data name="btnHyperdeckStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 43</value>
+  </data>
+  <data name="btnHyperdeckStop.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="btnHyperdeckStop.Text" xml:space="preserve">
+    <value>STOP</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckStop.Name" xml:space="preserve">
+    <value>btnHyperdeckStop</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckStop.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckStop.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnHyperdeckPlay.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnHyperdeckPlay.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnHyperdeckPlay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnHyperdeckPlay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHyperdeckPlay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 19</value>
+  </data>
+  <data name="btnHyperdeckPlay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 43</value>
+  </data>
+  <data name="btnHyperdeckPlay.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="btnHyperdeckPlay.Text" xml:space="preserve">
+    <value>PLAY</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckPlay.Name" xml:space="preserve">
+    <value>btnHyperdeckPlay</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckPlay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckPlay.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;btnHyperdeckPlay.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

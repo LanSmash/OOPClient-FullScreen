@@ -86,7 +86,7 @@ namespace OOPClient
 
             foreach (string preset in presetHandler.GetPresets())
             {
-                if (buttonCount < 16)
+                if (buttonCount < 12)
                 {
                     Console.WriteLine(preset);
                     Button presetButton = new Button();
@@ -101,7 +101,7 @@ namespace OOPClient
                     presetButton.Click += presetButton_Click;
                     this.panelPresetsInner.Controls.Add(presetButton);
 
-                    if (buttonCount == 7)
+                    if (buttonCount == 5)
                     {
                         left = 0;
                         top = 90;
@@ -218,12 +218,6 @@ namespace OOPClient
         }
 
         #region buttons
-        //Testing
-        private void button4_Click_1(object sender, EventArgs e)
-        {
-            presetHandler.changePreset("Ingame");
-        }
-
         private void btnPresetReload_Click(object sender, EventArgs e)
         {
             populatePresets();
@@ -302,8 +296,7 @@ namespace OOPClient
             audioMixer.Open(audioIn, audioOut);
             audioIsOpen = true;
             boxAudioControl.Enabled = true;
-            statusAudioIn.BackColor = c_green;
-            statusAudioOut.BackColor = c_green;
+            statusAudio.BackColor = c_green;
 
             for (int i = 1; i < 16; i++)
             {
@@ -649,8 +642,7 @@ namespace OOPClient
                 btnControlConnect.BackColor = c_green;
                 btnControlConnect.Text = "Connect";
                 lpIsOpen = false;
-                statusControlIn.BackColor = c_red;
-                statusControlOut.BackColor = c_red;
+                statusControl.BackColor = c_red;
             }
             else
             {
@@ -658,8 +650,7 @@ namespace OOPClient
                 btnControlConnect.BackColor = c_red;
                 btnControlConnect.Text = "Disconnect";
 
-                statusControlIn.BackColor = c_green;
-                statusControlOut.BackColor = c_green;
+                statusControl.BackColor = c_green;
 
                 //ATEM Program Layout
                 launchpad.SetColor(0, 0, 1);

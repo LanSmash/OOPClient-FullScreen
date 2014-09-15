@@ -32,6 +32,9 @@
             this.txtAtemAddress = new System.Windows.Forms.TextBox();
             this.btnAtemConnect = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.btnHyperdeckConnect = new System.Windows.Forms.Button();
+            this.txtHyperdeckAddress = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnCasparConnect = new System.Windows.Forms.Button();
             this.txtCasparAddress = new System.Windows.Forms.TextBox();
@@ -103,7 +106,6 @@
             this.btnAudioConnect = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnGetMidi = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.textBox19 = new System.Windows.Forms.TextBox();
             this.textBox20 = new System.Windows.Forms.TextBox();
@@ -206,10 +208,9 @@
             this.checkBox38 = new System.Windows.Forms.CheckBox();
             this.checkBox37 = new System.Windows.Forms.CheckBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.statusControlOut = new System.Windows.Forms.Label();
-            this.statusControlIn = new System.Windows.Forms.Label();
-            this.statusAudioOut = new System.Windows.Forms.Label();
-            this.statusAudioIn = new System.Windows.Forms.Label();
+            this.statusHyperdeck = new System.Windows.Forms.Label();
+            this.statusControl = new System.Windows.Forms.Label();
+            this.statusAudio = new System.Windows.Forms.Label();
             this.statusCaspar = new System.Windows.Forms.Label();
             this.statusAtem = new System.Windows.Forms.Label();
             this.panelPresets = new System.Windows.Forms.GroupBox();
@@ -219,6 +220,16 @@
             this.tabGeneral = new System.Windows.Forms.TabPage();
             this.tabGroup = new System.Windows.Forms.TabPage();
             this.tabBracket = new System.Windows.Forms.TabPage();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.txtHyperdeckSpeed = new System.Windows.Forms.TextBox();
+            this.btnHyperdeckEnd = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnHyperdeckRewind = new System.Windows.Forms.Button();
+            this.btnHyperdeckRecord = new System.Windows.Forms.Button();
+            this.btnHyperdeckStop = new System.Windows.Forms.Button();
+            this.btnHyperdeckPlay = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.panelATEM.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -247,6 +258,7 @@
             this.panelPresets.SuspendLayout();
             this.tabOverlays.SuspendLayout();
             this.tabGeneral.SuspendLayout();
+            this.groupBox7.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtAtemAddress
@@ -266,6 +278,9 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.groupBox1.Controls.Add(this.label21);
+            this.groupBox1.Controls.Add(this.btnHyperdeckConnect);
+            this.groupBox1.Controls.Add(this.txtHyperdeckAddress);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.btnCasparConnect);
             this.groupBox1.Controls.Add(this.txtCasparAddress);
@@ -275,6 +290,24 @@
             resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
+            // 
+            // label21
+            // 
+            resources.ApplyResources(this.label21, "label21");
+            this.label21.Name = "label21";
+            // 
+            // btnHyperdeckConnect
+            // 
+            this.btnHyperdeckConnect.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.btnHyperdeckConnect, "btnHyperdeckConnect");
+            this.btnHyperdeckConnect.Name = "btnHyperdeckConnect";
+            this.btnHyperdeckConnect.UseVisualStyleBackColor = false;
+            // 
+            // txtHyperdeckAddress
+            // 
+            this.txtHyperdeckAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtHyperdeckAddress, "txtHyperdeckAddress");
+            this.txtHyperdeckAddress.Name = "txtHyperdeckAddress";
             // 
             // label2
             // 
@@ -877,7 +910,6 @@
             this.groupBox2.Controls.Add(this.btnGetMidi);
             this.groupBox2.Controls.Add(this.slcAudioIn);
             this.groupBox2.Controls.Add(this.slcControlIn);
-            this.groupBox2.Controls.Add(this.button4);
             this.groupBox2.Controls.Add(this.btnAudioConnect);
             this.groupBox2.Controls.Add(this.slcControlOut);
             this.groupBox2.Controls.Add(this.label3);
@@ -895,13 +927,6 @@
             this.btnGetMidi.Name = "btnGetMidi";
             this.btnGetMidi.UseVisualStyleBackColor = false;
             this.btnGetMidi.Click += new System.EventHandler(this.btnGetMidi_Click);
-            // 
-            // button4
-            // 
-            resources.ApplyResources(this.button4, "button4");
-            this.button4.Name = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // groupBox5
             // 
@@ -1733,47 +1758,38 @@
             // groupBox6
             // 
             this.groupBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.groupBox6.Controls.Add(this.statusControlOut);
-            this.groupBox6.Controls.Add(this.statusControlIn);
-            this.groupBox6.Controls.Add(this.statusAudioOut);
-            this.groupBox6.Controls.Add(this.statusAudioIn);
+            this.groupBox6.Controls.Add(this.statusHyperdeck);
+            this.groupBox6.Controls.Add(this.statusControl);
+            this.groupBox6.Controls.Add(this.statusAudio);
             this.groupBox6.Controls.Add(this.statusCaspar);
             this.groupBox6.Controls.Add(this.statusAtem);
             resources.ApplyResources(this.groupBox6, "groupBox6");
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.TabStop = false;
             // 
-            // statusControlOut
+            // statusHyperdeck
             // 
-            this.statusControlOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.statusControlOut.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.statusControlOut.ForeColor = System.Drawing.SystemColors.ControlText;
-            resources.ApplyResources(this.statusControlOut, "statusControlOut");
-            this.statusControlOut.Name = "statusControlOut";
+            this.statusHyperdeck.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.statusHyperdeck.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.statusHyperdeck.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.statusHyperdeck, "statusHyperdeck");
+            this.statusHyperdeck.Name = "statusHyperdeck";
             // 
-            // statusControlIn
+            // statusControl
             // 
-            this.statusControlIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.statusControlIn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.statusControlIn.ForeColor = System.Drawing.SystemColors.ControlText;
-            resources.ApplyResources(this.statusControlIn, "statusControlIn");
-            this.statusControlIn.Name = "statusControlIn";
+            this.statusControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.statusControl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.statusControl.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.statusControl, "statusControl");
+            this.statusControl.Name = "statusControl";
             // 
-            // statusAudioOut
+            // statusAudio
             // 
-            this.statusAudioOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.statusAudioOut.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.statusAudioOut.ForeColor = System.Drawing.SystemColors.ControlText;
-            resources.ApplyResources(this.statusAudioOut, "statusAudioOut");
-            this.statusAudioOut.Name = "statusAudioOut";
-            // 
-            // statusAudioIn
-            // 
-            this.statusAudioIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.statusAudioIn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.statusAudioIn.ForeColor = System.Drawing.SystemColors.ControlText;
-            resources.ApplyResources(this.statusAudioIn, "statusAudioIn");
-            this.statusAudioIn.Name = "statusAudioIn";
+            this.statusAudio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.statusAudio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.statusAudio.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.statusAudio, "statusAudio");
+            this.statusAudio.Name = "statusAudio";
             // 
             // statusCaspar
             // 
@@ -1842,10 +1858,85 @@
             this.tabBracket.Name = "tabBracket";
             this.tabBracket.UseVisualStyleBackColor = true;
             // 
+            // groupBox7
+            // 
+            this.groupBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.groupBox7.Controls.Add(this.label22);
+            this.groupBox7.Controls.Add(this.label20);
+            this.groupBox7.Controls.Add(this.txtHyperdeckSpeed);
+            this.groupBox7.Controls.Add(this.btnHyperdeckEnd);
+            this.groupBox7.Controls.Add(this.button1);
+            this.groupBox7.Controls.Add(this.btnHyperdeckRewind);
+            this.groupBox7.Controls.Add(this.btnHyperdeckRecord);
+            this.groupBox7.Controls.Add(this.btnHyperdeckStop);
+            this.groupBox7.Controls.Add(this.btnHyperdeckPlay);
+            resources.ApplyResources(this.groupBox7, "groupBox7");
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.TabStop = false;
+            // 
+            // label22
+            // 
+            resources.ApplyResources(this.label22, "label22");
+            this.label22.Name = "label22";
+            // 
+            // label20
+            // 
+            resources.ApplyResources(this.label20, "label20");
+            this.label20.Name = "label20";
+            // 
+            // txtHyperdeckSpeed
+            // 
+            this.txtHyperdeckSpeed.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtHyperdeckSpeed, "txtHyperdeckSpeed");
+            this.txtHyperdeckSpeed.Name = "txtHyperdeckSpeed";
+            // 
+            // btnHyperdeckEnd
+            // 
+            this.btnHyperdeckEnd.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.btnHyperdeckEnd, "btnHyperdeckEnd");
+            this.btnHyperdeckEnd.Name = "btnHyperdeckEnd";
+            this.btnHyperdeckEnd.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // btnHyperdeckRewind
+            // 
+            this.btnHyperdeckRewind.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.btnHyperdeckRewind, "btnHyperdeckRewind");
+            this.btnHyperdeckRewind.Name = "btnHyperdeckRewind";
+            this.btnHyperdeckRewind.UseVisualStyleBackColor = false;
+            // 
+            // btnHyperdeckRecord
+            // 
+            this.btnHyperdeckRecord.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.btnHyperdeckRecord, "btnHyperdeckRecord");
+            this.btnHyperdeckRecord.Name = "btnHyperdeckRecord";
+            this.btnHyperdeckRecord.UseVisualStyleBackColor = false;
+            // 
+            // btnHyperdeckStop
+            // 
+            this.btnHyperdeckStop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.btnHyperdeckStop, "btnHyperdeckStop");
+            this.btnHyperdeckStop.Name = "btnHyperdeckStop";
+            this.btnHyperdeckStop.UseVisualStyleBackColor = false;
+            // 
+            // btnHyperdeckPlay
+            // 
+            this.btnHyperdeckPlay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.btnHyperdeckPlay, "btnHyperdeckPlay");
+            this.btnHyperdeckPlay.Name = "btnHyperdeckPlay";
+            this.btnHyperdeckPlay.UseVisualStyleBackColor = false;
+            // 
             // GUI
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.tabOverlays);
             this.Controls.Add(this.panelPresets);
             this.Controls.Add(this.groupBox6);
@@ -1893,6 +1984,8 @@
             this.panelPresets.ResumeLayout(false);
             this.tabOverlays.ResumeLayout(false);
             this.tabGeneral.ResumeLayout(false);
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2066,7 +2159,6 @@
         private System.Windows.Forms.Button progBtn1000;
         private System.Windows.Forms.Button btnAudioRevert;
         private System.Windows.Forms.Button btnAudioPush;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button btnTransAuto;
         private System.Windows.Forms.Button btnTransCut;
@@ -2076,10 +2168,8 @@
         private System.Windows.Forms.Button btnTransDip;
         private System.Windows.Forms.Button btnTransMix;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.Label statusControlOut;
-        private System.Windows.Forms.Label statusControlIn;
-        private System.Windows.Forms.Label statusAudioOut;
-        private System.Windows.Forms.Label statusAudioIn;
+        private System.Windows.Forms.Label statusControl;
+        private System.Windows.Forms.Label statusAudio;
         private System.Windows.Forms.Label statusCaspar;
         private System.Windows.Forms.Label statusAtem;
         private System.Windows.Forms.GroupBox panelPresets;
@@ -2089,6 +2179,20 @@
         private System.Windows.Forms.TabPage tabGeneral;
         private System.Windows.Forms.TabPage tabGroup;
         private System.Windows.Forms.TabPage tabBracket;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Button btnHyperdeckConnect;
+        private System.Windows.Forms.TextBox txtHyperdeckAddress;
+        private System.Windows.Forms.Label statusHyperdeck;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.Button btnHyperdeckEnd;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnHyperdeckRewind;
+        private System.Windows.Forms.Button btnHyperdeckRecord;
+        private System.Windows.Forms.Button btnHyperdeckStop;
+        private System.Windows.Forms.Button btnHyperdeckPlay;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox txtHyperdeckSpeed;
     }
 }
 
