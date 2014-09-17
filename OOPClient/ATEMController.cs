@@ -55,6 +55,7 @@ namespace OOPClient
             //Fix
             m_mixEffectBlockMonitor.ProgramInputChanged += UpdateProgramFix;
             m_mixEffectBlockMonitor.PreviewInputChanged += UpdatePreviewFix;
+            m_mixEffectBlockMonitor.InTransitionChanged += UpdateTransition;
 
             m_switcherDiscovery = new CBMDSwitcherDiscovery();
 
@@ -391,6 +392,11 @@ namespace OOPClient
             {
 
             }
+        }
+
+        public void UpdateTransition(object sender, object args)
+        {
+            UpdateTransitionSelection(getCurrentTransition());
         }
 
         public int getCurrentTransition()

@@ -96,7 +96,6 @@
             this.progBtn3 = new System.Windows.Forms.Button();
             this.progBtn2 = new System.Windows.Forms.Button();
             this.progBtn1 = new System.Windows.Forms.Button();
-            this.slcControlIn = new System.Windows.Forms.ComboBox();
             this.slcControlOut = new System.Windows.Forms.ComboBox();
             this.slcAudioOut = new System.Windows.Forms.ComboBox();
             this.slcAudioIn = new System.Windows.Forms.ComboBox();
@@ -846,14 +845,6 @@
             this.progBtn1.UseVisualStyleBackColor = false;
             this.progBtn1.Click += new System.EventHandler(this.changeProg);
             // 
-            // slcControlIn
-            // 
-            resources.ApplyResources(this.slcControlIn, "slcControlIn");
-            this.slcControlIn.FormattingEnabled = true;
-            this.slcControlIn.Items.AddRange(new object[] {
-            resources.GetString("slcControlIn.Items")});
-            this.slcControlIn.Name = "slcControlIn";
-            // 
             // slcControlOut
             // 
             resources.ApplyResources(this.slcControlOut, "slcControlOut");
@@ -861,6 +852,7 @@
             this.slcControlOut.Items.AddRange(new object[] {
             resources.GetString("slcControlOut.Items")});
             this.slcControlOut.Name = "slcControlOut";
+            this.slcControlOut.SelectedIndexChanged += new System.EventHandler(this.slcControlOut_SelectedIndexChanged);
             // 
             // slcAudioOut
             // 
@@ -909,7 +901,6 @@
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.groupBox2.Controls.Add(this.btnGetMidi);
             this.groupBox2.Controls.Add(this.slcAudioIn);
-            this.groupBox2.Controls.Add(this.slcControlIn);
             this.groupBox2.Controls.Add(this.btnAudioConnect);
             this.groupBox2.Controls.Add(this.slcControlOut);
             this.groupBox2.Controls.Add(this.label3);
@@ -2020,7 +2011,6 @@
         private System.Windows.Forms.Button progBtn7;
         private System.Windows.Forms.Button prevBtn8;
         private System.Windows.Forms.Button prevBtn7;
-        private System.Windows.Forms.ComboBox slcControlIn;
         private System.Windows.Forms.ComboBox slcControlOut;
         private System.Windows.Forms.ComboBox slcAudioOut;
         private System.Windows.Forms.ComboBox slcAudioIn;

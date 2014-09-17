@@ -15,12 +15,8 @@ namespace OOPClient
         public event TemplateHandler SendAudio, SendRundown, SendSuperSource;
         
 
-        public PresetHandler(string preset)
+        public PresetHandler()
         {
-            if (preset != "")
-            {
-                changePreset(preset);
-            }
         }
 
         public string getCurrent()

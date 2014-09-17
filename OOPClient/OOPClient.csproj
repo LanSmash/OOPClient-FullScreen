@@ -51,6 +51,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Libs\Midi.dll</HintPath>
     </Reference>
+    <Reference Include="PIEHidDotNet">
+      <HintPath>..\Libs\PIEHidDotNet.dll</HintPath>
+    </Reference>
     <Reference Include="Sanford.Collections, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Libs\Sanford.Collections.dll</HintPath>
@@ -112,6 +115,7 @@
     <Compile Include="SwitcherAPIHelper.cs" />
     <Compile Include="SwitcherMonitor.cs" />
     <Compile Include="USBDeviceInfo.cs" />
+    <Compile Include="XkeysController.cs" />
     <EmbeddedResource Include="GUI.resx">
       <DependentUpon>GUI.cs</DependentUpon>
     </EmbeddedResource>

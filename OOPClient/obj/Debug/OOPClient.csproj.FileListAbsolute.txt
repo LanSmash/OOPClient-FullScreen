@@ -31,3 +31,4 @@ C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Svt.Ca
 C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Svt.Caspar.dll
 C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Svt.Network.dll
 C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\Sanford.Multimedia.Midi.pdb
+C:\Users\Phoinx\Documents\GitHub\OOPClient-FullScreen\OOPClient\bin\Debug\PIEHidDotNet.dll

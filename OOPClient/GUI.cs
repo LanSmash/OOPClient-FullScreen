@@ -25,22 +25,25 @@ namespace OOPClient
 
         private int audioIn, audioOut, controlIn, controlOut;
 
-        private bool atemIsOpen, lpIsOpen, audioIsOpen;
+        private bool atemIsOpen, controlIsOpen, audioIsOpen;
 
         private PresetHandler presetHandler;
+
+        XkeysController xk;
+        Dictionary<int, string> xkDic;
 
         public GUI()
         {
             InitializeComponent();
 
-            lpIsOpen = audioIsOpen = atemIsOpen = false;
+            controlIsOpen = audioIsOpen = atemIsOpen = false;
 
             caspar = new CasparController();
             caspar.OnCasparConnected2 += caspar_OnCasparConnected2;
             caspar.OnCasparDisconnected += caspar_OnCasparDisconnected;
             caspar.OnCasparFailedConnect += caspar_OnCasparFailedConnect;
 
-            presetHandler = new PresetHandler("");
+            presetHandler = new PresetHandler();
             presetHandler.SendAudio += audioMixer_HandleTemplate;
             presetHandler.SendRundown += rundownHandler;
             presetHandler.SendSuperSource += superSourceHandler;
@@ -50,6 +53,7 @@ namespace OOPClient
             atem.SwitcherDisconnected2 += ATEMDisconnected;
             atem.UpdatePreviewButtonSelection2 += ATEMUpdatePreview;
             atem.UpdateProgramButtonSelection2 += ATEMUpdateProgram;
+            atem.UpdateTransitionSelection += ATEMUpdateTransition;
 
             c_green = Color.FromArgb(192, 255, 192);
             c_red = Color.FromArgb(255, 192, 192);
@@ -61,17 +65,16 @@ namespace OOPClient
 
             slcAudioIn.SelectedIndex = 0;
             slcAudioOut.SelectedIndex = 0;
-            slcControlIn.SelectedIndex = 0;
             slcControlOut.SelectedIndex = 0;
-
-            launchpad = new LaunchPadController();
-            launchpad.ButtonPressed += launchpad_ButtonPressed;
 
             audioMixer = new AudioController();
             audioMixer.TrackBarChange += audioMixer_TrackBarChange;
             audioMixer.CheckBoxChange += audioMixer_CheckBoxChange;
 
             populatePresets();
+
+            xk = new XkeysController();
+            xk.XKeyPressed += xk_XKeyPressed;
         }
 
         #region presethandling
@@ -398,9 +401,19 @@ namespace OOPClient
                 }
             }
 
+            setTransition(atem.getCurrentTransition());
+        }
+
+        private void ATEMUpdateTransition(int id)
+        {
+            setTransition(id);
+        }
+
+        private void setTransition(int id)
+        {
             resetTransButtons();
 
-            switch (atem.getCurrentTransition())
+            switch (id)
             {
                 case 1:
                     btnTransMix.BackColor = c_green;
@@ -479,7 +492,7 @@ namespace OOPClient
                 {
                     panelProg.Controls["progBtn" + programId].BackColor = c_red;
 
-                    if(lpIsOpen) {
+                    if(controlIsOpen) {
                         int set = (programId == 0) ? 8 : programId + 1;
                         launchpad.SetColor(0, set, 2);
                     }
@@ -504,7 +517,7 @@ namespace OOPClient
                 {
                     panelPrev.Controls["prevBtn" + previewId].BackColor = c_green;
 
-                    if (lpIsOpen)
+                    if (controlIsOpen)
                     {
                         int set = (previewId == 0) ? 8 : previewId + 1;
                         launchpad.SetColor(1, set, 6);
@@ -590,11 +603,10 @@ namespace OOPClient
         #endregion
         #endregion
 
-        #region launchpad
-        void launchpad_ButtonPressed(int row, int col)
+        #region control
+        private void xk_XKeyPressed(int row, int col)
         {
-            //Console.WriteLine(row + " - " + col);
-            launchpad.SetColor(row, col, 6);
+            Console.WriteLine("ROW" + row + " - COL" + col);
         }
 
         private void btnGetMidi_Click(object sender, EventArgs e)
@@ -602,46 +614,61 @@ namespace OOPClient
             for(int i = 0; i < OutputDevice.InstalledDevices.Count; i++)
             {
                 OutputDevice output = OutputDevice.InstalledDevices[i];
-                if (output.Name.Contains("Launchpad S"))
-                {
-                    controlOut = i;
-                    slcControlOut.Items[0] = output.Name;
-                }
-                else if (output.Name.Contains("USB2.0-MIDI") && !output.Name.Contains("MIDIOUT"))
+                if (output.Name.Contains("USB2.0-MIDI") && !output.Name.Contains("MIDIOUT"))
                 {
                     audioOut = i;
                     slcAudioOut.Items[0] = output.Name;
                 }
-
-                Console.WriteLine("OUT: " + i + " - " + output.Name);
             }
 
             for (int i = 0; i < InputDevice.InstalledDevices.Count; i++)
             {
                 InputDevice input = InputDevice.InstalledDevices[i];
-                if (input.Name.Contains("Launchpad S"))
-                {
-                    controlIn = i;
-                    slcControlIn.Items[0] = input.Name;
-                }
-                else if (input.Name.Contains("USB2.0-MIDI") && !input.Name.Contains("MIDIOUT"))
+                if (input.Name.Contains("USB2.0-MIDI") && !input.Name.Contains("MIDIOUT"))
                 {
                     audioIn = i;
                     slcAudioIn.Items[0] = input.Name;
                 }
+            }
 
-                Console.WriteLine("IN: " + i + " - " + input.Name);
+            //Dno hax
+            xkDic = xk.enumerateDevices();
+            xkDic = xk.enumerateDevices();
+            xkDic = xk.enumerateDevices();
+            xk.SetCallback();
+            xkDic = xk.enumerateDevices();
+            xkDic = xk.enumerateDevices();
+            xkDic = xk.enumerateDevices();
+            slcControlOut.Items.Clear();
+            slcControlOut.Enabled = true;
+
+            foreach (KeyValuePair<int, string> entry in xkDic)
+            {
+                slcControlOut.Items.Add(entry);
+            }
+
+            if (slcControlOut.Items.Count > 0)
+            {
+                slcControlOut.SelectedIndex = 0;
+                controlIsOpen = true;
+                xk.SetCallback();
+            }
+            else
+            {
+                controlIsOpen = false;
+                slcControlOut.Enabled = false;
             }
         }
 
         private void btnControlConnect_Click(object sender, EventArgs e)
         {
-            if (lpIsOpen)
+            #region deprecated
+            /*if (controlIsOpen)
             {
                 launchpad.Close();
                 btnControlConnect.BackColor = c_green;
                 btnControlConnect.Text = "Connect";
-                lpIsOpen = false;
+                controlIsOpen = false;
                 statusControl.BackColor = c_red;
             }
             else
@@ -674,7 +701,18 @@ namespace OOPClient
                 launchpad.SetColor(1, 7, 5);
                 launchpad.SetColor(1, 8, 5);
 
-                lpIsOpen = true;
+                controlIsOpen = true;
+            }*/
+#endregion
+
+            xk.SetCallback();
+        }
+
+        private void slcControlOut_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (slcControlOut.Items.Count > 0 && slcControlOut.SelectedIndex > -1 && controlIsOpen)
+            {
+                xk.selectDevice(slcControlOut.SelectedIndex);
             }
         }
         #endregion
@@ -761,9 +799,9 @@ namespace OOPClient
             }
             else
             {
-                if (lpIsOpen)
+                if (controlIsOpen)
                 {
-                    launchpad.Close();
+                    xk.Close();
                 }
 
                 if (audioIsOpen)
