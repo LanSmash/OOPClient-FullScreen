@@ -220,7 +220,6 @@
             this.tabGroup = new System.Windows.Forms.TabPage();
             this.tabBracket = new System.Windows.Forms.TabPage();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.label22 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.txtHyperdeckSpeed = new System.Windows.Forms.TextBox();
             this.btnHyperdeckEnd = new System.Windows.Forms.Button();
@@ -229,6 +228,8 @@
             this.btnHyperdeckRecord = new System.Windows.Forms.Button();
             this.btnHyperdeckStop = new System.Windows.Forms.Button();
             this.btnHyperdeckPlay = new System.Windows.Forms.Button();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.panelATEM.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -1852,6 +1853,7 @@
             // groupBox7
             // 
             this.groupBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.groupBox7.Controls.Add(this.label23);
             this.groupBox7.Controls.Add(this.label22);
             this.groupBox7.Controls.Add(this.label20);
             this.groupBox7.Controls.Add(this.txtHyperdeckSpeed);
@@ -1864,11 +1866,6 @@
             resources.ApplyResources(this.groupBox7, "groupBox7");
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.TabStop = false;
-            // 
-            // label22
-            // 
-            resources.ApplyResources(this.label22, "label22");
-            this.label22.Name = "label22";
             // 
             // label20
             // 
@@ -1922,6 +1919,16 @@
             resources.ApplyResources(this.btnHyperdeckPlay, "btnHyperdeckPlay");
             this.btnHyperdeckPlay.Name = "btnHyperdeckPlay";
             this.btnHyperdeckPlay.UseVisualStyleBackColor = false;
+            // 
+            // label22
+            // 
+            resources.ApplyResources(this.label22, "label22");
+            this.label22.Name = "label22";
+            // 
+            // label23
+            // 
+            resources.ApplyResources(this.label23, "label23");
+            this.label23.Name = "label23";
             // 
             // GUI
             // 
@@ -2180,9 +2187,10 @@
         private System.Windows.Forms.Button btnHyperdeckRecord;
         private System.Windows.Forms.Button btnHyperdeckStop;
         private System.Windows.Forms.Button btnHyperdeckPlay;
-        private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.TextBox txtHyperdeckSpeed;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
     }
 }
 

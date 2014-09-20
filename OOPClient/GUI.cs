@@ -706,6 +706,8 @@ namespace OOPClient
 #endregion
 
             xk.SetCallback();
+
+            xk.test();
         }
 
         private void slcControlOut_SelectedIndexChanged(object sender, EventArgs e)

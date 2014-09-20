@@ -5589,6 +5589,36 @@
   <data name="&gt;&gt;tabOverlays.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="label23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 127</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="label22.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -5596,7 +5626,7 @@
     <value>NoControl</value>
   </data>
   <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>154, 148</value>
+    <value>155, 148</value>
   </data>
   <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
     <value>89, 13</value>
@@ -5617,7 +5647,7 @@
     <value>groupBox7</value>
   </data>
   <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="label20.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -5647,22 +5677,22 @@
     <value>groupBox7</value>
   </data>
   <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="txtHyperdeckSpeed.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
   <data name="txtHyperdeckSpeed.Location" type="System.Drawing.Point, System.Drawing">
-    <value>168, 123</value>
+    <value>169, 123</value>
   </data>
   <data name="txtHyperdeckSpeed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 22</value>
+    <value>58, 22</value>
   </data>
   <data name="txtHyperdeckSpeed.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
   </data>
   <data name="txtHyperdeckSpeed.Text" xml:space="preserve">
-    <value>100%</value>
+    <value>100</value>
   </data>
   <data name="txtHyperdeckSpeed.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Right</value>
@@ -5677,7 +5707,7 @@
     <value>groupBox7</value>
   </data>
   <data name="&gt;&gt;txtHyperdeckSpeed.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="btnHyperdeckEnd.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -5713,7 +5743,7 @@
     <value>groupBox7</value>
   </data>
   <data name="&gt;&gt;btnHyperdeckEnd.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="button1.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -5749,7 +5779,7 @@
     <value>groupBox7</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="btnHyperdeckRewind.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -5785,7 +5815,7 @@
     <value>groupBox7</value>
   </data>
   <data name="&gt;&gt;btnHyperdeckRewind.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="btnHyperdeckRecord.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -5821,7 +5851,7 @@
     <value>groupBox7</value>
   </data>
   <data name="&gt;&gt;btnHyperdeckRecord.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="btnHyperdeckStop.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -5857,7 +5887,7 @@
     <value>groupBox7</value>
   </data>
   <data name="&gt;&gt;btnHyperdeckStop.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="btnHyperdeckPlay.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -5893,7 +5923,7 @@
     <value>groupBox7</value>
   </data>
   <data name="&gt;&gt;btnHyperdeckPlay.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="groupBox7.Location" type="System.Drawing.Point, System.Drawing">
     <value>782, 138</value>

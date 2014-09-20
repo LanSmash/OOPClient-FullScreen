@@ -132,7 +132,9 @@ namespace OOPClient
                             {
                                 String rows = getKeys(keys - prevKeys[p]);
                                 prevKeys[p] = keys;
-                                XKeyPressed(int.Parse(rows.Remove(0, 1)), p);
+                                XKeyPressed(int.Parse(rows.Remove(0, 1)), p + 1);
+                                turnRed(int.Parse(rows.Remove(0, 1)), p + 1);
+                                turnFlashBlue(int.Parse(rows.Remove(0, 1)), p + 1);
                             }
                             else if (keys == 0)
                             {
@@ -144,7 +146,7 @@ namespace OOPClient
             }
             catch (Exception ex)
             {
-                throw new System.SystemException("ERROR: " + ex.Message.ToString());
+                Console.WriteLine("Overflow error on X-Keys");
             }
         }
 
@@ -203,6 +205,79 @@ namespace OOPClient
         {
             //throw new System.SystemException("Error: " + error.ToString());
             Console.WriteLine("ERROR " + error.ToString() + " ON " + sourceDevice.Pid);
+        }
+
+        public void sendRaw(int one, int two, int three, int four)
+        {
+            try
+            {
+                for (int j = 0; j < devices[selecteddevice].WriteLength; j++)
+                {
+                    wData[j] = 0;
+                }
+
+                wData[0] = (byte)one;
+                wData[1] = (byte)two; //0xb6
+                wData[2] = (byte)three;  //0 for bank 1, 1 for bank 2
+                wData[3] = (byte)four; //OR turn individual rows on or off using bits.  1st bit=row 1, 2nd bit=row 2, 3rd bit =row 3, etc
+
+                int result = devices[selecteddevice].WriteData(wData);
+            }
+            catch (Exception ex)
+            {
+                throw new System.SystemException("ERROR " + ex.Message.ToString());
+            }
+        }
+
+        public void turnRowRed(int row)
+        {
+            sendRaw(0, 182, 1, (byte)row);
+        }
+        public void turnRowBlue(int row)
+        {
+            sendRaw(0, 182, 0, (byte)row);
+        }
+
+        public void resetAll()
+        {
+            //Set max intensity
+            sendRaw(0, 187, 255, 255);
+
+            //Set flash freq
+            sendRaw(0, 180, 10, 0);
+
+            //Reset rows
+            sendRaw(0, 182, 0, 0);
+            sendRaw(0, 182, 1, 0);
+        }
+
+        public void turnRed(int row, int col)
+        {
+            int val = (col - 1) * 8 + row - 1 + 80;
+            sendRaw(0, 181, val, 1);
+            sendRaw(0, 181, val - 80, 0);
+        }
+
+        public void turnBlue(int row, int col)
+        {
+            int val = (col - 1) * 8 + row - 1;
+            sendRaw(0, 181, val, 1);
+            sendRaw(0, 181, val+80, 0);
+        }
+
+        public void turnFlashBlue(int row, int col)
+        {
+            int val = (col - 1) * 8 + row - 1;
+            sendRaw(0, 181, val, 2);
+            sendRaw(0, 181, val-80, 0);
+        }
+
+        public void test()
+        {
+            resetAll();
+            turnRed(1, 4);
+            turnBlue(2, 7);
+
         }
 
         public void SetCallback()
