@@ -219,7 +219,9 @@
             this.tabGeneral = new System.Windows.Forms.TabPage();
             this.tabGroup = new System.Windows.Forms.TabPage();
             this.tabBracket = new System.Windows.Forms.TabPage();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.panelHyperdeck = new System.Windows.Forms.GroupBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.txtHyperdeckSpeed = new System.Windows.Forms.TextBox();
             this.btnHyperdeckEnd = new System.Windows.Forms.Button();
@@ -228,8 +230,6 @@
             this.btnHyperdeckRecord = new System.Windows.Forms.Button();
             this.btnHyperdeckStop = new System.Windows.Forms.Button();
             this.btnHyperdeckPlay = new System.Windows.Forms.Button();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.panelATEM.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -258,7 +258,7 @@
             this.panelPresets.SuspendLayout();
             this.tabOverlays.SuspendLayout();
             this.tabGeneral.SuspendLayout();
-            this.groupBox7.SuspendLayout();
+            this.panelHyperdeck.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtAtemAddress
@@ -302,6 +302,7 @@
             resources.ApplyResources(this.btnHyperdeckConnect, "btnHyperdeckConnect");
             this.btnHyperdeckConnect.Name = "btnHyperdeckConnect";
             this.btnHyperdeckConnect.UseVisualStyleBackColor = false;
+            this.btnHyperdeckConnect.Click += new System.EventHandler(this.btnHyperdeckConnect_Click);
             // 
             // txtHyperdeckAddress
             // 
@@ -1850,22 +1851,32 @@
             this.tabBracket.Name = "tabBracket";
             this.tabBracket.UseVisualStyleBackColor = true;
             // 
-            // groupBox7
+            // panelHyperdeck
             // 
-            this.groupBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.groupBox7.Controls.Add(this.label23);
-            this.groupBox7.Controls.Add(this.label22);
-            this.groupBox7.Controls.Add(this.label20);
-            this.groupBox7.Controls.Add(this.txtHyperdeckSpeed);
-            this.groupBox7.Controls.Add(this.btnHyperdeckEnd);
-            this.groupBox7.Controls.Add(this.button1);
-            this.groupBox7.Controls.Add(this.btnHyperdeckRewind);
-            this.groupBox7.Controls.Add(this.btnHyperdeckRecord);
-            this.groupBox7.Controls.Add(this.btnHyperdeckStop);
-            this.groupBox7.Controls.Add(this.btnHyperdeckPlay);
-            resources.ApplyResources(this.groupBox7, "groupBox7");
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.TabStop = false;
+            this.panelHyperdeck.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.panelHyperdeck.Controls.Add(this.label23);
+            this.panelHyperdeck.Controls.Add(this.label22);
+            this.panelHyperdeck.Controls.Add(this.label20);
+            this.panelHyperdeck.Controls.Add(this.txtHyperdeckSpeed);
+            this.panelHyperdeck.Controls.Add(this.btnHyperdeckEnd);
+            this.panelHyperdeck.Controls.Add(this.button1);
+            this.panelHyperdeck.Controls.Add(this.btnHyperdeckRewind);
+            this.panelHyperdeck.Controls.Add(this.btnHyperdeckRecord);
+            this.panelHyperdeck.Controls.Add(this.btnHyperdeckStop);
+            this.panelHyperdeck.Controls.Add(this.btnHyperdeckPlay);
+            resources.ApplyResources(this.panelHyperdeck, "panelHyperdeck");
+            this.panelHyperdeck.Name = "panelHyperdeck";
+            this.panelHyperdeck.TabStop = false;
+            // 
+            // label23
+            // 
+            resources.ApplyResources(this.label23, "label23");
+            this.label23.Name = "label23";
+            // 
+            // label22
+            // 
+            resources.ApplyResources(this.label22, "label22");
+            this.label22.Name = "label22";
             // 
             // label20
             // 
@@ -1884,6 +1895,7 @@
             resources.ApplyResources(this.btnHyperdeckEnd, "btnHyperdeckEnd");
             this.btnHyperdeckEnd.Name = "btnHyperdeckEnd";
             this.btnHyperdeckEnd.UseVisualStyleBackColor = false;
+            this.btnHyperdeckEnd.Click += new System.EventHandler(this.btnHyperdeckEnd_Click);
             // 
             // button1
             // 
@@ -1891,6 +1903,7 @@
             resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnHyperdeckRewind
             // 
@@ -1898,6 +1911,7 @@
             resources.ApplyResources(this.btnHyperdeckRewind, "btnHyperdeckRewind");
             this.btnHyperdeckRewind.Name = "btnHyperdeckRewind";
             this.btnHyperdeckRewind.UseVisualStyleBackColor = false;
+            this.btnHyperdeckRewind.Click += new System.EventHandler(this.btnHyperdeckRewind_Click);
             // 
             // btnHyperdeckRecord
             // 
@@ -1905,6 +1919,7 @@
             resources.ApplyResources(this.btnHyperdeckRecord, "btnHyperdeckRecord");
             this.btnHyperdeckRecord.Name = "btnHyperdeckRecord";
             this.btnHyperdeckRecord.UseVisualStyleBackColor = false;
+            this.btnHyperdeckRecord.Click += new System.EventHandler(this.btnHyperdeckRecord_Click);
             // 
             // btnHyperdeckStop
             // 
@@ -1912,6 +1927,7 @@
             resources.ApplyResources(this.btnHyperdeckStop, "btnHyperdeckStop");
             this.btnHyperdeckStop.Name = "btnHyperdeckStop";
             this.btnHyperdeckStop.UseVisualStyleBackColor = false;
+            this.btnHyperdeckStop.Click += new System.EventHandler(this.btnHyperdeckStop_Click);
             // 
             // btnHyperdeckPlay
             // 
@@ -1919,22 +1935,13 @@
             resources.ApplyResources(this.btnHyperdeckPlay, "btnHyperdeckPlay");
             this.btnHyperdeckPlay.Name = "btnHyperdeckPlay";
             this.btnHyperdeckPlay.UseVisualStyleBackColor = false;
-            // 
-            // label22
-            // 
-            resources.ApplyResources(this.label22, "label22");
-            this.label22.Name = "label22";
-            // 
-            // label23
-            // 
-            resources.ApplyResources(this.label23, "label23");
-            this.label23.Name = "label23";
+            this.btnHyperdeckPlay.Click += new System.EventHandler(this.btnHyperdeckPlay_Click);
             // 
             // GUI
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.groupBox7);
+            this.Controls.Add(this.panelHyperdeck);
             this.Controls.Add(this.tabOverlays);
             this.Controls.Add(this.panelPresets);
             this.Controls.Add(this.groupBox6);
@@ -1982,8 +1989,8 @@
             this.panelPresets.ResumeLayout(false);
             this.tabOverlays.ResumeLayout(false);
             this.tabGeneral.ResumeLayout(false);
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
+            this.panelHyperdeck.ResumeLayout(false);
+            this.panelHyperdeck.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2180,7 +2187,7 @@
         private System.Windows.Forms.Button btnHyperdeckConnect;
         private System.Windows.Forms.TextBox txtHyperdeckAddress;
         private System.Windows.Forms.Label statusHyperdeck;
-        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.GroupBox panelHyperdeck;
         private System.Windows.Forms.Button btnHyperdeckEnd;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnHyperdeckRewind;

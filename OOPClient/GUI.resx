@@ -5614,7 +5614,7 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label23.Parent" xml:space="preserve">
-    <value>groupBox7</value>
+    <value>panelHyperdeck</value>
   </data>
   <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -5644,7 +5644,7 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label22.Parent" xml:space="preserve">
-    <value>groupBox7</value>
+    <value>panelHyperdeck</value>
   </data>
   <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -5674,7 +5674,7 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label20.Parent" xml:space="preserve">
-    <value>groupBox7</value>
+    <value>panelHyperdeck</value>
   </data>
   <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -5704,13 +5704,10 @@
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtHyperdeckSpeed.Parent" xml:space="preserve">
-    <value>groupBox7</value>
+    <value>panelHyperdeck</value>
   </data>
   <data name="&gt;&gt;txtHyperdeckSpeed.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="btnHyperdeckEnd.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="btnHyperdeckEnd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -5740,13 +5737,10 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnHyperdeckEnd.Parent" xml:space="preserve">
-    <value>groupBox7</value>
+    <value>panelHyperdeck</value>
   </data>
   <data name="&gt;&gt;btnHyperdeckEnd.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="button1.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -5776,13 +5770,10 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>groupBox7</value>
+    <value>panelHyperdeck</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
     <value>5</value>
-  </data>
-  <data name="btnHyperdeckRewind.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="btnHyperdeckRewind.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -5812,13 +5803,10 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnHyperdeckRewind.Parent" xml:space="preserve">
-    <value>groupBox7</value>
+    <value>panelHyperdeck</value>
   </data>
   <data name="&gt;&gt;btnHyperdeckRewind.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="btnHyperdeckRecord.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="btnHyperdeckRecord.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -5848,13 +5836,10 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnHyperdeckRecord.Parent" xml:space="preserve">
-    <value>groupBox7</value>
+    <value>panelHyperdeck</value>
   </data>
   <data name="&gt;&gt;btnHyperdeckRecord.ZOrder" xml:space="preserve">
     <value>7</value>
-  </data>
-  <data name="btnHyperdeckStop.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="btnHyperdeckStop.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -5884,13 +5869,10 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnHyperdeckStop.Parent" xml:space="preserve">
-    <value>groupBox7</value>
+    <value>panelHyperdeck</value>
   </data>
   <data name="&gt;&gt;btnHyperdeckStop.ZOrder" xml:space="preserve">
     <value>8</value>
-  </data>
-  <data name="btnHyperdeckPlay.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="btnHyperdeckPlay.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -5920,33 +5902,36 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnHyperdeckPlay.Parent" xml:space="preserve">
-    <value>groupBox7</value>
+    <value>panelHyperdeck</value>
   </data>
   <data name="&gt;&gt;btnHyperdeckPlay.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="groupBox7.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="panelHyperdeck.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panelHyperdeck.Location" type="System.Drawing.Point, System.Drawing">
     <value>782, 138</value>
   </data>
-  <data name="groupBox7.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="panelHyperdeck.Size" type="System.Drawing.Size, System.Drawing">
     <value>255, 189</value>
   </data>
-  <data name="groupBox7.TabIndex" type="System.Int32, mscorlib">
+  <data name="panelHyperdeck.TabIndex" type="System.Int32, mscorlib">
     <value>103</value>
   </data>
-  <data name="groupBox7.Text" xml:space="preserve">
+  <data name="panelHyperdeck.Text" xml:space="preserve">
     <value>HYPERDECK</value>
   </data>
-  <data name="&gt;&gt;groupBox7.Name" xml:space="preserve">
-    <value>groupBox7</value>
+  <data name="&gt;&gt;panelHyperdeck.Name" xml:space="preserve">
+    <value>panelHyperdeck</value>
   </data>
-  <data name="&gt;&gt;groupBox7.Type" xml:space="preserve">
+  <data name="&gt;&gt;panelHyperdeck.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox7.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panelHyperdeck.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox7.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;panelHyperdeck.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -5959,7 +5944,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1914, 1055</value>
+    <value>1286, 707</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

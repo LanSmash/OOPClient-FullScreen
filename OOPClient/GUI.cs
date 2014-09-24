@@ -22,10 +22,11 @@ namespace OOPClient
         private LaunchPadController launchpad;
         private AudioController audioMixer;
         private CasparController caspar;
+        private HyperdeckController hyperdeck;
 
         private int audioIn, audioOut, controlIn, controlOut;
 
-        private bool atemIsOpen, controlIsOpen, audioIsOpen;
+        private bool atemIsOpen, controlIsOpen, audioIsOpen, controlLoaded;
 
         private PresetHandler presetHandler;
 
@@ -36,7 +37,7 @@ namespace OOPClient
         {
             InitializeComponent();
 
-            controlIsOpen = audioIsOpen = atemIsOpen = false;
+            controlIsOpen = audioIsOpen = atemIsOpen = controlLoaded = false;
 
             caspar = new CasparController();
             caspar.OnCasparConnected2 += caspar_OnCasparConnected2;
@@ -62,6 +63,7 @@ namespace OOPClient
 
             txtAtemAddress.Text = "192.168.0.201";
             txtCasparAddress.Text = "127.0.0.1";
+            txtHyperdeckAddress.Text = "192.168.0.24";
 
             slcAudioIn.SelectedIndex = 0;
             slcAudioOut.SelectedIndex = 0;
@@ -75,6 +77,10 @@ namespace OOPClient
 
             xk = new XkeysController();
             xk.XKeyPressed += xk_XKeyPressed;
+
+            btnControlConnect.Enabled = false;
+
+            hyperdeck = new HyperdeckController();
         }
 
         #region presethandling
@@ -650,13 +656,14 @@ namespace OOPClient
             if (slcControlOut.Items.Count > 0)
             {
                 slcControlOut.SelectedIndex = 0;
-                controlIsOpen = true;
                 xk.SetCallback();
+                controlLoaded = true;
+                btnControlConnect.Enabled = true;
             }
             else
             {
-                controlIsOpen = false;
                 slcControlOut.Enabled = false;
+                controlLoaded = false;
             }
         }
 
@@ -704,15 +711,32 @@ namespace OOPClient
                 controlIsOpen = true;
             }*/
 #endregion
-
-            xk.SetCallback();
-
-            xk.test();
+            try
+            {
+                if (!controlIsOpen)
+                {
+                    xk.SetCallback();
+                    statusControl.BackColor = c_green;
+                    xk.test();
+                    controlIsOpen = true;
+                    btnControlConnect.Enabled = false;
+                }
+                else
+                {
+                    xk.selectDevice(-1);
+                    controlIsOpen = false;
+                    statusControl.BackColor = c_red;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
+            }
         }
 
         private void slcControlOut_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (slcControlOut.Items.Count > 0 && slcControlOut.SelectedIndex > -1 && controlIsOpen)
+            if (slcControlOut.Items.Count > 0 && slcControlOut.SelectedIndex != -1 && controlLoaded)
             {
                 xk.selectDevice(slcControlOut.SelectedIndex);
             }
@@ -811,6 +835,49 @@ namespace OOPClient
                     audioMixer.Close();
                 }
             }
+        }
+
+        private void btnHyperdeckConnect_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                hyperdeck.Connect(txtHyperdeckAddress.Text);
+                panelHyperdeck.Enabled = true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
+            }
+        }
+
+        private void btnHyperdeckPlay_Click(object sender, EventArgs e)
+        {
+            hyperdeck.Play(int.Parse(txtHyperdeckSpeed.Text));
+        }
+
+        private void btnHyperdeckStop_Click(object sender, EventArgs e)
+        {
+            hyperdeck.Stop();
+        }
+
+        private void btnHyperdeckRecord_Click(object sender, EventArgs e)
+        {
+            hyperdeck.Record();
+        }
+
+        private void btnHyperdeckRewind_Click(object sender, EventArgs e)
+        {
+            hyperdeck.Play(-300);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            hyperdeck.Play(300);
+        }
+
+        private void btnHyperdeckEnd_Click(object sender, EventArgs e)
+        {
+            hyperdeck.GotoEndTimeline();
         }
     }
 }
