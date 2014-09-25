@@ -26,7 +26,7 @@ namespace OOPClient
 
         private int audioIn, audioOut, controlIn, controlOut;
 
-        private bool atemIsOpen, controlIsOpen, audioIsOpen, controlLoaded;
+        private bool atemIsOpen, controlIsOpen, audioIsOpen, controlLoaded, hyperdeckIsOpen;
 
         private PresetHandler presetHandler;
 
@@ -37,7 +37,7 @@ namespace OOPClient
         {
             InitializeComponent();
 
-            controlIsOpen = audioIsOpen = atemIsOpen = controlLoaded = false;
+            controlIsOpen = audioIsOpen = atemIsOpen = controlLoaded = hyperdeckIsOpen = false;
 
             caspar = new CasparController();
             caspar.OnCasparConnected2 += caspar_OnCasparConnected2;
@@ -155,74 +155,101 @@ namespace OOPClient
 
         private void rundownHandler(string type, object args)
         {
-            foreach (string entry in (List<string>)args)
+            try
             {
-                string[] parts = entry.Split('|');
-                string[] cmd = parts[1].Split('-');
-
-                switch (parts[0])
+                foreach (string entry in (List<string>)args)
                 {
-                    //ATEM Case
-                    case "A":
-                        if (atemIsOpen)
-                        {
+                    string[] parts = entry.Split('|');
+                    string[] cmd = parts[1].Split('-');
+
+                    switch (parts[0])
+                    {
+                        //ATEM Case
+                        case "A":
+                            if (atemIsOpen)
+                            {
+                                switch (cmd[0])
+                                {
+                                    case "PROG":
+                                        atem.changeProg(long.Parse(cmd[1]));
+                                        break;
+
+                                    case "PREV":
+                                        atem.changePrev(long.Parse(cmd[1]));
+                                        break;
+
+                                    //Transitions and perform them
+                                    case "TRANS":
+                                        switch (cmd[1])
+                                        {
+                                            case "AUTO":
+                                                atem.performAuto();
+                                                break;
+
+                                            case "CUT":
+                                                atem.performCut();
+                                                break;
+
+                                            case "MIX":
+                                                atem.changeTransition(1);
+                                                break;
+
+                                            case "DIP":
+                                                atem.changeTransition(2);
+                                                break;
+
+                                            case "WIPE":
+                                                atem.changeTransition(3);
+                                                break;
+
+                                            case "STING":
+                                                atem.changeTransition(4);
+                                                break;
+
+                                            case "DVE":
+                                                atem.changeTransition(5);
+                                                break;
+                                        }
+                                        break;
+                                }
+                            }
+                            break;
+
+                        case "H":
+                            if (hyperdeckIsOpen)
+                            {
+                                switch (cmd[0])
+                                {
+                                    case "PLAY":
+                                        hyperdeck.Play(int.Parse(cmd[1]));
+                                        break;
+
+                                    case "STOP":
+                                        hyperdeck.Stop();
+                                        break;
+
+                                    case "RECORD":
+                                        hyperdeck.Record();
+                                        break;
+                                }
+                            }
+                            break;
+
+                        //MAIN STUFF
+                        case "M":
                             switch (cmd[0])
                             {
-                                case "PROG":
-                                    atem.changeProg(long.Parse(cmd[1]));
-                                    break;
-
-                                case "PREV":
-                                    atem.changePrev(long.Parse(cmd[1]));
-                                    break;
-
-                                //Transitions and perform them
-                                case "TRANS":
-                                    switch (cmd[1])
-                                    {
-                                        case "AUTO":
-                                            atem.performAuto();
-                                            break;
-
-                                        case "CUT":
-                                            atem.performCut();
-                                            break;
-
-                                        case "MIX":
-                                            atem.changeTransition(1);
-                                            break;
-
-                                        case "DIP":
-                                            atem.changeTransition(2);
-                                            break;
-
-                                        case "WIPE":
-                                            atem.changeTransition(3);
-                                            break;
-
-                                        case "STING":
-                                            atem.changeTransition(4);
-                                            break;
-
-                                        case "DVE":
-                                            atem.changeTransition(5);
-                                            break;
-                                    }
+                                case "SLEEP":
+                                    Thread.Sleep(Int32.Parse(cmd[1]));
                                     break;
                             }
-                        }
-                        break;
-
-                    //MAIN STUFF
-                    case "M":
-                        switch (cmd[0])
-                        {
-                            case "SLEEP":
-                                Thread.Sleep(Int32.Parse(cmd[1]));
-                                break;
-                        }
-                        break;
+                            break;
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERROR: " + ex.Message.ToString());
             }
         }
 
@@ -843,6 +870,7 @@ namespace OOPClient
             {
                 hyperdeck.Connect(txtHyperdeckAddress.Text);
                 panelHyperdeck.Enabled = true;
+                hyperdeckIsOpen = true;
             }
             catch (Exception ex)
             {

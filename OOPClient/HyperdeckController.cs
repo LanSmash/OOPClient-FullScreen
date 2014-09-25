@@ -35,6 +35,11 @@ namespace OOPClient
             }
         }
 
+        public bool Connected()
+        {
+            return tcp.Connected;
+        }
+
         public void SendMessage(string message)
         {
             try
