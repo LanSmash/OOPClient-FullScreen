@@ -2454,101 +2454,173 @@
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="textBox19.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="txtCasterRTwitter.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 9pt</value>
   </data>
-  <data name="textBox19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>290, 68</value>
+  <data name="txtCasterRTwitter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 95</value>
   </data>
-  <data name="textBox19.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtCasterRTwitter.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 21</value>
   </data>
-  <data name="textBox19.TabIndex" type="System.Int32, mscorlib">
-    <value>46</value>
+  <data name="txtCasterRTwitter.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
   </data>
-  <data name="&gt;&gt;textBox19.Name" xml:space="preserve">
-    <value>textBox19</value>
+  <data name="&gt;&gt;txtCasterRTwitter.Name" xml:space="preserve">
+    <value>txtCasterRTwitter</value>
   </data>
-  <data name="&gt;&gt;textBox19.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtCasterRTwitter.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox19.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtCasterRTwitter.Parent" xml:space="preserve">
     <value>groupBox5</value>
   </data>
-  <data name="&gt;&gt;textBox19.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtCasterRTwitter.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="textBox20.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="txtCasterMTwitter.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 9pt</value>
   </data>
-  <data name="textBox20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 68</value>
+  <data name="txtCasterMTwitter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 95</value>
   </data>
-  <data name="textBox20.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtCasterMTwitter.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 21</value>
   </data>
-  <data name="textBox20.TabIndex" type="System.Int32, mscorlib">
-    <value>45</value>
+  <data name="txtCasterMTwitter.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
   </data>
-  <data name="&gt;&gt;textBox20.Name" xml:space="preserve">
-    <value>textBox20</value>
+  <data name="&gt;&gt;txtCasterMTwitter.Name" xml:space="preserve">
+    <value>txtCasterMTwitter</value>
   </data>
-  <data name="&gt;&gt;textBox20.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtCasterMTwitter.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox20.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtCasterMTwitter.Parent" xml:space="preserve">
     <value>groupBox5</value>
   </data>
-  <data name="&gt;&gt;textBox20.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtCasterMTwitter.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="textBox21.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="txtCasterLTwitter.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 9pt</value>
   </data>
-  <data name="textBox21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 68</value>
+  <data name="txtCasterLTwitter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 95</value>
   </data>
-  <data name="textBox21.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtCasterLTwitter.Size" type="System.Drawing.Size, System.Drawing">
     <value>138, 21</value>
   </data>
-  <data name="textBox21.TabIndex" type="System.Int32, mscorlib">
-    <value>44</value>
+  <data name="txtCasterLTwitter.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
   </data>
-  <data name="&gt;&gt;textBox21.Name" xml:space="preserve">
-    <value>textBox21</value>
+  <data name="&gt;&gt;txtCasterLTwitter.Name" xml:space="preserve">
+    <value>txtCasterLTwitter</value>
   </data>
-  <data name="&gt;&gt;textBox21.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtCasterLTwitter.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox21.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtCasterLTwitter.Parent" xml:space="preserve">
     <value>groupBox5</value>
   </data>
-  <data name="&gt;&gt;textBox21.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtCasterLTwitter.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="textBox18.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="txtCasterRName.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 9pt</value>
   </data>
-  <data name="textBox18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>290, 43</value>
+  <data name="txtCasterRName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 68</value>
   </data>
-  <data name="textBox18.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtCasterRName.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 21</value>
   </data>
-  <data name="textBox18.TabIndex" type="System.Int32, mscorlib">
-    <value>42</value>
+  <data name="txtCasterRName.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
   </data>
-  <data name="&gt;&gt;textBox18.Name" xml:space="preserve">
-    <value>textBox18</value>
+  <data name="&gt;&gt;txtCasterRName.Name" xml:space="preserve">
+    <value>txtCasterRName</value>
   </data>
-  <data name="&gt;&gt;textBox18.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtCasterRName.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox18.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtCasterRName.Parent" xml:space="preserve">
     <value>groupBox5</value>
   </data>
-  <data name="&gt;&gt;textBox18.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtCasterRName.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="txtCasterMName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtCasterMName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 68</value>
+  </data>
+  <data name="txtCasterMName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 21</value>
+  </data>
+  <data name="txtCasterMName.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;txtCasterMName.Name" xml:space="preserve">
+    <value>txtCasterMName</value>
+  </data>
+  <data name="&gt;&gt;txtCasterMName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCasterMName.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;txtCasterMName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtCasterLName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtCasterLName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 68</value>
+  </data>
+  <data name="txtCasterLName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 21</value>
+  </data>
+  <data name="txtCasterLName.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;txtCasterLName.Name" xml:space="preserve">
+    <value>txtCasterLName</value>
+  </data>
+  <data name="&gt;&gt;txtCasterLName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCasterLName.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;txtCasterLName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtCasterRNick.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtCasterRNick.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 43</value>
+  </data>
+  <data name="txtCasterRNick.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 21</value>
+  </data>
+  <data name="txtCasterRNick.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;txtCasterRNick.Name" xml:space="preserve">
+    <value>txtCasterRNick</value>
+  </data>
+  <data name="&gt;&gt;txtCasterRNick.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCasterRNick.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;txtCasterRNick.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="label19.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2578,121 +2650,121 @@
     <value>groupBox5</value>
   </data>
   <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
-  </data>
-  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 109</value>
-  </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 22</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>Hide Overlay</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="textBox16.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 9pt</value>
-  </data>
-  <data name="textBox16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 43</value>
-  </data>
-  <data name="textBox16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 21</value>
-  </data>
-  <data name="textBox16.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="&gt;&gt;textBox16.Name" xml:space="preserve">
-    <value>textBox16</value>
-  </data>
-  <data name="&gt;&gt;textBox16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox16.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;textBox16.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
-  </data>
-  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 109</value>
-  </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
-    <value>40</value>
-  </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>Show Overlay</value>
-  </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="textBox17.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 9pt</value>
+  <data name="btnCasterHide.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="textBox17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 43</value>
+  <data name="btnCasterHide.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
-  <data name="textBox17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 21</value>
+  <data name="btnCasterHide.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="textBox17.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
+  <data name="btnCasterHide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 136</value>
   </data>
-  <data name="&gt;&gt;textBox17.Name" xml:space="preserve">
-    <value>textBox17</value>
+  <data name="btnCasterHide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
   </data>
-  <data name="&gt;&gt;textBox17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnCasterHide.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
   </data>
-  <data name="&gt;&gt;textBox17.Parent" xml:space="preserve">
+  <data name="btnCasterHide.Text" xml:space="preserve">
+    <value>Hide Overlay</value>
+  </data>
+  <data name="&gt;&gt;btnCasterHide.Name" xml:space="preserve">
+    <value>btnCasterHide</value>
+  </data>
+  <data name="&gt;&gt;btnCasterHide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCasterHide.Parent" xml:space="preserve">
     <value>groupBox5</value>
   </data>
-  <data name="&gt;&gt;textBox17.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnCasterHide.ZOrder" xml:space="preserve">
     <value>8</value>
+  </data>
+  <data name="txtCasterMNick.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtCasterMNick.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 43</value>
+  </data>
+  <data name="txtCasterMNick.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 21</value>
+  </data>
+  <data name="txtCasterMNick.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;txtCasterMNick.Name" xml:space="preserve">
+    <value>txtCasterMNick</value>
+  </data>
+  <data name="&gt;&gt;txtCasterMNick.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCasterMNick.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;txtCasterMNick.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnCasterShow.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnCasterShow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnCasterShow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCasterShow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 136</value>
+  </data>
+  <data name="btnCasterShow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="btnCasterShow.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="btnCasterShow.Text" xml:space="preserve">
+    <value>Show Overlay</value>
+  </data>
+  <data name="&gt;&gt;btnCasterShow.Name" xml:space="preserve">
+    <value>btnCasterShow</value>
+  </data>
+  <data name="&gt;&gt;btnCasterShow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCasterShow.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;btnCasterShow.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtCasterLNick.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtCasterLNick.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 43</value>
+  </data>
+  <data name="txtCasterLNick.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 21</value>
+  </data>
+  <data name="txtCasterLNick.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;txtCasterLNick.Name" xml:space="preserve">
+    <value>txtCasterLNick</value>
+  </data>
+  <data name="&gt;&gt;txtCasterLNick.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCasterLNick.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;txtCasterLNick.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
   <data name="label17.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2722,7 +2794,7 @@
     <value>groupBox5</value>
   </data>
   <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>12</value>
   </data>
   <data name="label18.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2752,10 +2824,10 @@
     <value>groupBox5</value>
   </data>
   <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>13</value>
   </data>
   <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>780, 6</value>
+    <value>303, 6</value>
   </data>
   <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
     <value>432, 180</value>
@@ -2776,7 +2848,7 @@
     <value>tabGeneral</value>
   </data>
   <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="label16.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3793,7 +3865,7 @@
     <value>tabGeneral</value>
   </data>
   <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="btnAudioTest.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -5484,6 +5556,1173 @@
   <data name="&gt;&gt;panelPresets.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="btnScheduleRefresh.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnScheduleRefresh.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnScheduleRefresh.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnScheduleRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 454</value>
+  </data>
+  <data name="btnScheduleRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 22</value>
+  </data>
+  <data name="btnScheduleRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="btnScheduleRefresh.Text" xml:space="preserve">
+    <value>Refresh Overlay</value>
+  </data>
+  <data name="&gt;&gt;btnScheduleRefresh.Name" xml:space="preserve">
+    <value>btnScheduleRefresh</value>
+  </data>
+  <data name="&gt;&gt;btnScheduleRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScheduleRefresh.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;btnScheduleRefresh.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label29.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 379</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="label29.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>ROW 6</value>
+  </data>
+  <data name="&gt;&gt;label29.Name" xml:space="preserve">
+    <value>label29</value>
+  </data>
+  <data name="&gt;&gt;label29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label29.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;label29.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtScheduleMap36.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 422</value>
+  </data>
+  <data name="txtScheduleMap36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap36.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap36.Name" xml:space="preserve">
+    <value>txtScheduleMap36</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap36.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap36.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtScheduleMap26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 422</value>
+  </data>
+  <data name="txtScheduleMap26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap26.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap26.Name" xml:space="preserve">
+    <value>txtScheduleMap26</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap26.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap26.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtScheduleMap16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 422</value>
+  </data>
+  <data name="txtScheduleMap16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap16.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap16.Name" xml:space="preserve">
+    <value>txtScheduleMap16</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap16.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap16.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtScheduleBlue6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleBlue6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 422</value>
+  </data>
+  <data name="txtScheduleBlue6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 21</value>
+  </data>
+  <data name="txtScheduleBlue6.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue6.Name" xml:space="preserve">
+    <value>txtScheduleBlue6</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue6.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtScheduleText6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleText6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 395</value>
+  </data>
+  <data name="txtScheduleText6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 21</value>
+  </data>
+  <data name="txtScheduleText6.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText6.Name" xml:space="preserve">
+    <value>txtScheduleText6</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText6.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtScheduleTime6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleTime6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 395</value>
+  </data>
+  <data name="txtScheduleTime6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="txtScheduleTime6.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime6.Name" xml:space="preserve">
+    <value>txtScheduleTime6</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime6.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label28.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 303</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="label28.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>ROW 5</value>
+  </data>
+  <data name="&gt;&gt;label28.Name" xml:space="preserve">
+    <value>label28</value>
+  </data>
+  <data name="&gt;&gt;label28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label28.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtScheduleMap35.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 346</value>
+  </data>
+  <data name="txtScheduleMap35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap35.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap35.Name" xml:space="preserve">
+    <value>txtScheduleMap35</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap35.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap35.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtScheduleMap25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 346</value>
+  </data>
+  <data name="txtScheduleMap25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap25.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap25.Name" xml:space="preserve">
+    <value>txtScheduleMap25</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap25.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap25.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtScheduleMap15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 346</value>
+  </data>
+  <data name="txtScheduleMap15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap15.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap15.Name" xml:space="preserve">
+    <value>txtScheduleMap15</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap15.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap15.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtScheduleBlue5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleBlue5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 346</value>
+  </data>
+  <data name="txtScheduleBlue5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 21</value>
+  </data>
+  <data name="txtScheduleBlue5.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue5.Name" xml:space="preserve">
+    <value>txtScheduleBlue5</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue5.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtScheduleText5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleText5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 319</value>
+  </data>
+  <data name="txtScheduleText5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 21</value>
+  </data>
+  <data name="txtScheduleText5.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText5.Name" xml:space="preserve">
+    <value>txtScheduleText5</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText5.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtScheduleTime5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleTime5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 319</value>
+  </data>
+  <data name="txtScheduleTime5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="txtScheduleTime5.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime5.Name" xml:space="preserve">
+    <value>txtScheduleTime5</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime5.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label27.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 228</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>ROW 4</value>
+  </data>
+  <data name="&gt;&gt;label27.Name" xml:space="preserve">
+    <value>label27</value>
+  </data>
+  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="txtScheduleMap34.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 271</value>
+  </data>
+  <data name="txtScheduleMap34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap34.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap34.Name" xml:space="preserve">
+    <value>txtScheduleMap34</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap34.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap34.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="txtScheduleMap24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 271</value>
+  </data>
+  <data name="txtScheduleMap24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap24.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap24.Name" xml:space="preserve">
+    <value>txtScheduleMap24</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap24.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap24.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="txtScheduleMap14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 271</value>
+  </data>
+  <data name="txtScheduleMap14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap14.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap14.Name" xml:space="preserve">
+    <value>txtScheduleMap14</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap14.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap14.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="txtScheduleBlue4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleBlue4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 271</value>
+  </data>
+  <data name="txtScheduleBlue4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 21</value>
+  </data>
+  <data name="txtScheduleBlue4.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue4.Name" xml:space="preserve">
+    <value>txtScheduleBlue4</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue4.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue4.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="txtScheduleText4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleText4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 244</value>
+  </data>
+  <data name="txtScheduleText4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 21</value>
+  </data>
+  <data name="txtScheduleText4.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText4.Name" xml:space="preserve">
+    <value>txtScheduleText4</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText4.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText4.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="txtScheduleTime4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleTime4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 244</value>
+  </data>
+  <data name="txtScheduleTime4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="txtScheduleTime4.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime4.Name" xml:space="preserve">
+    <value>txtScheduleTime4</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime4.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime4.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="label25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 157</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>ROW 3</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="txtScheduleMap33.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 200</value>
+  </data>
+  <data name="txtScheduleMap33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap33.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap33.Name" xml:space="preserve">
+    <value>txtScheduleMap33</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap33.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap33.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="txtScheduleMap23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 200</value>
+  </data>
+  <data name="txtScheduleMap23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap23.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap23.Name" xml:space="preserve">
+    <value>txtScheduleMap23</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap23.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap23.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="txtScheduleMap13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 200</value>
+  </data>
+  <data name="txtScheduleMap13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap13.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap13.Name" xml:space="preserve">
+    <value>txtScheduleMap13</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap13.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap13.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="txtScheduleBlue3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleBlue3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 200</value>
+  </data>
+  <data name="txtScheduleBlue3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 21</value>
+  </data>
+  <data name="txtScheduleBlue3.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue3.Name" xml:space="preserve">
+    <value>txtScheduleBlue3</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue3.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue3.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="txtScheduleText3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleText3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 173</value>
+  </data>
+  <data name="txtScheduleText3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 21</value>
+  </data>
+  <data name="txtScheduleText3.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText3.Name" xml:space="preserve">
+    <value>txtScheduleText3</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText3.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText3.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="txtScheduleTime3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleTime3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 173</value>
+  </data>
+  <data name="txtScheduleTime3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="txtScheduleTime3.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime3.Name" xml:space="preserve">
+    <value>txtScheduleTime3</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime3.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime3.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="label24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 87</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>ROW 2</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="txtScheduleMap32.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 130</value>
+  </data>
+  <data name="txtScheduleMap32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap32.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap32.Name" xml:space="preserve">
+    <value>txtScheduleMap32</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap32.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap32.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="txtScheduleMap22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 130</value>
+  </data>
+  <data name="txtScheduleMap22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap22.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap22.Name" xml:space="preserve">
+    <value>txtScheduleMap22</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap22.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap22.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="txtScheduleMap12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 130</value>
+  </data>
+  <data name="txtScheduleMap12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap12.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap12.Name" xml:space="preserve">
+    <value>txtScheduleMap12</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap12.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap12.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="txtScheduleBlue2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleBlue2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 130</value>
+  </data>
+  <data name="txtScheduleBlue2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 21</value>
+  </data>
+  <data name="txtScheduleBlue2.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue2.Name" xml:space="preserve">
+    <value>txtScheduleBlue2</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue2.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue2.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="txtScheduleText2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleText2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 103</value>
+  </data>
+  <data name="txtScheduleText2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 21</value>
+  </data>
+  <data name="txtScheduleText2.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText2.Name" xml:space="preserve">
+    <value>txtScheduleText2</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText2.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText2.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="txtScheduleTime2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleTime2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 103</value>
+  </data>
+  <data name="txtScheduleTime2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="txtScheduleTime2.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime2.Name" xml:space="preserve">
+    <value>txtScheduleTime2</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime2.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime2.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="txtScheduleMap31.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 60</value>
+  </data>
+  <data name="txtScheduleMap31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap31.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap31.Name" xml:space="preserve">
+    <value>txtScheduleMap31</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap31.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap31.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="txtScheduleMap21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 60</value>
+  </data>
+  <data name="txtScheduleMap21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap21.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap21.Name" xml:space="preserve">
+    <value>txtScheduleMap21</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap21.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap21.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="txtScheduleMap11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleMap11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 60</value>
+  </data>
+  <data name="txtScheduleMap11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txtScheduleMap11.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap11.Name" xml:space="preserve">
+    <value>txtScheduleMap11</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap11.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleMap11.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="txtScheduleBlue1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleBlue1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 60</value>
+  </data>
+  <data name="txtScheduleBlue1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 21</value>
+  </data>
+  <data name="txtScheduleBlue1.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue1.Name" xml:space="preserve">
+    <value>txtScheduleBlue1</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue1.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleBlue1.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="btnScheduleHide.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnScheduleHide.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnScheduleHide.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnScheduleHide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 454</value>
+  </data>
+  <data name="btnScheduleHide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="btnScheduleHide.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="btnScheduleHide.Text" xml:space="preserve">
+    <value>Hide Overlay</value>
+  </data>
+  <data name="&gt;&gt;btnScheduleHide.Name" xml:space="preserve">
+    <value>btnScheduleHide</value>
+  </data>
+  <data name="&gt;&gt;btnScheduleHide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScheduleHide.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;btnScheduleHide.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="txtScheduleText1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleText1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 33</value>
+  </data>
+  <data name="txtScheduleText1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 21</value>
+  </data>
+  <data name="txtScheduleText1.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText1.Name" xml:space="preserve">
+    <value>txtScheduleText1</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText1.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleText1.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="btnScheduleShow.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnScheduleShow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnScheduleShow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnScheduleShow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 454</value>
+  </data>
+  <data name="btnScheduleShow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="btnScheduleShow.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="btnScheduleShow.Text" xml:space="preserve">
+    <value>Show Overlay</value>
+  </data>
+  <data name="&gt;&gt;btnScheduleShow.Name" xml:space="preserve">
+    <value>btnScheduleShow</value>
+  </data>
+  <data name="&gt;&gt;btnScheduleShow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScheduleShow.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;btnScheduleShow.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="txtScheduleTime1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtScheduleTime1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 33</value>
+  </data>
+  <data name="txtScheduleTime1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="txtScheduleTime1.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime1.Name" xml:space="preserve">
+    <value>txtScheduleTime1</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime1.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;txtScheduleTime1.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="label26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>ROW 1</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="groupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>741, 6</value>
+  </data>
+  <data name="groupBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 491</value>
+  </data>
+  <data name="groupBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>SCHEDULE</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Name" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="tabGeneral.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
@@ -5742,37 +6981,37 @@
   <data name="&gt;&gt;btnHyperdeckEnd.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="btnHyperdeckForward.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="btnHyperdeckForward.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
-  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="btnHyperdeckForward.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="btnHyperdeckForward.Location" type="System.Drawing.Point, System.Drawing">
     <value>88, 68</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btnHyperdeckForward.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 43</value>
   </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnHyperdeckForward.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
+  <data name="btnHyperdeckForward.Text" xml:space="preserve">
     <value>FORWARD</value>
   </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
+  <data name="&gt;&gt;btnHyperdeckForward.Name" xml:space="preserve">
+    <value>btnHyperdeckForward</value>
   </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnHyperdeckForward.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnHyperdeckForward.Parent" xml:space="preserve">
     <value>panelHyperdeck</value>
   </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnHyperdeckForward.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="btnHyperdeckRewind.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
@@ -5944,7 +7183,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1286, 707</value>
+    <value>1914, 1055</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

@@ -106,15 +106,18 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnGetMidi = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.txtCasterRTwitter = new System.Windows.Forms.TextBox();
+            this.txtCasterMTwitter = new System.Windows.Forms.TextBox();
+            this.txtCasterLTwitter = new System.Windows.Forms.TextBox();
+            this.txtCasterRName = new System.Windows.Forms.TextBox();
+            this.txtCasterMName = new System.Windows.Forms.TextBox();
+            this.txtCasterLName = new System.Windows.Forms.TextBox();
+            this.txtCasterRNick = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.btnCasterHide = new System.Windows.Forms.Button();
+            this.txtCasterMNick = new System.Windows.Forms.TextBox();
+            this.btnCasterShow = new System.Windows.Forms.Button();
+            this.txtCasterLNick = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -225,11 +228,57 @@
             this.label20 = new System.Windows.Forms.Label();
             this.txtHyperdeckSpeed = new System.Windows.Forms.TextBox();
             this.btnHyperdeckEnd = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnHyperdeckForward = new System.Windows.Forms.Button();
             this.btnHyperdeckRewind = new System.Windows.Forms.Button();
             this.btnHyperdeckRecord = new System.Windows.Forms.Button();
             this.btnHyperdeckStop = new System.Windows.Forms.Button();
             this.btnHyperdeckPlay = new System.Windows.Forms.Button();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.txtScheduleBlue1 = new System.Windows.Forms.TextBox();
+            this.btnScheduleHide = new System.Windows.Forms.Button();
+            this.txtScheduleText1 = new System.Windows.Forms.TextBox();
+            this.btnScheduleShow = new System.Windows.Forms.Button();
+            this.txtScheduleTime1 = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.txtScheduleMap11 = new System.Windows.Forms.TextBox();
+            this.txtScheduleMap21 = new System.Windows.Forms.TextBox();
+            this.txtScheduleMap31 = new System.Windows.Forms.TextBox();
+            this.txtScheduleMap32 = new System.Windows.Forms.TextBox();
+            this.txtScheduleMap22 = new System.Windows.Forms.TextBox();
+            this.txtScheduleMap12 = new System.Windows.Forms.TextBox();
+            this.txtScheduleBlue2 = new System.Windows.Forms.TextBox();
+            this.txtScheduleText2 = new System.Windows.Forms.TextBox();
+            this.txtScheduleTime2 = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.txtScheduleMap33 = new System.Windows.Forms.TextBox();
+            this.txtScheduleMap23 = new System.Windows.Forms.TextBox();
+            this.txtScheduleMap13 = new System.Windows.Forms.TextBox();
+            this.txtScheduleBlue3 = new System.Windows.Forms.TextBox();
+            this.txtScheduleText3 = new System.Windows.Forms.TextBox();
+            this.txtScheduleTime3 = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.txtScheduleMap34 = new System.Windows.Forms.TextBox();
+            this.txtScheduleMap24 = new System.Windows.Forms.TextBox();
+            this.txtScheduleMap14 = new System.Windows.Forms.TextBox();
+            this.txtScheduleBlue4 = new System.Windows.Forms.TextBox();
+            this.txtScheduleText4 = new System.Windows.Forms.TextBox();
+            this.txtScheduleTime4 = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.txtScheduleMap35 = new System.Windows.Forms.TextBox();
+            this.txtScheduleMap25 = new System.Windows.Forms.TextBox();
+            this.txtScheduleMap15 = new System.Windows.Forms.TextBox();
+            this.txtScheduleBlue5 = new System.Windows.Forms.TextBox();
+            this.txtScheduleText5 = new System.Windows.Forms.TextBox();
+            this.txtScheduleTime5 = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.txtScheduleMap36 = new System.Windows.Forms.TextBox();
+            this.txtScheduleMap26 = new System.Windows.Forms.TextBox();
+            this.txtScheduleMap16 = new System.Windows.Forms.TextBox();
+            this.txtScheduleBlue6 = new System.Windows.Forms.TextBox();
+            this.txtScheduleText6 = new System.Windows.Forms.TextBox();
+            this.txtScheduleTime6 = new System.Windows.Forms.TextBox();
+            this.btnScheduleRefresh = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.panelATEM.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -259,6 +308,7 @@
             this.tabOverlays.SuspendLayout();
             this.tabGeneral.SuspendLayout();
             this.panelHyperdeck.SuspendLayout();
+            this.groupBox7.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtAtemAddress
@@ -924,75 +974,96 @@
             // groupBox5
             // 
             this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.groupBox5.Controls.Add(this.textBox19);
-            this.groupBox5.Controls.Add(this.textBox20);
-            this.groupBox5.Controls.Add(this.textBox21);
-            this.groupBox5.Controls.Add(this.textBox18);
+            this.groupBox5.Controls.Add(this.txtCasterRTwitter);
+            this.groupBox5.Controls.Add(this.txtCasterMTwitter);
+            this.groupBox5.Controls.Add(this.txtCasterLTwitter);
+            this.groupBox5.Controls.Add(this.txtCasterRName);
+            this.groupBox5.Controls.Add(this.txtCasterMName);
+            this.groupBox5.Controls.Add(this.txtCasterLName);
+            this.groupBox5.Controls.Add(this.txtCasterRNick);
             this.groupBox5.Controls.Add(this.label19);
-            this.groupBox5.Controls.Add(this.button2);
-            this.groupBox5.Controls.Add(this.textBox16);
-            this.groupBox5.Controls.Add(this.button3);
-            this.groupBox5.Controls.Add(this.textBox17);
+            this.groupBox5.Controls.Add(this.btnCasterHide);
+            this.groupBox5.Controls.Add(this.txtCasterMNick);
+            this.groupBox5.Controls.Add(this.btnCasterShow);
+            this.groupBox5.Controls.Add(this.txtCasterLNick);
             this.groupBox5.Controls.Add(this.label17);
             this.groupBox5.Controls.Add(this.label18);
             resources.ApplyResources(this.groupBox5, "groupBox5");
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.TabStop = false;
             // 
-            // textBox19
+            // txtCasterRTwitter
             // 
-            this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.textBox19, "textBox19");
-            this.textBox19.Name = "textBox19";
+            this.txtCasterRTwitter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtCasterRTwitter, "txtCasterRTwitter");
+            this.txtCasterRTwitter.Name = "txtCasterRTwitter";
             // 
-            // textBox20
+            // txtCasterMTwitter
             // 
-            this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.textBox20, "textBox20");
-            this.textBox20.Name = "textBox20";
+            this.txtCasterMTwitter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtCasterMTwitter, "txtCasterMTwitter");
+            this.txtCasterMTwitter.Name = "txtCasterMTwitter";
             // 
-            // textBox21
+            // txtCasterLTwitter
             // 
-            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.textBox21, "textBox21");
-            this.textBox21.Name = "textBox21";
+            this.txtCasterLTwitter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtCasterLTwitter, "txtCasterLTwitter");
+            this.txtCasterLTwitter.Name = "txtCasterLTwitter";
             // 
-            // textBox18
+            // txtCasterRName
             // 
-            this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.textBox18, "textBox18");
-            this.textBox18.Name = "textBox18";
+            this.txtCasterRName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtCasterRName, "txtCasterRName");
+            this.txtCasterRName.Name = "txtCasterRName";
+            // 
+            // txtCasterMName
+            // 
+            this.txtCasterMName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtCasterMName, "txtCasterMName");
+            this.txtCasterMName.Name = "txtCasterMName";
+            // 
+            // txtCasterLName
+            // 
+            this.txtCasterLName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtCasterLName, "txtCasterLName");
+            this.txtCasterLName.Name = "txtCasterLName";
+            // 
+            // txtCasterRNick
+            // 
+            this.txtCasterRNick.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtCasterRNick, "txtCasterRNick");
+            this.txtCasterRNick.Name = "txtCasterRNick";
             // 
             // label19
             // 
             resources.ApplyResources(this.label19, "label19");
             this.label19.Name = "label19";
             // 
-            // button2
+            // btnCasterHide
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnCasterHide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.btnCasterHide, "btnCasterHide");
+            this.btnCasterHide.Name = "btnCasterHide";
+            this.btnCasterHide.UseVisualStyleBackColor = false;
             // 
-            // textBox16
+            // txtCasterMNick
             // 
-            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.textBox16, "textBox16");
-            this.textBox16.Name = "textBox16";
+            this.txtCasterMNick.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtCasterMNick, "txtCasterMNick");
+            this.txtCasterMNick.Name = "txtCasterMNick";
             // 
-            // button3
+            // btnCasterShow
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            resources.ApplyResources(this.button3, "button3");
-            this.button3.Name = "button3";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnCasterShow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.btnCasterShow, "btnCasterShow");
+            this.btnCasterShow.Name = "btnCasterShow";
+            this.btnCasterShow.UseVisualStyleBackColor = false;
             // 
-            // textBox17
+            // txtCasterLNick
             // 
-            this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.textBox17, "textBox17");
-            this.textBox17.Name = "textBox17";
+            this.txtCasterLNick.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtCasterLNick, "txtCasterLNick");
+            this.txtCasterLNick.Name = "txtCasterLNick";
             // 
             // label17
             // 
@@ -1834,6 +1905,7 @@
             // tabGeneral
             // 
             this.tabGeneral.BackColor = System.Drawing.SystemColors.Control;
+            this.tabGeneral.Controls.Add(this.groupBox7);
             this.tabGeneral.Controls.Add(this.groupBox3);
             this.tabGeneral.Controls.Add(this.groupBox5);
             resources.ApplyResources(this.tabGeneral, "tabGeneral");
@@ -1859,7 +1931,7 @@
             this.panelHyperdeck.Controls.Add(this.label20);
             this.panelHyperdeck.Controls.Add(this.txtHyperdeckSpeed);
             this.panelHyperdeck.Controls.Add(this.btnHyperdeckEnd);
-            this.panelHyperdeck.Controls.Add(this.button1);
+            this.panelHyperdeck.Controls.Add(this.btnHyperdeckForward);
             this.panelHyperdeck.Controls.Add(this.btnHyperdeckRewind);
             this.panelHyperdeck.Controls.Add(this.btnHyperdeckRecord);
             this.panelHyperdeck.Controls.Add(this.btnHyperdeckStop);
@@ -1897,13 +1969,13 @@
             this.btnHyperdeckEnd.UseVisualStyleBackColor = false;
             this.btnHyperdeckEnd.Click += new System.EventHandler(this.btnHyperdeckEnd_Click);
             // 
-            // button1
+            // btnHyperdeckForward
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnHyperdeckForward.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.btnHyperdeckForward, "btnHyperdeckForward");
+            this.btnHyperdeckForward.Name = "btnHyperdeckForward";
+            this.btnHyperdeckForward.UseVisualStyleBackColor = false;
+            this.btnHyperdeckForward.Click += new System.EventHandler(this.btnHyperdeckForward_Click);
             // 
             // btnHyperdeckRewind
             // 
@@ -1936,6 +2008,325 @@
             this.btnHyperdeckPlay.Name = "btnHyperdeckPlay";
             this.btnHyperdeckPlay.UseVisualStyleBackColor = false;
             this.btnHyperdeckPlay.Click += new System.EventHandler(this.btnHyperdeckPlay_Click);
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.groupBox7.Controls.Add(this.btnScheduleRefresh);
+            this.groupBox7.Controls.Add(this.label29);
+            this.groupBox7.Controls.Add(this.txtScheduleMap36);
+            this.groupBox7.Controls.Add(this.txtScheduleMap26);
+            this.groupBox7.Controls.Add(this.txtScheduleMap16);
+            this.groupBox7.Controls.Add(this.txtScheduleBlue6);
+            this.groupBox7.Controls.Add(this.txtScheduleText6);
+            this.groupBox7.Controls.Add(this.txtScheduleTime6);
+            this.groupBox7.Controls.Add(this.label28);
+            this.groupBox7.Controls.Add(this.txtScheduleMap35);
+            this.groupBox7.Controls.Add(this.txtScheduleMap25);
+            this.groupBox7.Controls.Add(this.txtScheduleMap15);
+            this.groupBox7.Controls.Add(this.txtScheduleBlue5);
+            this.groupBox7.Controls.Add(this.txtScheduleText5);
+            this.groupBox7.Controls.Add(this.txtScheduleTime5);
+            this.groupBox7.Controls.Add(this.label27);
+            this.groupBox7.Controls.Add(this.txtScheduleMap34);
+            this.groupBox7.Controls.Add(this.txtScheduleMap24);
+            this.groupBox7.Controls.Add(this.txtScheduleMap14);
+            this.groupBox7.Controls.Add(this.txtScheduleBlue4);
+            this.groupBox7.Controls.Add(this.txtScheduleText4);
+            this.groupBox7.Controls.Add(this.txtScheduleTime4);
+            this.groupBox7.Controls.Add(this.label25);
+            this.groupBox7.Controls.Add(this.txtScheduleMap33);
+            this.groupBox7.Controls.Add(this.txtScheduleMap23);
+            this.groupBox7.Controls.Add(this.txtScheduleMap13);
+            this.groupBox7.Controls.Add(this.txtScheduleBlue3);
+            this.groupBox7.Controls.Add(this.txtScheduleText3);
+            this.groupBox7.Controls.Add(this.txtScheduleTime3);
+            this.groupBox7.Controls.Add(this.label24);
+            this.groupBox7.Controls.Add(this.txtScheduleMap32);
+            this.groupBox7.Controls.Add(this.txtScheduleMap22);
+            this.groupBox7.Controls.Add(this.txtScheduleMap12);
+            this.groupBox7.Controls.Add(this.txtScheduleBlue2);
+            this.groupBox7.Controls.Add(this.txtScheduleText2);
+            this.groupBox7.Controls.Add(this.txtScheduleTime2);
+            this.groupBox7.Controls.Add(this.txtScheduleMap31);
+            this.groupBox7.Controls.Add(this.txtScheduleMap21);
+            this.groupBox7.Controls.Add(this.txtScheduleMap11);
+            this.groupBox7.Controls.Add(this.txtScheduleBlue1);
+            this.groupBox7.Controls.Add(this.btnScheduleHide);
+            this.groupBox7.Controls.Add(this.txtScheduleText1);
+            this.groupBox7.Controls.Add(this.btnScheduleShow);
+            this.groupBox7.Controls.Add(this.txtScheduleTime1);
+            this.groupBox7.Controls.Add(this.label26);
+            resources.ApplyResources(this.groupBox7, "groupBox7");
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.TabStop = false;
+            // 
+            // txtScheduleBlue1
+            // 
+            this.txtScheduleBlue1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleBlue1, "txtScheduleBlue1");
+            this.txtScheduleBlue1.Name = "txtScheduleBlue1";
+            // 
+            // btnScheduleHide
+            // 
+            this.btnScheduleHide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.btnScheduleHide, "btnScheduleHide");
+            this.btnScheduleHide.Name = "btnScheduleHide";
+            this.btnScheduleHide.UseVisualStyleBackColor = false;
+            // 
+            // txtScheduleText1
+            // 
+            this.txtScheduleText1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleText1, "txtScheduleText1");
+            this.txtScheduleText1.Name = "txtScheduleText1";
+            // 
+            // btnScheduleShow
+            // 
+            this.btnScheduleShow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.btnScheduleShow, "btnScheduleShow");
+            this.btnScheduleShow.Name = "btnScheduleShow";
+            this.btnScheduleShow.UseVisualStyleBackColor = false;
+            // 
+            // txtScheduleTime1
+            // 
+            this.txtScheduleTime1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleTime1, "txtScheduleTime1");
+            this.txtScheduleTime1.Name = "txtScheduleTime1";
+            // 
+            // label26
+            // 
+            resources.ApplyResources(this.label26, "label26");
+            this.label26.Name = "label26";
+            // 
+            // txtScheduleMap11
+            // 
+            this.txtScheduleMap11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap11, "txtScheduleMap11");
+            this.txtScheduleMap11.Name = "txtScheduleMap11";
+            // 
+            // txtScheduleMap21
+            // 
+            this.txtScheduleMap21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap21, "txtScheduleMap21");
+            this.txtScheduleMap21.Name = "txtScheduleMap21";
+            // 
+            // txtScheduleMap31
+            // 
+            this.txtScheduleMap31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap31, "txtScheduleMap31");
+            this.txtScheduleMap31.Name = "txtScheduleMap31";
+            // 
+            // txtScheduleMap32
+            // 
+            this.txtScheduleMap32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap32, "txtScheduleMap32");
+            this.txtScheduleMap32.Name = "txtScheduleMap32";
+            // 
+            // txtScheduleMap22
+            // 
+            this.txtScheduleMap22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap22, "txtScheduleMap22");
+            this.txtScheduleMap22.Name = "txtScheduleMap22";
+            // 
+            // txtScheduleMap12
+            // 
+            this.txtScheduleMap12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap12, "txtScheduleMap12");
+            this.txtScheduleMap12.Name = "txtScheduleMap12";
+            // 
+            // txtScheduleBlue2
+            // 
+            this.txtScheduleBlue2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleBlue2, "txtScheduleBlue2");
+            this.txtScheduleBlue2.Name = "txtScheduleBlue2";
+            // 
+            // txtScheduleText2
+            // 
+            this.txtScheduleText2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleText2, "txtScheduleText2");
+            this.txtScheduleText2.Name = "txtScheduleText2";
+            // 
+            // txtScheduleTime2
+            // 
+            this.txtScheduleTime2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleTime2, "txtScheduleTime2");
+            this.txtScheduleTime2.Name = "txtScheduleTime2";
+            // 
+            // label24
+            // 
+            resources.ApplyResources(this.label24, "label24");
+            this.label24.Name = "label24";
+            // 
+            // label25
+            // 
+            resources.ApplyResources(this.label25, "label25");
+            this.label25.Name = "label25";
+            // 
+            // txtScheduleMap33
+            // 
+            this.txtScheduleMap33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap33, "txtScheduleMap33");
+            this.txtScheduleMap33.Name = "txtScheduleMap33";
+            // 
+            // txtScheduleMap23
+            // 
+            this.txtScheduleMap23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap23, "txtScheduleMap23");
+            this.txtScheduleMap23.Name = "txtScheduleMap23";
+            // 
+            // txtScheduleMap13
+            // 
+            this.txtScheduleMap13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap13, "txtScheduleMap13");
+            this.txtScheduleMap13.Name = "txtScheduleMap13";
+            // 
+            // txtScheduleBlue3
+            // 
+            this.txtScheduleBlue3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleBlue3, "txtScheduleBlue3");
+            this.txtScheduleBlue3.Name = "txtScheduleBlue3";
+            // 
+            // txtScheduleText3
+            // 
+            this.txtScheduleText3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleText3, "txtScheduleText3");
+            this.txtScheduleText3.Name = "txtScheduleText3";
+            // 
+            // txtScheduleTime3
+            // 
+            this.txtScheduleTime3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleTime3, "txtScheduleTime3");
+            this.txtScheduleTime3.Name = "txtScheduleTime3";
+            // 
+            // label27
+            // 
+            resources.ApplyResources(this.label27, "label27");
+            this.label27.Name = "label27";
+            // 
+            // txtScheduleMap34
+            // 
+            this.txtScheduleMap34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap34, "txtScheduleMap34");
+            this.txtScheduleMap34.Name = "txtScheduleMap34";
+            // 
+            // txtScheduleMap24
+            // 
+            this.txtScheduleMap24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap24, "txtScheduleMap24");
+            this.txtScheduleMap24.Name = "txtScheduleMap24";
+            // 
+            // txtScheduleMap14
+            // 
+            this.txtScheduleMap14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap14, "txtScheduleMap14");
+            this.txtScheduleMap14.Name = "txtScheduleMap14";
+            // 
+            // txtScheduleBlue4
+            // 
+            this.txtScheduleBlue4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleBlue4, "txtScheduleBlue4");
+            this.txtScheduleBlue4.Name = "txtScheduleBlue4";
+            // 
+            // txtScheduleText4
+            // 
+            this.txtScheduleText4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleText4, "txtScheduleText4");
+            this.txtScheduleText4.Name = "txtScheduleText4";
+            // 
+            // txtScheduleTime4
+            // 
+            this.txtScheduleTime4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleTime4, "txtScheduleTime4");
+            this.txtScheduleTime4.Name = "txtScheduleTime4";
+            // 
+            // label28
+            // 
+            resources.ApplyResources(this.label28, "label28");
+            this.label28.Name = "label28";
+            // 
+            // txtScheduleMap35
+            // 
+            this.txtScheduleMap35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap35, "txtScheduleMap35");
+            this.txtScheduleMap35.Name = "txtScheduleMap35";
+            // 
+            // txtScheduleMap25
+            // 
+            this.txtScheduleMap25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap25, "txtScheduleMap25");
+            this.txtScheduleMap25.Name = "txtScheduleMap25";
+            // 
+            // txtScheduleMap15
+            // 
+            this.txtScheduleMap15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap15, "txtScheduleMap15");
+            this.txtScheduleMap15.Name = "txtScheduleMap15";
+            // 
+            // txtScheduleBlue5
+            // 
+            this.txtScheduleBlue5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleBlue5, "txtScheduleBlue5");
+            this.txtScheduleBlue5.Name = "txtScheduleBlue5";
+            // 
+            // txtScheduleText5
+            // 
+            this.txtScheduleText5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleText5, "txtScheduleText5");
+            this.txtScheduleText5.Name = "txtScheduleText5";
+            // 
+            // txtScheduleTime5
+            // 
+            this.txtScheduleTime5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleTime5, "txtScheduleTime5");
+            this.txtScheduleTime5.Name = "txtScheduleTime5";
+            // 
+            // label29
+            // 
+            resources.ApplyResources(this.label29, "label29");
+            this.label29.Name = "label29";
+            // 
+            // txtScheduleMap36
+            // 
+            this.txtScheduleMap36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap36, "txtScheduleMap36");
+            this.txtScheduleMap36.Name = "txtScheduleMap36";
+            // 
+            // txtScheduleMap26
+            // 
+            this.txtScheduleMap26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap26, "txtScheduleMap26");
+            this.txtScheduleMap26.Name = "txtScheduleMap26";
+            // 
+            // txtScheduleMap16
+            // 
+            this.txtScheduleMap16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleMap16, "txtScheduleMap16");
+            this.txtScheduleMap16.Name = "txtScheduleMap16";
+            // 
+            // txtScheduleBlue6
+            // 
+            this.txtScheduleBlue6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleBlue6, "txtScheduleBlue6");
+            this.txtScheduleBlue6.Name = "txtScheduleBlue6";
+            // 
+            // txtScheduleText6
+            // 
+            this.txtScheduleText6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleText6, "txtScheduleText6");
+            this.txtScheduleText6.Name = "txtScheduleText6";
+            // 
+            // txtScheduleTime6
+            // 
+            this.txtScheduleTime6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtScheduleTime6, "txtScheduleTime6");
+            this.txtScheduleTime6.Name = "txtScheduleTime6";
+            // 
+            // btnScheduleRefresh
+            // 
+            this.btnScheduleRefresh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            resources.ApplyResources(this.btnScheduleRefresh, "btnScheduleRefresh");
+            this.btnScheduleRefresh.Name = "btnScheduleRefresh";
+            this.btnScheduleRefresh.UseVisualStyleBackColor = false;
             // 
             // GUI
             // 
@@ -1991,6 +2382,8 @@
             this.tabGeneral.ResumeLayout(false);
             this.panelHyperdeck.ResumeLayout(false);
             this.panelHyperdeck.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2122,17 +2515,17 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox txtCasterRNick;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.Button btnCasterHide;
+        private System.Windows.Forms.TextBox txtCasterMNick;
+        private System.Windows.Forms.Button btnCasterShow;
+        private System.Windows.Forms.TextBox txtCasterLNick;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox txtCasterRName;
+        private System.Windows.Forms.TextBox txtCasterMName;
+        private System.Windows.Forms.TextBox txtCasterLName;
         private System.Windows.Forms.Button progBtn6000;
         private System.Windows.Forms.Button progBtn20;
         private System.Windows.Forms.Button progBtn19;
@@ -2189,7 +2582,7 @@
         private System.Windows.Forms.Label statusHyperdeck;
         private System.Windows.Forms.GroupBox panelHyperdeck;
         private System.Windows.Forms.Button btnHyperdeckEnd;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnHyperdeckForward;
         private System.Windows.Forms.Button btnHyperdeckRewind;
         private System.Windows.Forms.Button btnHyperdeckRecord;
         private System.Windows.Forms.Button btnHyperdeckStop;
@@ -2198,6 +2591,55 @@
         private System.Windows.Forms.TextBox txtHyperdeckSpeed;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.TextBox txtCasterRTwitter;
+        private System.Windows.Forms.TextBox txtCasterMTwitter;
+        private System.Windows.Forms.TextBox txtCasterLTwitter;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.Button btnScheduleRefresh;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.TextBox txtScheduleMap36;
+        private System.Windows.Forms.TextBox txtScheduleMap26;
+        private System.Windows.Forms.TextBox txtScheduleMap16;
+        private System.Windows.Forms.TextBox txtScheduleBlue6;
+        private System.Windows.Forms.TextBox txtScheduleText6;
+        private System.Windows.Forms.TextBox txtScheduleTime6;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.TextBox txtScheduleMap35;
+        private System.Windows.Forms.TextBox txtScheduleMap25;
+        private System.Windows.Forms.TextBox txtScheduleMap15;
+        private System.Windows.Forms.TextBox txtScheduleBlue5;
+        private System.Windows.Forms.TextBox txtScheduleText5;
+        private System.Windows.Forms.TextBox txtScheduleTime5;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.TextBox txtScheduleMap34;
+        private System.Windows.Forms.TextBox txtScheduleMap24;
+        private System.Windows.Forms.TextBox txtScheduleMap14;
+        private System.Windows.Forms.TextBox txtScheduleBlue4;
+        private System.Windows.Forms.TextBox txtScheduleText4;
+        private System.Windows.Forms.TextBox txtScheduleTime4;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.TextBox txtScheduleMap33;
+        private System.Windows.Forms.TextBox txtScheduleMap23;
+        private System.Windows.Forms.TextBox txtScheduleMap13;
+        private System.Windows.Forms.TextBox txtScheduleBlue3;
+        private System.Windows.Forms.TextBox txtScheduleText3;
+        private System.Windows.Forms.TextBox txtScheduleTime3;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.TextBox txtScheduleMap32;
+        private System.Windows.Forms.TextBox txtScheduleMap22;
+        private System.Windows.Forms.TextBox txtScheduleMap12;
+        private System.Windows.Forms.TextBox txtScheduleBlue2;
+        private System.Windows.Forms.TextBox txtScheduleText2;
+        private System.Windows.Forms.TextBox txtScheduleTime2;
+        private System.Windows.Forms.TextBox txtScheduleMap31;
+        private System.Windows.Forms.TextBox txtScheduleMap21;
+        private System.Windows.Forms.TextBox txtScheduleMap11;
+        private System.Windows.Forms.TextBox txtScheduleBlue1;
+        private System.Windows.Forms.Button btnScheduleHide;
+        private System.Windows.Forms.TextBox txtScheduleText1;
+        private System.Windows.Forms.Button btnScheduleShow;
+        private System.Windows.Forms.TextBox txtScheduleTime1;
+        private System.Windows.Forms.Label label26;
     }
 }
 

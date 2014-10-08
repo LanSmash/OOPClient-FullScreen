@@ -846,7 +846,7 @@ namespace OOPClient
         {
 
             // Display a MsgBox asking if you want to close application
-            if (MessageBox.Show("Do you want to close the application", "DON'T LEAVE ME!!!!", MessageBoxButtons.YesNo) == DialogResult.No)
+            if (MessageBox.Show("Do you want to close the application?", "DON'T LEAVE ME!!!!", MessageBoxButtons.YesNo) == DialogResult.No)
             {
                 e.Cancel = true;
             }
@@ -898,7 +898,7 @@ namespace OOPClient
             hyperdeck.Play(-300);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnHyperdeckForward_Click(object sender, EventArgs e)
         {
             hyperdeck.Play(300);
         }
